@@ -22,3 +22,4 @@ C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\values\strings.xml
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\drawable\icon.png
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\R.cs.flag
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\uploadflags.txt
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\Unire_Android.csprojResolveAssemblyReference.cache

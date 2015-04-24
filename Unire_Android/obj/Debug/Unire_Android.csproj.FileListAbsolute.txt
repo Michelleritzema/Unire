@@ -1,0 +1,14 @@
+C:\Users\Michelle\Desktop\Appic_Unire\Unire_Android\bin\Debug\Unire_Android.dll
+C:\Users\Michelle\Desktop\Appic_Unire\Unire_Android\bin\Debug\Unire_Android.pdb
+C:\Users\Michelle\Desktop\Appic_Unire\Unire_Android\bin\Debug\Unire_Android.dll.mdb
+C:\Users\Michelle\Desktop\Appic_Unire\Unire_Android\bin\Debug\Unire_Android.Unire_Android.apk
+C:\Users\Michelle\Desktop\Appic_Unire\Unire_Android\bin\Debug\Unire_Android.Unire_Android-Signed.apk
+C:\Users\Michelle\Desktop\Appic_Unire\Unire_Android\obj\Debug\Unire_Android.csprojResolveAssemblyReference.cache
+C:\Users\Michelle\Desktop\Appic_Unire\Unire_Android\obj\Debug\Unire_Android.dll
+C:\Users\Michelle\Desktop\Appic_Unire\Unire_Android\obj\Debug\Unire_Android.pdb
+C:\Users\Michelle\Desktop\Appic_Unire\Unire_Android\obj\Debug\android\bin\Unire_Android.Unire_Android.apk
+C:\Users\Michelle\Desktop\Appic_Unire\Unire_Android\obj\Debug\res\layout\main.xml
+C:\Users\Michelle\Desktop\Appic_Unire\Unire_Android\obj\Debug\res\values\strings.xml
+C:\Users\Michelle\Desktop\Appic_Unire\Unire_Android\obj\Debug\res\drawable\icon.png
+C:\Users\Michelle\Desktop\Appic_Unire\Unire_Android\obj\Debug\R.cs.flag
+C:\Users\Michelle\Desktop\Appic_Unire\Unire_Android\obj\Debug\uploadflags.txt

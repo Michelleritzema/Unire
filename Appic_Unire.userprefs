@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Unire_Android\Unire_Android.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.emulator-5556" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Unire_Android\MainActivity.cs">
+    <Files>
+      <File FileName="Unire_Android\MainActivity.cs" Line="19" Column="42" />
+      <File FileName="Unire_Android\Notification.cs" Line="35" Column="4" />
+      <File FileName="Unire_Android\Resources\values\Strings.xml" Line="9" Column="33" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Unire__Android AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>

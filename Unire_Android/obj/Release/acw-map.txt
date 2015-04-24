@@ -1,1 +1,2 @@
+Unire_Android.Activity1;unire_android.Activity1
 Unire_Android.MainActivity;unire_android.MainActivity

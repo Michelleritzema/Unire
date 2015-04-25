@@ -1,2 +1,8 @@
-Unire_Android.Activity1;unire_android.Activity1
 Unire_Android.MainActivity;unire_android.MainActivity
+Unire_Android.Blue;unire_android.Blue
+Unire_Android.Green;unire_android.Green
+Unire_Android.Red;unire_android.Red
+Unire_Android.Orange;unire_android.Orange
+Unire_Android.Yellow;unire_android.Yellow
+Unire_Android.Purple;unire_android.Purple
+Unire_Android.SendNotification;unire_android.SendNotification

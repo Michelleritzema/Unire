@@ -65,17 +65,34 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
+    <Compile Include="Blue.cs" />
+    <Compile Include="Green.cs" />
+    <Compile Include="Red.cs" />
+    <Compile Include="Orange.cs" />
+    <Compile Include="Yellow.cs" />
+    <Compile Include="Purple.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Notification.cs" />
+    <Compile Include="SendNotification.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
+    <AndroidResource Include="Resources\layout\Purple.axml" />
+    <AndroidResource Include="Resources\layout\Red.axml" />
+    <AndroidResource Include="Resources\layout\Yellow.axml" />
+    <AndroidResource Include="Resources\layout\Orange.axml" />
+    <AndroidResource Include="Resources\layout\Green.axml" />
+    <AndroidResource Include="Resources\layout\Blue.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
     <AndroidResource Include="Resources\drawable\noti_purple.png" />
+    <AndroidResource Include="Resources\drawable\noti_blue.png" />
+    <AndroidResource Include="Resources\drawable\noti_green.png" />
+    <AndroidResource Include="Resources\drawable\noti_orange.png" />
+    <AndroidResource Include="Resources\drawable\noti_red.png" />
+    <AndroidResource Include="Resources\drawable\noti_yellow.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />

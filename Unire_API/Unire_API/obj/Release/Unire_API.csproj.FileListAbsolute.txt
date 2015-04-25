@@ -1,0 +1,5 @@
+C:\Users\Michelle\Desktop\Unire\Unire_API\Unire_API\bin\Release\Unire_API.dll
+C:\Users\Michelle\Desktop\Unire\Unire_API\Unire_API\bin\Release\Unire_API.pdb
+C:\Users\Michelle\Desktop\Unire\Unire_API\Unire_API\obj\Release\Unire_API.csprojResolveAssemblyReference.cache
+C:\Users\Michelle\Desktop\Unire\Unire_API\Unire_API\obj\Release\Unire_API.dll
+C:\Users\Michelle\Desktop\Unire\Unire_API\Unire_API\obj\Release\Unire_API.pdb

@@ -6,3 +6,4 @@ Unire_Android/obj/Release/uploadflags.txt
 *.apk
 *.mdb
 *.dll
+*.userprefs

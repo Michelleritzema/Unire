@@ -7,3 +7,4 @@ Unire_Android/obj/Release/uploadflags.txt
 *.mdb
 *.dll
 *.userprefs
+*.suo

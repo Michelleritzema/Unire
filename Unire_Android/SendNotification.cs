@@ -39,54 +39,6 @@ namespace Unire_Android {
             red_notification.Click += delegate { notification("Red", "Notification: red", "noti_red", 5); };
         }
 
-        public PendingIntent purpleIntent(Intent intent)
-        {
-            const int pendingIntentId = 0;
-            PendingIntent pendingIntent =
-                PendingIntent.GetActivity(this, pendingIntentId, intent, PendingIntentFlags.OneShot);
-            return pendingIntent;
-        }
-
-        public PendingIntent blueIntent(Intent intent)
-        {
-            const int pendingIntentId = 1;
-            PendingIntent pendingIntent =
-                PendingIntent.GetActivity(this, pendingIntentId, intent, PendingIntentFlags.OneShot);
-            return pendingIntent;
-        }
-
-        public PendingIntent greenIntent(Intent intent)
-        {
-            const int pendingIntentId = 2;
-            PendingIntent pendingIntent =
-                PendingIntent.GetActivity(this, pendingIntentId, intent, PendingIntentFlags.OneShot);
-            return pendingIntent;
-        }
-
-        public PendingIntent yellowIntent(Intent intent)
-        {
-            const int pendingIntentId = 3;
-            PendingIntent pendingIntent =
-                PendingIntent.GetActivity(this, pendingIntentId, intent, PendingIntentFlags.OneShot);
-            return pendingIntent;
-        }
-
-        public PendingIntent orangeIntent(Intent intent)
-        {
-            const int pendingIntentId = 4;
-            PendingIntent pendingIntent =
-                PendingIntent.GetActivity(this, pendingIntentId, intent, PendingIntentFlags.OneShot);
-            return pendingIntent;
-        }
-
-        public PendingIntent redIntent(Intent intent)
-        {
-            const int pendingIntentId = 5;
-            PendingIntent pendingIntent =
-                PendingIntent.GetActivity(this, pendingIntentId, intent, PendingIntentFlags.OneShot);
-            return pendingIntent;
-        }
-
         public void notification(String title, String text, String icon, int id)
         {
             Intent intent;
@@ -162,6 +114,7 @@ namespace Unire_Android {
             }
 
             Notification notification = builder.Build();
+            notification.Flags = NotificationFlags.AutoCancel;
             NotificationManager notificationManager =
                 GetSystemService(Context.NotificationService) as NotificationManager;
 
@@ -182,6 +135,54 @@ namespace Unire_Android {
                 default:
                     launchPurple(notification, notificationManager); break;
             }
+        }
+
+        public PendingIntent purpleIntent(Intent intent)
+        {
+            const int pendingIntentId = 0;
+            PendingIntent pendingIntent =
+                PendingIntent.GetActivity(this, pendingIntentId, intent, PendingIntentFlags.OneShot);
+            return pendingIntent;
+        }
+
+        public PendingIntent blueIntent(Intent intent)
+        {
+            const int pendingIntentId = 1;
+            PendingIntent pendingIntent =
+                PendingIntent.GetActivity(this, pendingIntentId, intent, PendingIntentFlags.OneShot);
+            return pendingIntent;
+        }
+
+        public PendingIntent greenIntent(Intent intent)
+        {
+            const int pendingIntentId = 2;
+            PendingIntent pendingIntent =
+                PendingIntent.GetActivity(this, pendingIntentId, intent, PendingIntentFlags.OneShot);
+            return pendingIntent;
+        }
+
+        public PendingIntent yellowIntent(Intent intent)
+        {
+            const int pendingIntentId = 3;
+            PendingIntent pendingIntent =
+                PendingIntent.GetActivity(this, pendingIntentId, intent, PendingIntentFlags.OneShot);
+            return pendingIntent;
+        }
+
+        public PendingIntent orangeIntent(Intent intent)
+        {
+            const int pendingIntentId = 4;
+            PendingIntent pendingIntent =
+                PendingIntent.GetActivity(this, pendingIntentId, intent, PendingIntentFlags.OneShot);
+            return pendingIntent;
+        }
+
+        public PendingIntent redIntent(Intent intent)
+        {
+            const int pendingIntentId = 5;
+            PendingIntent pendingIntent =
+                PendingIntent.GetActivity(this, pendingIntentId, intent, PendingIntentFlags.OneShot);
+            return pendingIntent;
         }
 
         public void launchPurple(Notification notification, NotificationManager notificationManager)

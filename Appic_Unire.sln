@@ -1,13 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unire_Android", "Unire_Android\Unire_Android.csproj", "{064D42D3-98C5-420C-909C-997754B48023}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unire_API", "Unire_API\Unire_API\Unire_API.csproj", "{CD7083C3-736A-439E-A6A4-C071D3236A32}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Unire", "Unire\Unire.shproj", "{105ED40A-6F7E-425B-AF3B-34AE744B193C}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Unire\Unire.projitems*{105ed40a-6f7e-425b-af3b-34ae744b193c}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU

@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unire_Android", "Unire_Android\Unire_Android.csproj", "{064D42D3-98C5-420C-909C-997754B48023}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Unire_Shared", "Unire_Shared\Unire_Shared.shproj", "{EA3CA47F-1BD8-43D4-8089-F3C49E026F03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

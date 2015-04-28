@@ -6,26 +6,21 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 
-namespace Unire_Android
-{
-    [Activity(Label = "Unire_Android", MainLauncher = true, Icon = "@drawable/icon")]
-    public class MainActivity : Activity
-    {
-        int count = 1;
+namespace Unire_Android {
+    [Activity(Label = "Unire_Android", MainLauncher = false, Icon = "@drawable/icon")]
+    
+	public class MainActivity : Activity {
 
-        protected override void OnCreate(Bundle bundle)
-        {
-            base.OnCreate(bundle);
+        protected override void OnCreate(Bundle bundle) {
+            //base.OnCreate(bundle);
+            //SetContentView(Resource.Layout.Main);
 
-            // Set our view from the "main" layout resource
-            SetContentView(Resource.Layout.Main);
+            Intent intent = new Intent(this, typeof(SendNotification));
+            StartActivity(intent);
+            //Finish();
 
-            // Get our button from the layout resource,
-            // and attach an event to it
-            Button button = FindViewById<Button>(Resource.Id.MyButton);
-
-            button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
         }
+
     }
 }
 

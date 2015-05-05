@@ -1,1 +1,32 @@
-Unire_Android.MainActivity;unire_android.MainActivity
+Unire_Android.MainActivity, Unire_Android;md5082d994e7a2812d3143c674da8e591a4.MainActivity
+Unire_Android.MainActivity, Unire_Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5082d994e7a2812d3143c674da8e591a4.MainActivity
+Unire_Android.MainActivity;md5082d994e7a2812d3143c674da8e591a4.MainActivity
+unire_android.MainActivity;md5082d994e7a2812d3143c674da8e591a4.MainActivity
+Unire_Android.Blue, Unire_Android;md5082d994e7a2812d3143c674da8e591a4.Blue
+Unire_Android.Blue, Unire_Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5082d994e7a2812d3143c674da8e591a4.Blue
+Unire_Android.Blue;md5082d994e7a2812d3143c674da8e591a4.Blue
+unire_android.Blue;md5082d994e7a2812d3143c674da8e591a4.Blue
+Unire_Android.Green, Unire_Android;md5082d994e7a2812d3143c674da8e591a4.Green
+Unire_Android.Green, Unire_Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5082d994e7a2812d3143c674da8e591a4.Green
+Unire_Android.Green;md5082d994e7a2812d3143c674da8e591a4.Green
+unire_android.Green;md5082d994e7a2812d3143c674da8e591a4.Green
+Unire_Android.Red, Unire_Android;md5082d994e7a2812d3143c674da8e591a4.Red
+Unire_Android.Red, Unire_Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5082d994e7a2812d3143c674da8e591a4.Red
+Unire_Android.Red;md5082d994e7a2812d3143c674da8e591a4.Red
+unire_android.Red;md5082d994e7a2812d3143c674da8e591a4.Red
+Unire_Android.Orange, Unire_Android;md5082d994e7a2812d3143c674da8e591a4.Orange
+Unire_Android.Orange, Unire_Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5082d994e7a2812d3143c674da8e591a4.Orange
+Unire_Android.Orange;md5082d994e7a2812d3143c674da8e591a4.Orange
+unire_android.Orange;md5082d994e7a2812d3143c674da8e591a4.Orange
+Unire_Android.Yellow, Unire_Android;md5082d994e7a2812d3143c674da8e591a4.Yellow
+Unire_Android.Yellow, Unire_Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5082d994e7a2812d3143c674da8e591a4.Yellow
+Unire_Android.Yellow;md5082d994e7a2812d3143c674da8e591a4.Yellow
+unire_android.Yellow;md5082d994e7a2812d3143c674da8e591a4.Yellow
+Unire_Android.Purple, Unire_Android;md5082d994e7a2812d3143c674da8e591a4.Purple
+Unire_Android.Purple, Unire_Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5082d994e7a2812d3143c674da8e591a4.Purple
+Unire_Android.Purple;md5082d994e7a2812d3143c674da8e591a4.Purple
+unire_android.Purple;md5082d994e7a2812d3143c674da8e591a4.Purple
+Unire_Android.SendNotification, Unire_Android;md5082d994e7a2812d3143c674da8e591a4.SendNotification
+Unire_Android.SendNotification, Unire_Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5082d994e7a2812d3143c674da8e591a4.SendNotification
+Unire_Android.SendNotification;md5082d994e7a2812d3143c674da8e591a4.SendNotification
+unire_android.SendNotification;md5082d994e7a2812d3143c674da8e591a4.SendNotification

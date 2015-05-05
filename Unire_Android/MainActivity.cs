@@ -6,21 +6,30 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 
-namespace Unire_Android {
-    [Activity(Label = "Unire_Android", MainLauncher = false, Icon = "@drawable/icon")]
-    
-	public class MainActivity : Activity {
+namespace Unire_Android
+{
+    [Activity(Label = "Unire_Android", MainLauncher = true, Icon = "@drawable/icon")]
 
-        protected override void OnCreate(Bundle bundle) {
-            //base.OnCreate(bundle);
-            //SetContentView(Resource.Layout.Main);
+    public class MainActivity : Activity
+    {
+      
+        protected override void OnCreate(Bundle bundle)
+        {
+            
+            base.OnCreate(bundle);
+            SetContentView(Resource.Layout.Menu);
+            var button = FindViewById<ImageButton>(Resource.Id.imageButton2);
 
-            Intent intent = new Intent(this, typeof(SendNotification));
-            StartActivity(intent);
-            //Finish();
+            //Button knop = FindViewById<Button>(Resource.Id.ov);
+          //  knop.Click += delegate
+          //  {
+            //    StartActivity(typeof(Menu));
+
+            }
+           
 
         }
 
     }
-}
+
 

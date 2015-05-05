@@ -11,7 +11,7 @@ using Android.Views;
 using Android.Widget;
 
 namespace Unire_Android {
-    [Activity(Label = "SendNotification", MainLauncher = true)]
+    [Activity(Label = "Unire_Android", MainLauncher = false)]
     public class SendNotification : Activity {
         Button purple_notification;
         Button blue_notification;

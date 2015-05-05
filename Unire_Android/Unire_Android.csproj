@@ -37,6 +37,7 @@
     </JavaMaximumHeapSize>
     <MonoDroidExtraArgs>
     </MonoDroidExtraArgs>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -84,6 +85,9 @@
     <AndroidResource Include="Resources\layout\Orange.axml" />
     <AndroidResource Include="Resources\layout\Green.axml" />
     <AndroidResource Include="Resources\layout\Blue.axml" />
+    <AndroidResource Include="Resources\layout\Menu.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
@@ -102,6 +106,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties\AndroidManifest.xml" />
+    <AndroidResource Include="Resources\drawable\ov.png" />
+    <AndroidResource Include="Resources\drawable\back.JPG" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

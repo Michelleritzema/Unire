@@ -16,9 +16,8 @@
         android:layout_marginLeft="6dp"
         android:id="@+id/ov"
         android:clickable="true"
-        android:longClickable="true"
-        android:src="@android:drawable/ic_menu_gallery"
-        android:background="#3163c6" />
+        android:background="#3163c6"
+        android:src="@android:drawable/ic_menu_gallery" />
     <ImageButton
         android:layout_width="181.9dp"
         android:layout_height="124.6dp"
@@ -27,7 +26,8 @@
         android:layout_marginLeft="198.2dp"
         android:layout_marginTop="-164dp"
         android:src="@android:drawable/ic_menu_gallery"
-        android:background="#FF8D42" />
+        android:background="#FF8D42"
+        android:clickable="true" />
     <ImageButton
         android:src="@android:drawable/ic_menu_gallery"
         android:layout_width="373.8dp"
@@ -36,7 +36,8 @@
         android:background="#AB3AC4"
         android:layout_marginTop="8dp"
         android:tint="#f0f8ffff"
-        android:layout_marginLeft="6dp" />
+        android:layout_marginLeft="6dp"
+        android:clickable="true" />
     <ImageButton
         android:src="@android:drawable/ic_menu_gallery"
         android:layout_width="185.3dp"
@@ -46,7 +47,8 @@
         android:id="@+id/imageButton4"
         android:layout_marginTop="5dp"
         android:background="#E03131"
-        android:layout_marginLeft="6dp" />
+        android:layout_marginLeft="6dp"
+        android:clickable="true" />
     <ImageButton
         android:src="@android:drawable/ic_menu_gallery"
         android:layout_width="184.4dp"
@@ -55,7 +57,8 @@
         android:layout_marginLeft="196.2dp"
         android:layout_marginTop="-133dp"
         android:background="#FFE251"
-        android:id="@+id/imageButton5" />
+        android:id="@+id/imageButton5"
+        android:clickable="true" />
     <ImageButton
         android:src="@android:drawable/ic_menu_gallery"
         android:layout_width="373.8dp"
@@ -64,5 +67,6 @@
         android:layout_marginTop="8dp"
         android:id="@+id/imageButton6"
         android:layout_marginBottom="30.6dp"
-        android:layout_marginLeft="5dp" />
+        android:layout_marginLeft="5dp"
+        android:clickable="true" />
 </LinearLayout>

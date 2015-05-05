@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace Unire_Android
 {
-    [Activity(Label = "Green")]
+    [Activity(Label = "Green", Icon = "@drawable/iconG")]
     public class Green : Activity
     {
         protected override void OnCreate(Bundle bundle)

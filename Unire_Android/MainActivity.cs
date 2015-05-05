@@ -8,7 +8,7 @@ using Android.OS;
 
 namespace Unire_Android
 {
-    [Activity(Label = "Unire_Android", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Unire_Android", MainLauncher = false, Icon = "@drawable/icon")]
 
     public class MainActivity : Activity
     {

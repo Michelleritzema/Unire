@@ -70,6 +70,7 @@
     <Compile Include="Green.cs" />
     <Compile Include="Red.cs" />
     <Compile Include="Orange.cs" />
+    <Compile Include="SplashScreen.cs" />
     <Compile Include="Yellow.cs" />
     <Compile Include="Purple.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
@@ -105,7 +106,18 @@
     <AndroidResource Include="Resources\drawable\Icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Properties\AndroidManifest.xml" />
+    <Content Include="Properties\AndroidManifest.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <AndroidResource Include="Resources\values\Styles.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\iconR.png" />
+    <AndroidResource Include="Resources\drawable\iconG.png" />
+    <AndroidResource Include="Resources\drawable\iconY.png" />
+    <AndroidResource Include="Resources\drawable\iconB.png" />
+    <AndroidResource Include="Resources\drawable\iconO.png" />
+    <AndroidResource Include="Resources\drawable\splash.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

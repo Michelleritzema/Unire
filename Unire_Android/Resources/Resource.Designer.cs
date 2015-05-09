@@ -1234,8 +1234,8 @@ namespace Unire_Android
 			// aapt resource value: 0x7f0a000c
 			public const int disableHome = 2131361804;
 			
-			// aapt resource value: 0x7f0a0042
-			public const int drawer_layout = 2131361858;
+			// aapt resource value: 0x7f0a0040
+			public const int drawer_layout = 2131361856;
 			
 			// aapt resource value: 0x7f0a001c
 			public const int dropdown = 2131361820;
@@ -1267,26 +1267,26 @@ namespace Unire_Android
 			// aapt resource value: 0x7f0a0023
 			public const int image = 2131361827;
 			
-			// aapt resource value: 0x7f0a0044
-			public const int imageButton2 = 2131361860;
-			
 			// aapt resource value: 0x7f0a0045
-			public const int imageButton3 = 2131361861;
+			public const int imageButton2 = 2131361861;
 			
 			// aapt resource value: 0x7f0a0046
-			public const int imageButton4 = 2131361862;
+			public const int imageButton3 = 2131361862;
 			
 			// aapt resource value: 0x7f0a0047
-			public const int imageButton5 = 2131361863;
+			public const int imageButton4 = 2131361863;
 			
 			// aapt resource value: 0x7f0a0048
-			public const int imageButton6 = 2131361864;
-			
-			// aapt resource value: 0x7f0a003f
-			public const int imageView1 = 2131361855;
+			public const int imageButton5 = 2131361864;
 			
 			// aapt resource value: 0x7f0a0049
-			public const int left_drawer = 2131361865;
+			public const int imageButton6 = 2131361865;
+			
+			// aapt resource value: 0x7f0a0041
+			public const int imageView1 = 2131361857;
+			
+			// aapt resource value: 0x7f0a0043
+			public const int left_drawer = 2131361859;
 			
 			// aapt resource value: 0x7f0a0009
 			public const int listMode = 2131361801;
@@ -1306,8 +1306,8 @@ namespace Unire_Android
 			// aapt resource value: 0x7f0a000a
 			public const int normal = 2131361802;
 			
-			// aapt resource value: 0x7f0a0043
-			public const int ov = 2131361859;
+			// aapt resource value: 0x7f0a0044
+			public const int ov = 2131361860;
 			
 			// aapt resource value: 0x7f0a0005
 			public const int progress_circular = 2131361797;
@@ -1369,14 +1369,14 @@ namespace Unire_Android
 			// aapt resource value: 0x7f0a000b
 			public const int tabMode = 2131361803;
 			
-			// aapt resource value: 0x7f0a0040
-			public const int textView1 = 2131361856;
+			// aapt resource value: 0x7f0a0042
+			public const int textView1 = 2131361858;
 			
 			// aapt resource value: 0x7f0a0027
 			public const int title = 2131361831;
 			
-			// aapt resource value: 0x7f0a0041
-			public const int toolbar = 2131361857;
+			// aapt resource value: 0x7f0a003f
+			public const int toolbar = 2131361855;
 			
 			// aapt resource value: 0x7f0a0008
 			public const int up = 2131361800;

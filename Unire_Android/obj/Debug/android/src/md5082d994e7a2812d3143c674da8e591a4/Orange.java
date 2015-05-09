@@ -2,7 +2,7 @@ package md5082d994e7a2812d3143c674da8e591a4;
 
 
 public class Orange
-	extends android.app.Activity
+	extends android.support.v7.app.ActionBarActivity
 	implements
 		mono.android.IGCUserPeer
 {

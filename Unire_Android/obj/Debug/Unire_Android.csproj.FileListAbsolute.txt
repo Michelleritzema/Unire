@@ -17,7 +17,6 @@ C:\Users\Anny\Desktop\Unire\Unire_Android\bin\Debug\Unire_Android.pdb
 C:\Users\Anny\Desktop\Unire\Unire_Android\bin\Debug\Unire_Android.dll.mdb
 C:\Users\Anny\Desktop\Unire\Unire_Android\bin\Debug\Unire_Android.Unire_Android.apk
 C:\Users\Anny\Desktop\Unire\Unire_Android\bin\Debug\Unire_Android.Unire_Android-Signed.apk
-C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Debug\Unire_Android.csprojResolveAssemblyReference.cache
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Debug\Unire_Android.dll
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Debug\Unire_Android.pdb
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Debug\android\bin\Unire_Android.Unire_Android.apk
@@ -37,6 +36,14 @@ C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Debug\res\drawable\noti_red.png
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Debug\res\drawable\noti_yellow.png
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Debug\res\values\strings.xml
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Debug\res\drawable\icon.png
-C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Debug\res\drawable\ov.png
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Debug\R.cs.flag
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Debug\uploadflags.txt
+C:\Users\Anny\Desktop\Unire\Unire_Android\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\Anny\Desktop\Unire\Unire_Android\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Debug\res\values\styles.xml
+C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Debug\res\drawable\iconr.png
+C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Debug\res\drawable\icong.png
+C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Debug\res\drawable\icony.png
+C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Debug\res\drawable\iconb.png
+C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Debug\res\drawable\icono.png
+C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Debug\res\drawable\splash.png

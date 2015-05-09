@@ -23,7 +23,7 @@ namespace Unire_Android {
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-            SetContentView(Resource.Layout.Main);
+            SetContentView(Resource.Layout.Menu);
 
             purple_notification = FindViewById<Button>(Resource.Id.Purple);
             purple_notification.Click += delegate { notification("Purple", "Notification: purple", "noti_purple", 0); };

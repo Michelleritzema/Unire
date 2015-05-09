@@ -7,4 +7,6 @@
     <string name="Green">Green notification</string>
     <string name="Blue">Blue notification</string>
     <string name="Orange">Orange notification</string>
+  <string name="openDrawer">Drawer Open</string>
+  <string name="closeDrawer">Drawer Closed</string>
 </resources>

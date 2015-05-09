@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="Unire_Android.Unire_Android" android:versionCode="1" android:versionName="1.0">
   <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="19" />
   <application android:label="Unire_Android" android:icon="@drawable/icon" android:name="mono.android.app.Application">
-    <activity android:icon="@drawable/icon" android:label="Unire_Android" android:name="md5082d994e7a2812d3143c674da8e591a4.MainActivity" />
+    <activity android:icon="@drawable/icon" android:label="Unire_Android" android:theme="@style/MyTheme" android:name="md5082d994e7a2812d3143c674da8e591a4.MainActivity" />
     <activity android:icon="@drawable/iconb" android:label="Blue" android:name="md5082d994e7a2812d3143c674da8e591a4.Blue" />
     <activity android:icon="@drawable/icong" android:label="Green" android:name="md5082d994e7a2812d3143c674da8e591a4.Green" />
     <activity android:icon="@drawable/iconr" android:label="Red" android:name="md5082d994e7a2812d3143c674da8e591a4.Red" />

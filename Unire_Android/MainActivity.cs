@@ -1,40 +1,48 @@
-﻿using System;
-using Android.App;
+﻿using Android.App;
 using Android.Content;
+using Android.OS;
 using Android.Runtime;
+using Android.Support;
+using Android.Support.V4.Widget;
+using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
-using Android.OS;
+using System;
+using SupportToolbar = Android.Support.V7.Widget.Toolbar;
 
 namespace Unire_Android
 {
-    [Activity(Label = "Unire_Android", MainLauncher = false, Icon = "@drawable/icon")]
+    [Activity(Label = "Unire_Android", MainLauncher = false, Icon = "@drawable/icon", Theme = "@style/MyTheme")]
 
-    public class MainActivity : Activity
+    public class MainActivity : ActionBarActivity
     {
 
+        private SupportToolbar mToolbar;
+        private MyActionBarDrawerToggle mDrawerToggle;
+        private DrawerLayout mDrawerLayout;
+        private ListView mLeftDrawer;
         protected override void OnCreate(Bundle bundle)
+       
         {
 
             base.OnCreate(bundle);
-            SetContentView(Resource.Layout.Menu);
-            var button1 = FindViewById<ImageButton> (Resource.Id.ov);
+            SetContentView(Resource.Layout.Main);
+ 
+            var button1 = FindViewById<ImageButton>(Resource.Id.ov);
             var button2 = FindViewById<ImageButton>(Resource.Id.imageButton2);
             var button3 = FindViewById<ImageButton>(Resource.Id.imageButton3);
             var button4 = FindViewById<ImageButton>(Resource.Id.imageButton4);
             var button5 = FindViewById<ImageButton>(Resource.Id.imageButton5);
             var button6 = FindViewById<ImageButton>(Resource.Id.imageButton6);
 
-
-
             button1.Click += delegate
-            
-                {
-                    StartActivity(typeof(Blue));
+            {
+                StartActivity(typeof(SendNotification));
 
-                
-                
+
+
             };
+
             button2.Click += delegate
             {
                 StartActivity(typeof(Orange));
@@ -71,10 +79,70 @@ namespace Unire_Android
 
             };
 
+
+
+            mToolbar = FindViewById<SupportToolbar>(Resource.Id.toolbar);
+
+            mDrawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
+
+            mLeftDrawer = FindViewById<ListView>(Resource.Id.left_drawer);
+
+            SetSupportActionBar(mToolbar);
+
+            mDrawerToggle = new MyActionBarDrawerToggle(
+                this, // host
+                mDrawerLayout, // DrawwerLayout
+                Resource.String.openDrawer, //opened message
+                Resource.String.closeDrawer // closed message
+                );
+
+            mDrawerLayout.SetDrawerListener(mDrawerToggle);
+            SupportActionBar.SetHomeButtonEnabled(true);
+            SupportActionBar.SetDisplayShowTitleEnabled(true);
+            mDrawerToggle.SyncState();
+
+            if (bundle != null)
+            {
+                if (bundle.GetString("Drawer state") == "openend")
+                {
+
+                    SupportActionBar.SetTitle(Resource.String.openDrawer);
+                }
+                else
+                {
+
+                    SupportActionBar.SetTitle(Resource.String.closeDrawer);
+                }
+            }
+
+            else { 
+            
+          //  first time App ran 
+                SupportActionBar.SetTitle(Resource.String.closeDrawer);
+            }
+        }
+        public override bool OnOptionsItemSelected(IMenuItem item)
+{            
+            mDrawerToggle.OnOptionsItemSelected(item);
+ 	        return base.OnOptionsItemSelected(item);
+}
+
+        protected override void OnSaveInstanceState(Bundle outState)
+        {
+            if (mDrawerLayout.IsDrawerOpen((int)GravityFlags.Left))
+            {
+                outState.PutString("DrawerState", "Opened");
+            }
+            else
+            {
+                outState.PutString("DrawerState", "Closed");
+            }
+            base.OnSaveInstanceState(outState);
+
+
         }
     }
-};
-
+}
 
     
 

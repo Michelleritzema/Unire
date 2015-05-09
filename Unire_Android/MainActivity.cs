@@ -8,6 +8,7 @@ using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
 using System;
+using System.Collections.Generic;
 using SupportToolbar = Android.Support.V7.Widget.Toolbar;
 
 namespace Unire_Android
@@ -21,6 +22,9 @@ namespace Unire_Android
         private MyActionBarDrawerToggle mDrawerToggle;
         private DrawerLayout mDrawerLayout;
         private ListView mLeftDrawer;
+        private ArrayAdapter  mLeftAdapter;
+        private List<String> mLeftDataSet;
+             
         protected override void OnCreate(Bundle bundle)
        
         {
@@ -34,7 +38,8 @@ namespace Unire_Android
             var button4 = FindViewById<ImageButton>(Resource.Id.imageButton4);
             var button5 = FindViewById<ImageButton>(Resource.Id.imageButton5);
             var button6 = FindViewById<ImageButton>(Resource.Id.imageButton6);
-
+            mLeftDrawer = FindViewById<ListView>(Resource.Id.left_drawer);
+           
             button1.Click += delegate
             {
                 StartActivity(typeof(SendNotification));
@@ -89,6 +94,17 @@ namespace Unire_Android
 
             SetSupportActionBar(mToolbar);
 
+
+            mLeftDataSet = new List<String>();
+            mLeftDataSet.Add("left item 1");
+            mLeftDataSet.Add("left item 2");
+            mLeftAdapter = new ArrayAdapter<String>(this, Android.Resource.Layout.SimpleListItem1, mLeftDataSet);
+            mLeftDrawer.Adapter = mLeftAdapter;
+
+            mLeftDrawer.ItemClick += (sender, e) => mLeftDrawer_ItemClick(e.Position);
+               
+             
+
             mDrawerToggle = new MyActionBarDrawerToggle(
                 this, // host
                 mDrawerLayout, // DrawwerLayout
@@ -121,6 +137,14 @@ namespace Unire_Android
                 SupportActionBar.SetTitle(Resource.String.closeDrawer);
             }
         }
+
+        private object mLeftDrawer_ItemClick(int p)
+        {
+          
+            throw new NotImplementedException();
+           
+        }
+
         public override bool OnOptionsItemSelected(IMenuItem item)
 {            
             mDrawerToggle.OnOptionsItemSelected(item);

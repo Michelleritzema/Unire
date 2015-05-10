@@ -101,7 +101,7 @@ namespace Unire_Android
             mLeftAdapter = new ArrayAdapter<String>(this, Android.Resource.Layout.SimpleListItem1, mLeftDataSet);
             mLeftDrawer.Adapter = mLeftAdapter;
 
-            mLeftDrawer.ItemClick += (sender, e) => mLeftDrawer_ItemClick(e.Position);
+          
                
              
 
@@ -138,12 +138,8 @@ namespace Unire_Android
             }
         }
 
-        private object mLeftDrawer_ItemClick(int p)
-        {
-          
-            throw new NotImplementedException();
-           
-        }
+        
+
 
         public override bool OnOptionsItemSelected(IMenuItem item)
 {            

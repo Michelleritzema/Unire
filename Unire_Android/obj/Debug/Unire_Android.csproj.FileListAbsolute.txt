@@ -46,4 +46,5 @@ C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Debug\res\drawable\icong.png
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Debug\res\drawable\icony.png
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Debug\res\drawable\iconb.png
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Debug\res\drawable\icono.png
-C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Debug\res\drawable\splash.png
+C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Debug\res\layout\location.xml
+C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Debug\res\drawable\splash.jpg

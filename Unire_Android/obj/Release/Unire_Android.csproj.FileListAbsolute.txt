@@ -67,6 +67,6 @@ C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\drawable\iconb.png
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\drawable\icono.png
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\R.cs.flag
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\uploadflags.txt
-C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\Unire_Android.csprojResolveAssemblyReference.cache
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\drawable\splash.jpg
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\drawable\icon.png
+C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\Unire_Android.csprojResolveAssemblyReference.cache

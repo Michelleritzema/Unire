@@ -34,7 +34,6 @@ C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\values\strings.xml
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\drawable\icon.png
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\R.cs.flag
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\uploadflags.txt
-C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\Unire_Android.csprojResolveAssemblyReference.cache
 C:\Users\Anny\Desktop\Unire\Unire_Android\bin\Release\Unire_Android.dll
 C:\Users\Anny\Desktop\Unire\Unire_Android\bin\Release\Unire_Android.pdb
 C:\Users\Anny\Desktop\Unire\Unire_Android\bin\Release\Unire_Android.Unire_Android.apk
@@ -70,3 +69,14 @@ C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\uploadflags.txt
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\drawable\splash.jpg
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\drawable\icon.png
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\Unire_Android.csprojResolveAssemblyReference.cache
+C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Xamarin.Android.Support.v4.dll
+C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\layout\menu.xml
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\values\styles.xml
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\drawable\iconr.png
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\drawable\icong.png
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\drawable\icony.png
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\drawable\iconb.png
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\drawable\icono.png
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\drawable\splash.png
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\Unire_Android.csprojResolveAssemblyReference.cache

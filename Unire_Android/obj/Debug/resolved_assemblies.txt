@@ -1,1 +1,3 @@
-C:\Users\Michelle\Desktop\Appic_Unire\Unire_Android\bin\Debug\Unire_Android.dll
+C:\Users\Anny\Desktop\Unire\Unire_Android\bin\Debug\Unire_Android.dll
+C:\Users\Anny\Desktop\xamandroidsupportv7appcompat-21.0.3.0\lib\android\Xamarin.Android.Support.v4.dll
+C:\Users\Anny\Desktop\xamandroidsupportv7appcompat-21.0.3.0\lib\android\Xamarin.Android.Support.v7.AppCompat.dll

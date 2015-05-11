@@ -9,10 +9,23 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Android.Support;
+using Android.Support.V4.Widget;
+using Android.Support.V7.App;
+
+using SupportToolbar = Android.Support.V7.Widget.Toolbar;
+
+
 
 namespace Unire_Android {
-    [Activity(Label = "SendNotification", MainLauncher = true)]
-    public class SendNotification : Activity {
+    [Activity(Label = "Unire_Android", MainLauncher = false, Theme = "@style/MyTheme")]
+    public class SendNotification : ActionBarActivity
+    {
+        private SupportToolbar mToolbar;
+        private MyActionBarDrawerToggle mDrawerToggle;
+        private DrawerLayout mDrawerLayout;
+        private ListView mLeftDrawer;
+    
         Button purple_notification;
         Button blue_notification;
         Button green_notification;
@@ -23,7 +36,7 @@ namespace Unire_Android {
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-            SetContentView(Resource.Layout.Main);
+            SetContentView(Resource.Layout.Menu);
 
             purple_notification = FindViewById<Button>(Resource.Id.Purple);
             purple_notification.Click += delegate { notification("Purple", "Notification: purple", "noti_purple", 0); };
@@ -37,7 +50,69 @@ namespace Unire_Android {
             orange_notification.Click += delegate { notification("Orange", "Notification: orange", "noti_orange", 4); };
             red_notification = FindViewById<Button>(Resource.Id.Red);
             red_notification.Click += delegate { notification("Red", "Notification: red", "noti_red", 5); };
+        
+
+        
+            mToolbar = FindViewById<SupportToolbar>(Resource.Id.toolbar);
+
+            mDrawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
+
+            mLeftDrawer = FindViewById<ListView>(Resource.Id.left_drawer);
+
+            SetSupportActionBar(mToolbar);
+
+            mDrawerToggle = new MyActionBarDrawerToggle(
+                this, // host
+                mDrawerLayout, // DrawwerLayout
+                Resource.String.openDrawer, //opened message
+                Resource.String.closeDrawer // closed message
+                );
+
+            mDrawerLayout.SetDrawerListener(mDrawerToggle);
+            SupportActionBar.SetHomeButtonEnabled(true);
+            SupportActionBar.SetDisplayShowTitleEnabled(true);
+            mDrawerToggle.SyncState();
+
+            if (bundle != null)
+            {
+                if (bundle.GetString("Drawer state") == "openend")
+                {
+
+                    SupportActionBar.SetTitle(Resource.String.openDrawer);
+                }
+                else
+                {
+
+                    SupportActionBar.SetTitle(Resource.String.closeDrawer);
+                }
+            }
+
+            else
+            {
+
+                //  first time App ran 
+                SupportActionBar.SetTitle(Resource.String.closeDrawer);
+            }
         }
+    public override bool OnOptionsItemSelected(IMenuItem item)
+    {
+        mDrawerToggle.OnOptionsItemSelected(item);
+        return base.OnOptionsItemSelected(item);
+    }
+
+    protected override void OnSaveInstanceState(Bundle outState)
+    {
+        if (mDrawerLayout.IsDrawerOpen((int)GravityFlags.Left))
+        {
+            outState.PutString("DrawerState", "Opened");
+        }
+        else
+        {
+            outState.PutString("DrawerState", "Closed");
+        }
+        base.OnSaveInstanceState(outState);
+    }
+       
 
         public void notification(String title, String text, String icon, int id)
         {
@@ -220,6 +295,7 @@ namespace Unire_Android {
             const int notificationId = 5;
             notificationManager.Notify(notificationId, notification);
         }
+
 
     }
 }

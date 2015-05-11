@@ -101,6 +101,8 @@ namespace Unire_Android
             mLeftAdapter = new ArrayAdapter<String>(this, Android.Resource.Layout.SimpleListItem1, mLeftDataSet);
             mLeftDrawer.Adapter = mLeftAdapter;
 
+            
+
           
                
              

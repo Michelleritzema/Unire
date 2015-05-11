@@ -1135,7 +1135,7 @@ namespace Unire_Android
 			public const int noti_yellow = 2130837567;
 			
 			// aapt resource value: 0x7f020040
-			public const int splash = 2130837568;
+			public const int Splash = 2130837568;
 			
 			static Drawable()
 			{

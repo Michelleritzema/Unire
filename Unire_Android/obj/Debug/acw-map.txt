@@ -1,3 +1,7 @@
+com.xamarin.recipes.getlocation.Activity1, Unire_Android;md53b8bc61cb2a2430f0ae52537b5ad1695.Activity1
+com.xamarin.recipes.getlocation.Activity1, Unire_Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53b8bc61cb2a2430f0ae52537b5ad1695.Activity1
+com.xamarin.recipes.getlocation.Activity1;md53b8bc61cb2a2430f0ae52537b5ad1695.Activity1
+com.xamarin.recipes.getlocation.Activity1;md53b8bc61cb2a2430f0ae52537b5ad1695.Activity1
 Unire_Android.MainActivity, Unire_Android;md5082d994e7a2812d3143c674da8e591a4.MainActivity
 Unire_Android.MainActivity, Unire_Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5082d994e7a2812d3143c674da8e591a4.MainActivity
 Unire_Android.MainActivity;md5082d994e7a2812d3143c674da8e591a4.MainActivity

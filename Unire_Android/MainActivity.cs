@@ -1,5 +1,6 @@
 ﻿using Android.App;
 using Android.Content;
+using Android.Locations;
 using Android.OS;
 using Android.Runtime;
 using Android.Support;
@@ -102,6 +103,8 @@ namespace Unire_Android
             mLeftDrawer.Adapter = mLeftAdapter;
 
             
+            mLeftDrawer.ItemClick +=mLeftDrawer_ItemClick;
+            
 
           
                
@@ -140,6 +143,13 @@ namespace Unire_Android
             }
         }
 
+        private void mLeftDrawer_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
+        {
+            StartActivity(typeof(Purple));
+           // throw new NotImplementedException();
+        }
+
+ 
         
 
 

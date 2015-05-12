@@ -98,12 +98,13 @@ namespace Unire_Android
 
             mLeftDataSet = new List<String>();
             mLeftDataSet.Add("Send Notificaties");
+      
             mLeftAdapter = new ArrayAdapter<String>(this, Android.Resource.Layout.SimpleListItem1, mLeftDataSet);
             mLeftDrawer.Adapter = mLeftAdapter;
 
             
             mLeftDrawer.ItemClick +=mLeftDrawer_ItemClick;
-            
+                        
 
           
                

@@ -79,4 +79,11 @@ C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\drawable\splash.jpg
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\drawable\icon.png
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\R.cs.flag
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\uploadflags.txt
-C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\Unire_Android.csprojResolveAssemblyReference.cache
+C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\drawable\cat_weather.png
+C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\drawable\cat_task.png
+C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\drawable\cat_settings.png
+C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\drawable\cat_ov.png
+C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\drawable\cat_note.png
+C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\drawable\cat_news.png
+C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\drawable\cat_calendar.png
+C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\drawable\cat_health.png

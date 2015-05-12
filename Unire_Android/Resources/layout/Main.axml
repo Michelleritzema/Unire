@@ -29,7 +29,7 @@
                 android:layout_marginBottom="38.9dp"
                 android:layout_marginRight="4.7dp"
                 android:layout_marginTop="5dp"
-                android:src="@drawable/noti_blue"
+                android:src="@drawable/cat_ov"
                 android:layout_marginLeft="6dp"
                 android:id="@+id/ov"
                 android:clickable="true"
@@ -40,12 +40,12 @@
                 android:layout_marginRight="8.0dp"
                 android:layout_marginLeft="185.2dp"
                 android:layout_marginTop="5dp"
-                android:src="@drawable/noti_orange"
+                android:src="@drawable/cat_task"
                 android:id="@+id/imageButton2"
                 android:background="#FF8D42"
                 android:clickable="true" />
             <ImageButton
-                android:src="@drawable/noti_purple"
+                android:src="@drawable/cat_calendar"
                 android:layout_width="346.1dp"
                 android:layout_height="124.1dp"
                 android:id="@+id/imageButton3"
@@ -54,7 +54,7 @@
                 android:layout_marginLeft="6dp"
                 android:clickable="true" />
             <ImageButton
-                android:src="@drawable/noti_red"
+                android:src="@drawable/cat_news"
                 android:layout_width="170.3dp"
                 android:layout_height="124.1dp"
                 android:layout_marginBottom="8.7dp"
@@ -65,7 +65,7 @@
                 android:layout_marginLeft="6dp"
                 android:clickable="true" />
             <ImageButton
-                android:src="@drawable/noti_yellow"
+                android:src="@drawable/cat_note"
                 android:layout_width="170.3dp"
                 android:layout_height="124.1dp"
                 android:layout_marginRight="8.0dp"
@@ -75,7 +75,7 @@
                 android:id="@+id/imageButton5"
                 android:clickable="true" />
             <ImageButton
-                android:src="@drawable/noti_green"
+                android:src="@drawable/cat_settings"
                 android:layout_width="346.1dp"
                 android:layout_height="135.1dp"
                 android:background="#3AB52A"

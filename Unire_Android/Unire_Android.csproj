@@ -130,6 +130,14 @@
     <AndroidResource Include="Resources\drawable\iconO.png" />
     <AndroidResource Include="Resources\drawable\Splash.jpg" />
     <AndroidResource Include="Resources\drawable\Icon.png" />
+    <AndroidResource Include="Resources\drawable\cat_weather.png" />
+    <AndroidResource Include="Resources\drawable\cat_task.png" />
+    <AndroidResource Include="Resources\drawable\cat_settings.png" />
+    <AndroidResource Include="Resources\drawable\cat_ov.png" />
+    <AndroidResource Include="Resources\drawable\cat_note.png" />
+    <AndroidResource Include="Resources\drawable\cat_news.png" />
+    <AndroidResource Include="Resources\drawable\cat_calendar.png" />
+    <AndroidResource Include="Resources\drawable\cat_health.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

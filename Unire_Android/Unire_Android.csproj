@@ -15,7 +15,7 @@
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <DevInstrumentationEnabled>True</DevInstrumentationEnabled>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
-    <TargetFrameworkVersion>v4.4</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
     <AndroidLinkSkip />
     <AndroidStoreUncompressedFileExtensions />
     <JavaOptions />
@@ -93,13 +93,17 @@
     <AndroidResource Include="Resources\layout\Yellow.axml" />
     <AndroidResource Include="Resources\layout\Orange.axml" />
     <AndroidResource Include="Resources\layout\Green.axml" />
-    <AndroidResource Include="Resources\layout\Blue.axml" />
+    <AndroidResource Include="Resources\layout\Blue.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
     <AndroidResource Include="Resources\layout\Menu.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\Main.axml" />
+    <AndroidResource Include="Resources\layout\Main.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
     <AndroidResource Include="Resources\drawable\noti_purple.png" />
     <AndroidResource Include="Resources\drawable\noti_blue.png" />
     <AndroidResource Include="Resources\drawable\noti_green.png" />

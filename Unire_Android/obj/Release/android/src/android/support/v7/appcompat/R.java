@@ -1619,12 +1619,12 @@ containing a value of this type.
         public static int splash=0x7f020040;
     }
     public static final class id {
-        public static int Blue=0x7f0a004e;
-        public static int Green=0x7f0a004f;
-        public static int Orange=0x7f0a0051;
-        public static int Purple=0x7f0a004d;
-        public static int Red=0x7f0a0052;
-        public static int Yellow=0x7f0a0050;
+        public static int Blue=0x7f0a004b;
+        public static int Green=0x7f0a004c;
+        public static int Orange=0x7f0a004e;
+        public static int Purple=0x7f0a004a;
+        public static int Red=0x7f0a004f;
+        public static int Yellow=0x7f0a004d;
         public static int action_bar=0x7f0a0031;
         public static int action_bar_activity_content=0x7f0a0000;
         public static int action_bar_container=0x7f0a0030;
@@ -1639,7 +1639,6 @@ containing a value of this type.
         public static int action_mode_bar_stub=0x7f0a002d;
         public static int action_mode_close_button=0x7f0a0020;
         public static int activity_chooser_view_content=0x7f0a0021;
-        public static int address_text=0x7f0a0046;
         public static int always=0x7f0a0016;
         public static int beginning=0x7f0a0013;
         public static int checkbox=0x7f0a0029;
@@ -1654,27 +1653,25 @@ containing a value of this type.
         public static int end=0x7f0a0014;
         public static int expand_activities_button=0x7f0a0022;
         public static int expanded_menu=0x7f0a0028;
-        public static int get_address_button=0x7f0a0045;
         public static int home=0x7f0a0004;
         public static int homeAsUp=0x7f0a000d;
         public static int icon=0x7f0a0026;
         public static int ifRoom=0x7f0a0018;
         public static int image=0x7f0a0023;
-        public static int imageButton2=0x7f0a0048;
-        public static int imageButton3=0x7f0a0049;
-        public static int imageButton4=0x7f0a004a;
-        public static int imageButton5=0x7f0a004b;
-        public static int imageButton6=0x7f0a004c;
+        public static int imageButton2=0x7f0a0045;
+        public static int imageButton3=0x7f0a0046;
+        public static int imageButton4=0x7f0a0047;
+        public static int imageButton5=0x7f0a0048;
+        public static int imageButton6=0x7f0a0049;
         public static int imageView1=0x7f0a0041;
         public static int left_drawer=0x7f0a0043;
         public static int listMode=0x7f0a0009;
         public static int list_item=0x7f0a0025;
-        public static int location_text=0x7f0a0044;
         public static int middle=0x7f0a0015;
         public static int never=0x7f0a0019;
         public static int none=0x7f0a000e;
         public static int normal=0x7f0a000a;
-        public static int ov=0x7f0a0047;
+        public static int ov=0x7f0a0044;
         public static int progress_circular=0x7f0a0005;
         public static int progress_horizontal=0x7f0a0006;
         public static int radio=0x7f0a002b;
@@ -1732,14 +1729,13 @@ containing a value of this type.
         public static int abc_simple_dropdown_hint=0x7f030016;
         public static int blue=0x7f030017;
         public static int green=0x7f030018;
-        public static int location=0x7f030019;
-        public static int main=0x7f03001a;
-        public static int menu=0x7f03001b;
-        public static int orange=0x7f03001c;
-        public static int purple=0x7f03001d;
-        public static int red=0x7f03001e;
-        public static int support_simple_spinner_dropdown_item=0x7f03001f;
-        public static int yellow=0x7f030020;
+        public static int main=0x7f030019;
+        public static int menu=0x7f03001a;
+        public static int orange=0x7f03001b;
+        public static int purple=0x7f03001c;
+        public static int red=0x7f03001d;
+        public static int support_simple_spinner_dropdown_item=0x7f03001e;
+        public static int yellow=0x7f03001f;
     }
     public static final class string {
         public static int ApplicationName=0x7f050000;

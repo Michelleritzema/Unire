@@ -29,33 +29,32 @@
                 android:layout_marginBottom="38.9dp"
                 android:layout_marginRight="4.7dp"
                 android:layout_marginTop="5dp"
+                android:src="@drawable/noti_blue"
                 android:layout_marginLeft="6dp"
                 android:id="@+id/ov"
                 android:clickable="true"
-                android:background="#3163c6"
-                android:src="@android:drawable/ic_menu_gallery" />
+                android:background="#3163c6" />
             <ImageButton
                 android:layout_width="170.3dp"
                 android:layout_height="124.1dp"
                 android:layout_marginRight="8.0dp"
                 android:layout_marginLeft="185.2dp"
                 android:layout_marginTop="5dp"
+                android:src="@drawable/noti_orange"
                 android:id="@+id/imageButton2"
-                android:src="@android:drawable/ic_menu_gallery"
                 android:background="#FF8D42"
                 android:clickable="true" />
             <ImageButton
-                android:src="@android:drawable/ic_menu_gallery"
+                android:src="@drawable/noti_purple"
                 android:layout_width="346.1dp"
                 android:layout_height="124.1dp"
                 android:id="@+id/imageButton3"
                 android:background="#AB3AC4"
                 android:layout_marginTop="133dp"
-                android:tint="#f0f8ffff"
                 android:layout_marginLeft="6dp"
                 android:clickable="true" />
             <ImageButton
-                android:src="@android:drawable/ic_menu_gallery"
+                android:src="@drawable/noti_red"
                 android:layout_width="170.3dp"
                 android:layout_height="124.1dp"
                 android:layout_marginBottom="8.7dp"
@@ -66,7 +65,7 @@
                 android:layout_marginLeft="6dp"
                 android:clickable="true" />
             <ImageButton
-                android:src="@android:drawable/ic_menu_gallery"
+                android:src="@drawable/noti_yellow"
                 android:layout_width="170.3dp"
                 android:layout_height="124.1dp"
                 android:layout_marginRight="8.0dp"
@@ -76,7 +75,7 @@
                 android:id="@+id/imageButton5"
                 android:clickable="true" />
             <ImageButton
-                android:src="@android:drawable/ic_menu_gallery"
+                android:src="@drawable/noti_green"
                 android:layout_width="346.1dp"
                 android:layout_height="135.1dp"
                 android:background="#3AB52A"

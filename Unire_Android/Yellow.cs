@@ -28,7 +28,7 @@ namespace Unire_Android
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Yellow);
-            var textView = FindViewById<TextView>(Resource.Id.textView1);
+           var textView = FindViewById<TextView>(Resource.Id.textView1);
             textView.Text = Intent.GetStringExtra("text");
 
             mToolbar = FindViewById<SupportToolbar>(Resource.Id.toolbar);

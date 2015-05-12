@@ -35,7 +35,8 @@
                 android:layout_height="289.1dp"
                 android:id="@+id/textView1"
                 android:layout_marginBottom="20dp"
-                android:padding="10dp" />
+                android:padding="10dp"
+                android:layout_marginTop="100dp" />
         </RelativeLayout>
     <!-- The Left Navigation Drawer -->
         <ListView

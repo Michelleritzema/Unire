@@ -43,7 +43,7 @@ namespace Unire_Android
            
             button1.Click += delegate
             {
-                StartActivity(typeof(SendNotification));
+                StartActivity(typeof(Blue));
 
 
 
@@ -97,8 +97,7 @@ namespace Unire_Android
 
 
             mLeftDataSet = new List<String>();
-            mLeftDataSet.Add("left item 1");
-            mLeftDataSet.Add("left item 2");
+            mLeftDataSet.Add("Send Notificaties");
             mLeftAdapter = new ArrayAdapter<String>(this, Android.Resource.Layout.SimpleListItem1, mLeftDataSet);
             mLeftDrawer.Adapter = mLeftAdapter;
 
@@ -145,7 +144,7 @@ namespace Unire_Android
 
         private void mLeftDrawer_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {
-            StartActivity(typeof(Purple));
+            StartActivity(typeof(SendNotification));
            // throw new NotImplementedException();
         }
 

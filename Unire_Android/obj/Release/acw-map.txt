@@ -1,3 +1,7 @@
+Unire_Android.Settings, Unire_Android;md5082d994e7a2812d3143c674da8e591a4.Settings
+Unire_Android.Settings, Unire_Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5082d994e7a2812d3143c674da8e591a4.Settings
+Unire_Android.Settings;md5082d994e7a2812d3143c674da8e591a4.Settings
+unire_android.Settings;md5082d994e7a2812d3143c674da8e591a4.Settings
 Unire_Android.MainActivity, Unire_Android;md5082d994e7a2812d3143c674da8e591a4.MainActivity
 Unire_Android.MainActivity, Unire_Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5082d994e7a2812d3143c674da8e591a4.MainActivity
 Unire_Android.MainActivity;md5082d994e7a2812d3143c674da8e591a4.MainActivity

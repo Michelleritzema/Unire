@@ -78,5 +78,7 @@ C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\drawable\icong.png
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\drawable\icony.png
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\drawable\iconb.png
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\drawable\icono.png
-C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\drawable\splash.png
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\Unire_Android.csprojResolveAssemblyReference.cache
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\drawable\splash.jpg
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\layout\settings.xml
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\layout\startup.xml

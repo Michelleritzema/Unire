@@ -9,4 +9,6 @@
     <string name="Orange">Orange notification</string>
   <string name="openDrawer">Drawer Open</string>
   <string name="closeDrawer">Drawer Closed</string>
+  <string name="cityRequest">Where do you live?</string>
+  <string name="oneTimeTitle">Startup settings</string>
 </resources>

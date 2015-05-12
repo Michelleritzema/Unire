@@ -1642,6 +1642,8 @@ containing a value of this type.
         public static final int always=0x7f0a0016;
         public static final int beginning=0x7f0a0013;
         public static final int checkbox=0x7f0a0029;
+        public static final int cityAnswer=0x7f0a0051;
+        public static final int cityRequest=0x7f0a0050;
         public static final int collapseActionView=0x7f0a0017;
         public static final int decor_content_parent=0x7f0a002f;
         public static final int default_activity_button=0x7f0a0024;
@@ -1734,8 +1736,10 @@ containing a value of this type.
         public static final int orange=0x7f03001b;
         public static final int purple=0x7f03001c;
         public static final int red=0x7f03001d;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001e;
-        public static final int yellow=0x7f03001f;
+        public static final int settings=0x7f03001e;
+        public static final int startup=0x7f03001f;
+        public static final int support_simple_spinner_dropdown_item=0x7f030020;
+        public static final int yellow=0x7f030021;
     }
     public static final class string {
         public static final int ApplicationName=0x7f050000;
@@ -1745,23 +1749,25 @@ containing a value of this type.
         public static final int Purple=0x7f050001;
         public static final int Red=0x7f050002;
         public static final int Yellow=0x7f050003;
-        public static final int abc_action_bar_home_description=0x7f050009;
-        public static final int abc_action_bar_home_description_format=0x7f05000a;
-        public static final int abc_action_bar_home_subtitle_description_format=0x7f05000b;
-        public static final int abc_action_bar_up_description=0x7f05000c;
-        public static final int abc_action_menu_overflow_description=0x7f05000d;
-        public static final int abc_action_mode_done=0x7f05000e;
-        public static final int abc_activity_chooser_view_see_all=0x7f05000f;
-        public static final int abc_activitychooserview_choose_application=0x7f050010;
-        public static final int abc_searchview_description_clear=0x7f050011;
-        public static final int abc_searchview_description_query=0x7f050012;
-        public static final int abc_searchview_description_search=0x7f050013;
-        public static final int abc_searchview_description_submit=0x7f050014;
-        public static final int abc_searchview_description_voice=0x7f050015;
-        public static final int abc_shareactionprovider_share_with=0x7f050016;
-        public static final int abc_shareactionprovider_share_with_application=0x7f050017;
-        public static final int abc_toolbar_collapse_description=0x7f050018;
+        public static final int abc_action_bar_home_description=0x7f05000b;
+        public static final int abc_action_bar_home_description_format=0x7f05000c;
+        public static final int abc_action_bar_home_subtitle_description_format=0x7f05000d;
+        public static final int abc_action_bar_up_description=0x7f05000e;
+        public static final int abc_action_menu_overflow_description=0x7f05000f;
+        public static final int abc_action_mode_done=0x7f050010;
+        public static final int abc_activity_chooser_view_see_all=0x7f050011;
+        public static final int abc_activitychooserview_choose_application=0x7f050012;
+        public static final int abc_searchview_description_clear=0x7f050013;
+        public static final int abc_searchview_description_query=0x7f050014;
+        public static final int abc_searchview_description_search=0x7f050015;
+        public static final int abc_searchview_description_submit=0x7f050016;
+        public static final int abc_searchview_description_voice=0x7f050017;
+        public static final int abc_shareactionprovider_share_with=0x7f050018;
+        public static final int abc_shareactionprovider_share_with_application=0x7f050019;
+        public static final int abc_toolbar_collapse_description=0x7f05001a;
+        public static final int cityRequest=0x7f050009;
         public static final int closeDrawer=0x7f050008;
+        public static final int oneTimeTitle=0x7f05000a;
         public static final int openDrawer=0x7f050007;
     }
     public static final class style {

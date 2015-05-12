@@ -1219,6 +1219,12 @@ namespace Unire_Android
 			// aapt resource value: 0x7f0a0029
 			public const int checkbox = 2131361833;
 			
+			// aapt resource value: 0x7f0a0051
+			public const int cityAnswer = 2131361873;
+			
+			// aapt resource value: 0x7f0a0050
+			public const int cityRequest = 2131361872;
+			
 			// aapt resource value: 0x7f0a0017
 			public const int collapseActionView = 2131361815;
 			
@@ -1510,10 +1516,16 @@ namespace Unire_Android
 			public const int Red = 2130903069;
 			
 			// aapt resource value: 0x7f03001e
-			public const int support_simple_spinner_dropdown_item = 2130903070;
+			public const int Settings = 2130903070;
 			
 			// aapt resource value: 0x7f03001f
-			public const int Yellow = 2130903071;
+			public const int Startup = 2130903071;
+			
+			// aapt resource value: 0x7f030020
+			public const int support_simple_spinner_dropdown_item = 2130903072;
+			
+			// aapt resource value: 0x7f030021
+			public const int Yellow = 2130903073;
 			
 			static Layout()
 			{
@@ -1549,56 +1561,62 @@ namespace Unire_Android
 			// aapt resource value: 0x7f050003
 			public const int Yellow = 2131034115;
 			
-			// aapt resource value: 0x7f050009
-			public const int abc_action_bar_home_description = 2131034121;
-			
-			// aapt resource value: 0x7f05000a
-			public const int abc_action_bar_home_description_format = 2131034122;
-			
 			// aapt resource value: 0x7f05000b
-			public const int abc_action_bar_home_subtitle_description_format = 2131034123;
+			public const int abc_action_bar_home_description = 2131034123;
 			
 			// aapt resource value: 0x7f05000c
-			public const int abc_action_bar_up_description = 2131034124;
+			public const int abc_action_bar_home_description_format = 2131034124;
 			
 			// aapt resource value: 0x7f05000d
-			public const int abc_action_menu_overflow_description = 2131034125;
+			public const int abc_action_bar_home_subtitle_description_format = 2131034125;
 			
 			// aapt resource value: 0x7f05000e
-			public const int abc_action_mode_done = 2131034126;
+			public const int abc_action_bar_up_description = 2131034126;
 			
 			// aapt resource value: 0x7f05000f
-			public const int abc_activity_chooser_view_see_all = 2131034127;
+			public const int abc_action_menu_overflow_description = 2131034127;
 			
 			// aapt resource value: 0x7f050010
-			public const int abc_activitychooserview_choose_application = 2131034128;
+			public const int abc_action_mode_done = 2131034128;
 			
 			// aapt resource value: 0x7f050011
-			public const int abc_searchview_description_clear = 2131034129;
+			public const int abc_activity_chooser_view_see_all = 2131034129;
 			
 			// aapt resource value: 0x7f050012
-			public const int abc_searchview_description_query = 2131034130;
+			public const int abc_activitychooserview_choose_application = 2131034130;
 			
 			// aapt resource value: 0x7f050013
-			public const int abc_searchview_description_search = 2131034131;
+			public const int abc_searchview_description_clear = 2131034131;
 			
 			// aapt resource value: 0x7f050014
-			public const int abc_searchview_description_submit = 2131034132;
+			public const int abc_searchview_description_query = 2131034132;
 			
 			// aapt resource value: 0x7f050015
-			public const int abc_searchview_description_voice = 2131034133;
+			public const int abc_searchview_description_search = 2131034133;
 			
 			// aapt resource value: 0x7f050016
-			public const int abc_shareactionprovider_share_with = 2131034134;
+			public const int abc_searchview_description_submit = 2131034134;
 			
 			// aapt resource value: 0x7f050017
-			public const int abc_shareactionprovider_share_with_application = 2131034135;
+			public const int abc_searchview_description_voice = 2131034135;
 			
 			// aapt resource value: 0x7f050018
-			public const int abc_toolbar_collapse_description = 2131034136;
+			public const int abc_shareactionprovider_share_with = 2131034136;
+			
+			// aapt resource value: 0x7f050019
+			public const int abc_shareactionprovider_share_with_application = 2131034137;
+			
+			// aapt resource value: 0x7f05001a
+			public const int abc_toolbar_collapse_description = 2131034138;
+			
+			// aapt resource value: 0x7f050009
+			public const int cityRequest = 2131034121;
 			
 			// aapt resource value: 0x7f050008
 			public const int closeDrawer = 2131034120;
+			
+			// aapt resource value: 0x7f05000a
+			public const int oneTimeTitle = 2131034122;
 			
 			// aapt resource value: 0x7f050007
 			public const int openDrawer = 2131034119;

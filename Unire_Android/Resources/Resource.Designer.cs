@@ -1150,23 +1150,23 @@ namespace Unire_Android
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0a004b
-			public const int Blue = 2131361867;
+			// aapt resource value: 0x7f0a0050
+			public const int Blue = 2131361872;
 			
-			// aapt resource value: 0x7f0a004c
-			public const int Green = 2131361868;
+			// aapt resource value: 0x7f0a0051
+			public const int Green = 2131361873;
 			
-			// aapt resource value: 0x7f0a004e
-			public const int Orange = 2131361870;
-			
-			// aapt resource value: 0x7f0a004a
-			public const int Purple = 2131361866;
+			// aapt resource value: 0x7f0a0053
+			public const int Orange = 2131361875;
 			
 			// aapt resource value: 0x7f0a004f
-			public const int Red = 2131361871;
+			public const int Purple = 2131361871;
 			
-			// aapt resource value: 0x7f0a004d
-			public const int Yellow = 2131361869;
+			// aapt resource value: 0x7f0a0054
+			public const int Red = 2131361876;
+			
+			// aapt resource value: 0x7f0a0052
+			public const int Yellow = 2131361874;
 			
 			// aapt resource value: 0x7f0a0031
 			public const int action_bar = 2131361841;
@@ -1216,14 +1216,17 @@ namespace Unire_Android
 			// aapt resource value: 0x7f0a0013
 			public const int beginning = 2131361811;
 			
+			// aapt resource value: 0x7f0a0048
+			public const int button1 = 2131361864;
+			
 			// aapt resource value: 0x7f0a0029
 			public const int checkbox = 2131361833;
 			
-			// aapt resource value: 0x7f0a0051
-			public const int cityAnswer = 2131361873;
+			// aapt resource value: 0x7f0a0045
+			public const int cityAnswer = 2131361861;
 			
-			// aapt resource value: 0x7f0a0050
-			public const int cityRequest = 2131361872;
+			// aapt resource value: 0x7f0a0044
+			public const int cityRequest = 2131361860;
 			
 			// aapt resource value: 0x7f0a0017
 			public const int collapseActionView = 2131361815;
@@ -1245,6 +1248,12 @@ namespace Unire_Android
 			
 			// aapt resource value: 0x7f0a001c
 			public const int dropdown = 2131361820;
+			
+			// aapt resource value: 0x7f0a0047
+			public const int editText1 = 2131361863;
+			
+			// aapt resource value: 0x7f0a0046
+			public const int editText2 = 2131361862;
 			
 			// aapt resource value: 0x7f0a0033
 			public const int edit_query = 2131361843;
@@ -1273,20 +1282,20 @@ namespace Unire_Android
 			// aapt resource value: 0x7f0a0023
 			public const int image = 2131361827;
 			
-			// aapt resource value: 0x7f0a0045
-			public const int imageButton2 = 2131361861;
+			// aapt resource value: 0x7f0a004a
+			public const int imageButton2 = 2131361866;
 			
-			// aapt resource value: 0x7f0a0046
-			public const int imageButton3 = 2131361862;
+			// aapt resource value: 0x7f0a004b
+			public const int imageButton3 = 2131361867;
 			
-			// aapt resource value: 0x7f0a0047
-			public const int imageButton4 = 2131361863;
+			// aapt resource value: 0x7f0a004c
+			public const int imageButton4 = 2131361868;
 			
-			// aapt resource value: 0x7f0a0048
-			public const int imageButton5 = 2131361864;
+			// aapt resource value: 0x7f0a004d
+			public const int imageButton5 = 2131361869;
 			
-			// aapt resource value: 0x7f0a0049
-			public const int imageButton6 = 2131361865;
+			// aapt resource value: 0x7f0a004e
+			public const int imageButton6 = 2131361870;
 			
 			// aapt resource value: 0x7f0a0041
 			public const int imageView1 = 2131361857;
@@ -1312,8 +1321,8 @@ namespace Unire_Android
 			// aapt resource value: 0x7f0a000a
 			public const int normal = 2131361802;
 			
-			// aapt resource value: 0x7f0a0044
-			public const int ov = 2131361860;
+			// aapt resource value: 0x7f0a0049
+			public const int ov = 2131361865;
 			
 			// aapt resource value: 0x7f0a0005
 			public const int progress_circular = 2131361797;
@@ -1501,31 +1510,34 @@ namespace Unire_Android
 			public const int Green = 2130903064;
 			
 			// aapt resource value: 0x7f030019
-			public const int Main = 2130903065;
+			public const int Login = 2130903065;
 			
 			// aapt resource value: 0x7f03001a
-			public const int Menu = 2130903066;
+			public const int Main = 2130903066;
 			
 			// aapt resource value: 0x7f03001b
-			public const int Orange = 2130903067;
+			public const int Menu = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
-			public const int Purple = 2130903068;
+			public const int Orange = 2130903068;
 			
 			// aapt resource value: 0x7f03001d
-			public const int Red = 2130903069;
+			public const int Purple = 2130903069;
 			
 			// aapt resource value: 0x7f03001e
-			public const int Settings = 2130903070;
+			public const int Red = 2130903070;
 			
 			// aapt resource value: 0x7f03001f
-			public const int Startup = 2130903071;
+			public const int Settings = 2130903071;
 			
 			// aapt resource value: 0x7f030020
-			public const int support_simple_spinner_dropdown_item = 2130903072;
+			public const int Startup = 2130903072;
 			
 			// aapt resource value: 0x7f030021
-			public const int Yellow = 2130903073;
+			public const int support_simple_spinner_dropdown_item = 2130903073;
+			
+			// aapt resource value: 0x7f030022
+			public const int Yellow = 2130903074;
 			
 			static Layout()
 			{
@@ -1561,53 +1573,53 @@ namespace Unire_Android
 			// aapt resource value: 0x7f050003
 			public const int Yellow = 2131034115;
 			
-			// aapt resource value: 0x7f05000b
-			public const int abc_action_bar_home_description = 2131034123;
-			
-			// aapt resource value: 0x7f05000c
-			public const int abc_action_bar_home_description_format = 2131034124;
-			
-			// aapt resource value: 0x7f05000d
-			public const int abc_action_bar_home_subtitle_description_format = 2131034125;
-			
-			// aapt resource value: 0x7f05000e
-			public const int abc_action_bar_up_description = 2131034126;
-			
 			// aapt resource value: 0x7f05000f
-			public const int abc_action_menu_overflow_description = 2131034127;
+			public const int abc_action_bar_home_description = 2131034127;
 			
 			// aapt resource value: 0x7f050010
-			public const int abc_action_mode_done = 2131034128;
+			public const int abc_action_bar_home_description_format = 2131034128;
 			
 			// aapt resource value: 0x7f050011
-			public const int abc_activity_chooser_view_see_all = 2131034129;
+			public const int abc_action_bar_home_subtitle_description_format = 2131034129;
 			
 			// aapt resource value: 0x7f050012
-			public const int abc_activitychooserview_choose_application = 2131034130;
+			public const int abc_action_bar_up_description = 2131034130;
 			
 			// aapt resource value: 0x7f050013
-			public const int abc_searchview_description_clear = 2131034131;
+			public const int abc_action_menu_overflow_description = 2131034131;
 			
 			// aapt resource value: 0x7f050014
-			public const int abc_searchview_description_query = 2131034132;
+			public const int abc_action_mode_done = 2131034132;
 			
 			// aapt resource value: 0x7f050015
-			public const int abc_searchview_description_search = 2131034133;
+			public const int abc_activity_chooser_view_see_all = 2131034133;
 			
 			// aapt resource value: 0x7f050016
-			public const int abc_searchview_description_submit = 2131034134;
+			public const int abc_activitychooserview_choose_application = 2131034134;
 			
 			// aapt resource value: 0x7f050017
-			public const int abc_searchview_description_voice = 2131034135;
+			public const int abc_searchview_description_clear = 2131034135;
 			
 			// aapt resource value: 0x7f050018
-			public const int abc_shareactionprovider_share_with = 2131034136;
+			public const int abc_searchview_description_query = 2131034136;
 			
 			// aapt resource value: 0x7f050019
-			public const int abc_shareactionprovider_share_with_application = 2131034137;
+			public const int abc_searchview_description_search = 2131034137;
 			
 			// aapt resource value: 0x7f05001a
-			public const int abc_toolbar_collapse_description = 2131034138;
+			public const int abc_searchview_description_submit = 2131034138;
+			
+			// aapt resource value: 0x7f05001b
+			public const int abc_searchview_description_voice = 2131034139;
+			
+			// aapt resource value: 0x7f05001c
+			public const int abc_shareactionprovider_share_with = 2131034140;
+			
+			// aapt resource value: 0x7f05001d
+			public const int abc_shareactionprovider_share_with_application = 2131034141;
+			
+			// aapt resource value: 0x7f05001e
+			public const int abc_toolbar_collapse_description = 2131034142;
 			
 			// aapt resource value: 0x7f050009
 			public const int cityRequest = 2131034121;
@@ -1615,11 +1627,23 @@ namespace Unire_Android
 			// aapt resource value: 0x7f050008
 			public const int closeDrawer = 2131034120;
 			
+			// aapt resource value: 0x7f05000c
+			public const int credentials = 2131034124;
+			
 			// aapt resource value: 0x7f05000a
 			public const int oneTimeTitle = 2131034122;
 			
 			// aapt resource value: 0x7f050007
 			public const int openDrawer = 2131034119;
+			
+			// aapt resource value: 0x7f05000e
+			public const int password = 2131034126;
+			
+			// aapt resource value: 0x7f05000d
+			public const int student_number = 2131034125;
+			
+			// aapt resource value: 0x7f05000b
+			public const int welcome = 2131034123;
 			
 			static String()
 			{

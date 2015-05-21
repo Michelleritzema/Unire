@@ -60,6 +60,12 @@
   <ItemGroup>
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
+    <Reference Include="nunit.framework">
+      <HintPath>..\..\Newtonsoft.Json-master\Lib\NUnit\DotNet\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="NUnitLite">
+      <HintPath>..\..\Newtonsoft.Json-master\Lib\NUnit\Compact\NUnitLite.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -70,8 +76,12 @@
     <Reference Include="Xamarin.Android.Support.v7.AppCompat">
       <HintPath>..\..\xamandroidsupportv7appcompat-21.0.3.0\lib\android\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
     </Reference>
+    <Reference Include="Xamarin.Auth.Android">
+      <HintPath>..\..\xamarin.auth-1.2.3.1\lib\android\Xamarin.Auth.Android.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Login.cs" />
     <Compile Include="Settings.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Blue.cs" />
@@ -100,6 +110,7 @@
     </AndroidResource>
     <AndroidResource Include="Resources\layout\Settings.axml" />
     <AndroidResource Include="Resources\layout\Startup.axml" />
+    <AndroidResource Include="Resources\layout\Login.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />

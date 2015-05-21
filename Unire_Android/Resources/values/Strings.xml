@@ -11,4 +11,8 @@
   <string name="closeDrawer">Drawer Closed</string>
   <string name="cityRequest">Where do you live?</string>
   <string name="oneTimeTitle">Startup settings</string>
+  <string name="welcome">Welcome to Unire!</string>
+  <string name="credentials">Please fill in your Hogeschool Rotterdam credentials</string>
+  <string name="student_number">Student number: </string>
+  <string name="password">Password: </string>
 </resources>

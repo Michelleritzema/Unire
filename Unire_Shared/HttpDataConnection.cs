@@ -1,31 +1,28 @@
-﻿using Android.Widget;
-using System;
-using System.Net.Http;
+﻿using System;
+using Android.App;
+using Android.Content;
+using Android.Runtime;
+using Android.Views;
+using Android.Widget;
+using Android.OS;
+using Java.IO;
+using Java.Net;
+using Java.Lang;
+using System.Net;
 using System.Threading.Tasks;
+using System.Net.Http;
+
+using Unire_Android;
 
 namespace Unire_Shared
 {
 	public class HttpDataConnection
 	{
-
-        private String notificationData;
-        private String url;
-
-        public HttpDataConnection(String url)
+        public HttpDataConnection(string url, Context context)
         {
-            this.url = url;
-            Task<string> task = HttpConnection(url);
+            System.Net.WebClient wc = new System.Net.WebClient();
+            string notification = wc.DownloadString(url);
+            CreateNotification new_notification = new CreateNotification(context, "Cijfer", notification, "noti_orange", 4);
         }
-
-        public async Task<string> HttpConnection(String url)
-        {
-            var httpClient = new HttpClient();
-            var response = await httpClient.GetAsync(url);
-            var answer = response.Content.ReadAsStringAsync().Result;
-            notificationData = answer;
-            return answer;
-        }
-
     }
 }
-

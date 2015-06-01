@@ -83,6 +83,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Login.cs" />
+    <Compile Include="NotificationAdapter.cs" />
+    <Compile Include="CreateNotification.cs" />
     <Compile Include="Settings.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Blue.cs" />
@@ -118,6 +120,7 @@
     <AndroidResource Include="Resources\drawable\weather.png" />
     <AndroidResource Include="Resources\drawable\settings.png" />
     <AndroidResource Include="Resources\drawable\ov.png" />
+    <AndroidResource Include="Resources\layout\NotificationRow.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
@@ -148,6 +151,9 @@
     <AndroidResource Include="Resources\drawable\Splash.jpg" />
     <AndroidResource Include="Resources\drawable\Icon.png" />
     <AndroidResource Include="Resources\values\Colors.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\Notification.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

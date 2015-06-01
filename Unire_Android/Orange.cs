@@ -24,29 +24,32 @@ namespace Unire_Android
         private MyActionBarDrawerToggle mDrawerToggle;
         private DrawerLayout mDrawerLayout;
         private ListView mLeftDrawer;
-    
-    protected override void OnCreate(Bundle bundle)
+        private ListView oldNotificationsList;
+        private string[] notifications;
+        private List<string> old_notifications;
+
+        protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Orange);
-            var textView = FindViewById<TextView>(Resource.Id.textView1);
-            textView.Text = Intent.GetStringExtra("text");
-
             mToolbar = FindViewById<SupportToolbar>(Resource.Id.toolbar);
-
+            SetSupportActionBar(mToolbar);
             mDrawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
-
             mLeftDrawer = FindViewById<ListView>(Resource.Id.left_drawer);
 
-            SetSupportActionBar(mToolbar);
+            oldNotificationsList = FindViewById<ListView>(Resource.Id.older_notifications);
+            notifications = new string[] { "09-02-2015 DEV04 9,1", "08-02-2015 INF04 6,3", "06-02-2015 SLC02 7,5" };
+            old_notifications = new List<string>();
+            for (int i = 0; i < notifications.Length; i++)
+            {
+                old_notifications.Add(notifications[i]);
+            }
+
+            NotificationAdapter adapter = new NotificationAdapter(this, old_notifications);
+            oldNotificationsList.Adapter = adapter;
 
             mDrawerToggle = new MyActionBarDrawerToggle(
-                this, // host
-                mDrawerLayout, // DrawwerLayout
-                Resource.String.openDrawer, //opened message
-                Resource.String.closeDrawer // closed message
-                );
-
+                this, mDrawerLayout, Resource.String.openDrawer, Resource.String.closeDrawer);
             mDrawerLayout.SetDrawerListener(mDrawerToggle);
             SupportActionBar.SetHomeButtonEnabled(true);
             SupportActionBar.SetDisplayShowTitleEnabled(true);
@@ -56,43 +59,38 @@ namespace Unire_Android
             {
                 if (bundle.GetString("Drawer state") == "openend")
                 {
-
                     SupportActionBar.SetTitle(Resource.String.openDrawer);
                 }
                 else
                 {
-
                     SupportActionBar.SetTitle(Resource.String.closeDrawer);
                 }
             }
-
             else
             {
-
-                //  first time App ran 
                 SupportActionBar.SetTitle(Resource.String.closeDrawer);
             }
-        }
-    public override bool OnOptionsItemSelected(IMenuItem item)
-    {
-        mDrawerToggle.OnOptionsItemSelected(item);
-        return base.OnOptionsItemSelected(item);
-    }
 
-    protected override void OnSaveInstanceState(Bundle outState)
-    {
-        if (mDrawerLayout.IsDrawerOpen((int)GravityFlags.Left))
-        {
-            outState.PutString("DrawerState", "Opened");
+            var current_text = FindViewById<TextView>(Resource.Id.current_text);
+            //if (Intent.GetStringExtra("text") != null) {
+                current_text.Text = Intent.GetStringExtra("text");  
+            //}       
         }
-        else
-        {
-            outState.PutString("DrawerState", "Closed");
-        }
-        base.OnSaveInstanceState(outState);
-          
-       
 
+        public override bool OnOptionsItemSelected(IMenuItem item)
+        {
+            mDrawerToggle.OnOptionsItemSelected(item);
+            return base.OnOptionsItemSelected(item);
+        }
+
+        protected override void OnSaveInstanceState(Bundle outState)
+        {
+            if (mDrawerLayout.IsDrawerOpen((int)GravityFlags.Left)) {
+                outState.PutString("DrawerState", "Opened");
+            } else {
+                outState.PutString("DrawerState", "Closed");
+            }
+            base.OnSaveInstanceState(outState);
         }
     }
 }

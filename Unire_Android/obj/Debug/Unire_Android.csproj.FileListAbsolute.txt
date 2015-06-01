@@ -89,3 +89,12 @@ C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Debug\uploadflags.txt
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Debug\Unire_Android.csprojResolveAssemblyReference.cache
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Debug\Xamarin.Auth.Android.dll
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Debug\Xamarin.Auth.Android.xml
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Debug\res\drawable\calendar.png
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Debug\res\drawable\notes.png
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Debug\res\drawable\tasks.png
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Debug\res\drawable\weather.png
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Debug\res\drawable\settings.png
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Debug\res\drawable\ov.png
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Debug\res\layout\notificationrow.xml
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Debug\res\values\colors.xml
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Debug\res\drawable\notification.xml

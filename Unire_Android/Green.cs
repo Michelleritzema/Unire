@@ -75,6 +75,7 @@ namespace Unire_Android
                 SupportActionBar.SetTitle(Resource.String.closeDrawer);
             }
         }
+
         public override bool OnOptionsItemSelected(IMenuItem item)
         {
             mDrawerToggle.OnOptionsItemSelected(item);
@@ -83,12 +84,9 @@ namespace Unire_Android
 
         protected override void OnSaveInstanceState(Bundle outState)
         {
-            if (mDrawerLayout.IsDrawerOpen((int)GravityFlags.Left))
-            {
+            if (mDrawerLayout.IsDrawerOpen((int)GravityFlags.Left)) {
                 outState.PutString("DrawerState", "Opened");
-            }
-            else
-            {
+            } else {
                 outState.PutString("DrawerState", "Closed");
             }
             base.OnSaveInstanceState(outState);

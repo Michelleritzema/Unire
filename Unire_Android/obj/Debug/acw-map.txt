@@ -2,6 +2,10 @@ Unire_Android.Login, Unire_Android;md5082d994e7a2812d3143c674da8e591a4.Login
 Unire_Android.Login, Unire_Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5082d994e7a2812d3143c674da8e591a4.Login
 Unire_Android.Login;md5082d994e7a2812d3143c674da8e591a4.Login
 unire_android.Login;md5082d994e7a2812d3143c674da8e591a4.Login
+Unire_Android.NotificationAdapter, Unire_Android;md5082d994e7a2812d3143c674da8e591a4.NotificationAdapter
+Unire_Android.NotificationAdapter, Unire_Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5082d994e7a2812d3143c674da8e591a4.NotificationAdapter
+Unire_Android.NotificationAdapter;md5082d994e7a2812d3143c674da8e591a4.NotificationAdapter
+unire_android.NotificationAdapter;md5082d994e7a2812d3143c674da8e591a4.NotificationAdapter
 Unire_Android.Settings, Unire_Android;md5082d994e7a2812d3143c674da8e591a4.Settings
 Unire_Android.Settings, Unire_Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5082d994e7a2812d3143c674da8e591a4.Settings
 Unire_Android.Settings;md5082d994e7a2812d3143c674da8e591a4.Settings

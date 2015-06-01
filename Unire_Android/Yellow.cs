@@ -2,27 +2,26 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using System.Net;
+using System.IO;
+using System.Threading.Tasks;
+using System.Net.Http;
+using Java.Net;
+using Java.IO;
+using Java.Lang;
 using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Android.Util;
 using Android.Support;
 using Android.Support.V4.Widget;
 using Android.Support.V7.App;
 
-using SupportToolbar = Android.Support.V7.Widget.Toolbar;
-using System.Net;
-using System.IO;
-using Java.Net;
-using Java.IO;
-using Android.Util;
-using Java.Lang;
-using System.Threading.Tasks;
-using System.Net.Http;
 using Unire_Shared;
+using SupportToolbar = Android.Support.V7.Widget.Toolbar;
 
 
 namespace Unire_Android
@@ -99,16 +98,12 @@ namespace Unire_Android
 
         protected override void OnSaveInstanceState(Bundle outState)
         {
-            if (mDrawerLayout.IsDrawerOpen((int)GravityFlags.Left))
-            {
+            if (mDrawerLayout.IsDrawerOpen((int)GravityFlags.Left)) {
                 outState.PutString("DrawerState", "Opened");
-            }
-            else
-            {
+            } else {
                 outState.PutString("DrawerState", "Closed");
             }
             base.OnSaveInstanceState(outState);
-          
         }
     }
 }

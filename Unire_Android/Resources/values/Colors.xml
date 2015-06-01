@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
- 
+  <item name="background" type="color">#0A0A0A</item>
   <item name="logo_grey" type="color">#303030</item>
   <item name="menu_blue" type="color">#3163C6</item>
   <item name="menu_orange" type="color">#F2FF934D</item>
@@ -8,8 +8,11 @@
   <item name="menu_red" type="color">#CCE03131</item>
   <item name="menu_yellow" type="color">#E6FFE251</item>
   <item name="menu_green" type="color">#803AE024</item>
+  <item name="notification" type="color">#FFFFFF</item>
+  <item name="text_white" type="color">#FFFFFF</item>
 
   <integer-array name="androidcolors">
+    <item>@color/background</item>
     <item>@color/logo_grey</item>
     <item>@color/menu_blue</item>
     <item>@color/menu_orange</item>
@@ -17,6 +20,7 @@
     <item>@color/menu_red</item>
     <item>@color/menu_yellow</item>
     <item>@color/menu_green</item>
+    <item>@color/notification</item>
+    <item>@color/text_white</item>
   </integer-array>
-
 </resources>

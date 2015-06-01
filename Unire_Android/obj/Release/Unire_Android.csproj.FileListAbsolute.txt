@@ -49,12 +49,9 @@ C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Unire_Android.dll
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Unire_Android.pdb
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Unire_Android.Unire_Android.apk
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Unire_Android.Unire_Android-Signed.apk
-C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\nunit.framework.dll
-C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\NUnitLite.dll
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Xamarin.Android.Support.v4.dll
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Xamarin.Android.Support.v7.AppCompat.dll
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Xamarin.Auth.Android.dll
-C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\nunit.framework.xml
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Xamarin.Auth.Android.xml
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\Unire_Android.dll
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\Unire_Android.pdb
@@ -87,3 +84,10 @@ C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\drawable\splash.jp
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\drawable\icon.png
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\R.cs.flag
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\uploadflags.txt
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\values\colors.xml
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\drawable\calendar.png
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\drawable\notes.png
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\drawable\tasks.png
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\drawable\weather.png
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\drawable\settings.png
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\drawable\ov.png

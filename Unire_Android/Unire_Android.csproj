@@ -68,6 +68,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
     <Reference Include="Xamarin.Android.Support.v4">
@@ -111,6 +112,12 @@
     <AndroidResource Include="Resources\layout\Settings.axml" />
     <AndroidResource Include="Resources\layout\Startup.axml" />
     <AndroidResource Include="Resources\layout\Login.axml" />
+    <AndroidResource Include="Resources\drawable\calendar.png" />
+    <AndroidResource Include="Resources\drawable\notes.png" />
+    <AndroidResource Include="Resources\drawable\tasks.png" />
+    <AndroidResource Include="Resources\drawable\weather.png" />
+    <AndroidResource Include="Resources\drawable\settings.png" />
+    <AndroidResource Include="Resources\drawable\ov.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
@@ -140,7 +147,11 @@
     <AndroidResource Include="Resources\drawable\iconO.png" />
     <AndroidResource Include="Resources\drawable\Splash.jpg" />
     <AndroidResource Include="Resources\drawable\Icon.png" />
+    <AndroidResource Include="Resources\values\Colors.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
+  <Import Project="..\Unire_Shared\Unire_Shared.projitems" Label="Shared" Condition="Exists('..\Unire_Shared\Unire_Shared.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
      Other similar extension points exist, see Microsoft.Common.targets.

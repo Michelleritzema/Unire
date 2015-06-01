@@ -1,10 +1,11 @@
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Unire_Android.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v5.0\Mono.Android.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\mscorlib.dll
-C:\Users\Michelle\Desktop\Newtonsoft.Json-master\Lib\NUnit\DotNet\nunit.framework.dll
-C:\Users\Michelle\Desktop\Newtonsoft.Json-master\Lib\NUnit\Compact\NUnitLite.dll
+C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\nunit.framework.dll
+C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\NUnitLite.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Core.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Net.Http.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Xml.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Xml.Linq.dll
 C:\Users\Michelle\Desktop\xamandroidsupportv7appcompat-21.0.3.0\lib\android\Xamarin.Android.Support.v4.dll

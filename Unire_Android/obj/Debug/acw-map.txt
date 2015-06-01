@@ -38,10 +38,6 @@ Unire_Android.Yellow, Unire_Android;md5082d994e7a2812d3143c674da8e591a4.Yellow
 Unire_Android.Yellow, Unire_Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5082d994e7a2812d3143c674da8e591a4.Yellow
 Unire_Android.Yellow;md5082d994e7a2812d3143c674da8e591a4.Yellow
 unire_android.Yellow;md5082d994e7a2812d3143c674da8e591a4.Yellow
-Unire_Android.ConnectionHTTP, Unire_Android;md5082d994e7a2812d3143c674da8e591a4.ConnectionHTTP
-Unire_Android.ConnectionHTTP, Unire_Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5082d994e7a2812d3143c674da8e591a4.ConnectionHTTP
-Unire_Android.ConnectionHTTP;md5082d994e7a2812d3143c674da8e591a4.ConnectionHTTP
-unire_android.ConnectionHTTP;md5082d994e7a2812d3143c674da8e591a4.ConnectionHTTP
 Unire_Android.Purple, Unire_Android;md5082d994e7a2812d3143c674da8e591a4.Purple
 Unire_Android.Purple, Unire_Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5082d994e7a2812d3143c674da8e591a4.Purple
 Unire_Android.Purple;md5082d994e7a2812d3143c674da8e591a4.Purple

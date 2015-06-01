@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 
+  <item name="logo_grey" type="color">#303030</item>
+  <item name="menu_blue" type="color">#3163C6</item>
+  <item name="menu_orange" type="color">#F2FF934D</item>
+  <item name="menu_purple" type="color">#E6AB3AC4</item>
+  <item name="menu_red" type="color">#CCE03131</item>
+  <item name="menu_yellow" type="color">#E6FFE251</item>
+  <item name="menu_green" type="color">#803AE024</item>
+
+  <integer-array name="androidcolors">
+    <item>@color/logo_grey</item>
+    <item>@color/menu_blue</item>
+    <item>@color/menu_orange</item>
+    <item>@color/menu_purple</item>
+    <item>@color/menu_red</item>
+    <item>@color/menu_yellow</item>
+    <item>@color/menu_green</item>
+  </integer-array>
+
+</resources>

@@ -53,13 +53,8 @@ C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Debug\Unire_Android.pdb
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Debug\Unire_Android.dll.mdb
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Debug\Unire_Android.Unire_Android.apk
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Debug\Unire_Android.Unire_Android-Signed.apk
-C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Debug\nunit.framework.dll
-C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Debug\NUnitLite.dll
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Debug\Xamarin.Android.Support.v4.dll
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
-C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Debug\Xamarin.Auth.Android.dll
-C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Debug\nunit.framework.xml
-C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Debug\Xamarin.Auth.Android.xml
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Debug\Unire_Android.dll
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Debug\Unire_Android.pdb
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Debug\android\bin\Unire_Android.Unire_Android.apk
@@ -91,3 +86,6 @@ C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Debug\res\drawable\splash.jpg
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Debug\res\drawable\icon.png
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Debug\R.cs.flag
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Debug\uploadflags.txt
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Debug\Unire_Android.csprojResolveAssemblyReference.cache
+C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Debug\Xamarin.Auth.Android.dll
+C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Debug\Xamarin.Auth.Android.xml

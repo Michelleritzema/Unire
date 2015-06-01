@@ -1,6 +1,4 @@
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Debug\Unire_Android.dll
-C:\Users\Michelle\Desktop\Newtonsoft.Json-master\Lib\NUnit\DotNet\nunit.framework.dll
-C:\Users\Michelle\Desktop\Newtonsoft.Json-master\Lib\NUnit\Compact\NUnitLite.dll
 C:\Users\Michelle\Desktop\xamandroidsupportv7appcompat-21.0.3.0\lib\android\Xamarin.Android.Support.v4.dll
 C:\Users\Michelle\Desktop\xamandroidsupportv7appcompat-21.0.3.0\lib\android\Xamarin.Android.Support.v7.AppCompat.dll
 C:\Users\Michelle\Desktop\xamarin.auth-1.2.3.1\lib\android\Xamarin.Auth.Android.dll

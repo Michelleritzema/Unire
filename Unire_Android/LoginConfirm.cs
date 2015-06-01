@@ -25,6 +25,7 @@ namespace Unire_Android
         TextView mUserID;
         TextView mUsername;
         User mLoggedOnUser;
+       Button mGetStarted;
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -34,12 +35,20 @@ namespace Unire_Android
             mUsername = FindViewById<TextView>(Resource.Id.username);
             mUserID = FindViewById<TextView>(Resource.Id.userid);
             mLoggedOnUser = JsonConvert.DeserializeObject<User>(Intent.GetStringExtra("User"));
-
+            mGetStarted = FindViewById<Button>(Resource.Id.GetStarted);
            // mUserID.Text = mLoggedOnUser.UserID.ToString();
             mUsername.Text = mLoggedOnUser.UserName;
-          
+           mGetStarted.Click += mGetStarted_Click;
             // Create your application here
          
+        }
+
+        private void mGetStarted_Click(object sender, EventArgs e)
+        {
+           Intent intent = new Intent(this, typeof(MainActivity));
+           StartActivity(intent);
+
+           
         }
     }
 }

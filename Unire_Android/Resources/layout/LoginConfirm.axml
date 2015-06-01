@@ -24,4 +24,14 @@
         android:id="@+id/username"
         android:textColor="#000"
         android:gravity="center" />
+    <Button
+        android:id="@+id/GetStarted"
+        android:text="GetStarted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/username"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/button_email_style" />
 </RelativeLayout>

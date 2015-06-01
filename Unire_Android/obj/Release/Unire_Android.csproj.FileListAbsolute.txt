@@ -95,8 +95,6 @@ C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\drawable\checkbox_styl
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\drawable\button_email_style.xml
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\anim\slide_in_top.xml
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\anim\slide_out_bottom.xml
-C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\R.cs.flag
-C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\uploadflags.txt
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\drawable\cat_news.png
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\drawable\cat_settings.png
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\drawable\cat_health.png
@@ -104,3 +102,5 @@ C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\drawable\cat_note.png
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\drawable\cat_task.png
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\drawable\cat_weather.png
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\drawable\cat_calendar.png
+C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\R.cs.flag
+C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\uploadflags.txt

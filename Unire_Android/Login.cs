@@ -12,6 +12,8 @@ using Android.Widget;
 using Android.Views.InputMethods;
 using Unire_Android.Resources;
 using Newtonsoft.Json;
+using System.IO;
+using Org.Json;
 
 namespace Unire_Android
 {
@@ -46,6 +48,7 @@ namespace Unire_Android
         private void mButton_Click(object sender, EventArgs e)
         {
             Intent intent = new Intent(this,typeof(LoginConfirm));
+           // var c = GetSharedPreferences(GetString)
           
             User user = new User()
             {
@@ -58,12 +61,20 @@ namespace Unire_Android
 
             if (mCbxRemMe.Checked)
             {
-                ISharedPreferences pref = Application.Context.GetSharedPreferences("UserInfo", FileCreationMode.Private);
-                ISharedPreferencesEditor edit = pref.Edit();
-                edit.PutString("Username", mUsername.Text.Trim());
-                edit.PutString("Password", mPassword.Text.Trim());
-                edit.Apply();
+              // ISharedPreferences pref = Application.Context.GetSharedPreferences("UserInfo", FileCreationMode.Private);
+              //  ISharedPreferencesEditor editor = pref.Edit();
+                var prefs = Application.Context.GetSharedPreferences("UserInfo", FileCreationMode.Private);
+                var editor= prefs.Edit();
+                editor.PutString("Username", mUsername.Text.Trim());
+                editor.PutString("Password", mPassword.Text.Trim());
+
                 
+
+                editor.Apply();
+               
+
+
+
 
             }         
 
@@ -72,6 +83,9 @@ namespace Unire_Android
            // this.Finish();
         }
 
+        
+   
+
         void mRelativeLayout_Click(object sender, EventArgs e)
         {
             InputMethodManager inputManager = (InputMethodManager)this.GetSystemService(Activity.InputMethodService);
@@ -79,7 +93,6 @@ namespace Unire_Android
         }
     }
 }
-
 
 
 

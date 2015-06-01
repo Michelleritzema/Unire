@@ -1139,64 +1139,61 @@ namespace Unire_Android
 			public const int cat_note = 2130837559;
 			
 			// aapt resource value: 0x7f020038
-			public const int cat_ov = 2130837560;
+			public const int cat_settings = 2130837560;
 			
 			// aapt resource value: 0x7f020039
-			public const int cat_settings = 2130837561;
+			public const int cat_task = 2130837561;
 			
 			// aapt resource value: 0x7f02003a
-			public const int cat_task = 2130837562;
+			public const int cat_weather = 2130837562;
 			
 			// aapt resource value: 0x7f02003b
-			public const int cat_weather = 2130837563;
+			public const int checkbox_style = 2130837563;
 			
 			// aapt resource value: 0x7f02003c
-			public const int checkbox_style = 2130837564;
+			public const int edit_text_style = 2130837564;
 			
 			// aapt resource value: 0x7f02003d
-			public const int edit_text_style = 2130837565;
+			public const int Icon = 2130837565;
 			
 			// aapt resource value: 0x7f02003e
-			public const int Icon = 2130837566;
+			public const int iconB = 2130837566;
 			
 			// aapt resource value: 0x7f02003f
-			public const int iconB = 2130837567;
+			public const int iconG = 2130837567;
 			
 			// aapt resource value: 0x7f020040
-			public const int iconG = 2130837568;
+			public const int iconO = 2130837568;
 			
 			// aapt resource value: 0x7f020041
-			public const int iconO = 2130837569;
+			public const int iconR = 2130837569;
 			
 			// aapt resource value: 0x7f020042
-			public const int iconR = 2130837570;
+			public const int iconY = 2130837570;
 			
 			// aapt resource value: 0x7f020043
-			public const int iconY = 2130837571;
+			public const int monoandroidsplash = 2130837571;
 			
 			// aapt resource value: 0x7f020044
-			public const int monoandroidsplash = 2130837572;
+			public const int noti_blue = 2130837572;
 			
 			// aapt resource value: 0x7f020045
-			public const int noti_blue = 2130837573;
+			public const int noti_green = 2130837573;
 			
 			// aapt resource value: 0x7f020046
-			public const int noti_green = 2130837574;
+			public const int noti_orange = 2130837574;
 			
 			// aapt resource value: 0x7f020047
-			public const int noti_orange = 2130837575;
+			public const int noti_purple = 2130837575;
 			
 			// aapt resource value: 0x7f020048
-			public const int noti_purple = 2130837576;
+			public const int noti_red = 2130837576;
 			
 			// aapt resource value: 0x7f020049
-			public const int noti_red = 2130837577;
+			public const int noti_yellow = 2130837577;
 			
 			// aapt resource value: 0x7f02004a
-			public const int noti_yellow = 2130837578;
-			
-			// aapt resource value: 0x7f02004b
-			public const int Splash = 2130837579;
+			public const int Splash = 2130837578;
 			
 			static Drawable()
 			{
@@ -1211,77 +1208,80 @@ namespace Unire_Android
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0a0052
-			public const int Blue = 2131361874;
-			
 			// aapt resource value: 0x7f0a0053
-			public const int Green = 2131361875;
+			public const int Blue = 2131361875;
 			
-			// aapt resource value: 0x7f0a0058
-			public const int OptionHostName = 2131361880;
-			
-			// aapt resource value: 0x7f0a0059
-			public const int OptionPort = 2131361881;
-			
-			// aapt resource value: 0x7f0a0057
-			public const int OptionRemoteServer = 2131361879;
-			
-			// aapt resource value: 0x7f0a0069
-			public const int OptionsButton = 2131361897;
-			
-			// aapt resource value: 0x7f0a0055
-			public const int Orange = 2131361877;
-			
-			// aapt resource value: 0x7f0a0051
-			public const int Purple = 2131361873;
-			
-			// aapt resource value: 0x7f0a0056
-			public const int Red = 2131361878;
-			
-			// aapt resource value: 0x7f0a0064
-			public const int ResultFullName = 2131361892;
-			
-			// aapt resource value: 0x7f0a0066
-			public const int ResultMessage = 2131361894;
-			
-			// aapt resource value: 0x7f0a0065
-			public const int ResultResultState = 2131361893;
-			
-			// aapt resource value: 0x7f0a0063
-			public const int ResultRunSingleMethodTest = 2131361891;
-			
-			// aapt resource value: 0x7f0a0067
-			public const int ResultStackTrace = 2131361895;
-			
-			// aapt resource value: 0x7f0a005d
-			public const int ResultsFailed = 2131361885;
-			
-			// aapt resource value: 0x7f0a005a
-			public const int ResultsId = 2131361882;
-			
-			// aapt resource value: 0x7f0a005e
-			public const int ResultsIgnored = 2131361886;
-			
-			// aapt resource value: 0x7f0a005f
-			public const int ResultsInconclusive = 2131361887;
-			
-			// aapt resource value: 0x7f0a0060
-			public const int ResultsMessage = 2131361888;
-			
-			// aapt resource value: 0x7f0a005c
-			public const int ResultsPassed = 2131361884;
-			
-			// aapt resource value: 0x7f0a005b
-			public const int ResultsResult = 2131361883;
-			
-			// aapt resource value: 0x7f0a0068
-			public const int RunTestsButton = 2131361896;
-			
-			// aapt resource value: 0x7f0a006a
-			public const int TestSuiteListView = 2131361898;
+			// aapt resource value: 0x7f0a004b
+			public const int GetStarted = 2131361867;
 			
 			// aapt resource value: 0x7f0a0054
-			public const int Yellow = 2131361876;
+			public const int Green = 2131361876;
+			
+			// aapt resource value: 0x7f0a0059
+			public const int OptionHostName = 2131361881;
+			
+			// aapt resource value: 0x7f0a005a
+			public const int OptionPort = 2131361882;
+			
+			// aapt resource value: 0x7f0a0058
+			public const int OptionRemoteServer = 2131361880;
+			
+			// aapt resource value: 0x7f0a006a
+			public const int OptionsButton = 2131361898;
+			
+			// aapt resource value: 0x7f0a0056
+			public const int Orange = 2131361878;
+			
+			// aapt resource value: 0x7f0a0052
+			public const int Purple = 2131361874;
+			
+			// aapt resource value: 0x7f0a0057
+			public const int Red = 2131361879;
+			
+			// aapt resource value: 0x7f0a0065
+			public const int ResultFullName = 2131361893;
+			
+			// aapt resource value: 0x7f0a0067
+			public const int ResultMessage = 2131361895;
+			
+			// aapt resource value: 0x7f0a0066
+			public const int ResultResultState = 2131361894;
+			
+			// aapt resource value: 0x7f0a0064
+			public const int ResultRunSingleMethodTest = 2131361892;
+			
+			// aapt resource value: 0x7f0a0068
+			public const int ResultStackTrace = 2131361896;
+			
+			// aapt resource value: 0x7f0a005e
+			public const int ResultsFailed = 2131361886;
+			
+			// aapt resource value: 0x7f0a005b
+			public const int ResultsId = 2131361883;
+			
+			// aapt resource value: 0x7f0a005f
+			public const int ResultsIgnored = 2131361887;
+			
+			// aapt resource value: 0x7f0a0060
+			public const int ResultsInconclusive = 2131361888;
+			
+			// aapt resource value: 0x7f0a0061
+			public const int ResultsMessage = 2131361889;
+			
+			// aapt resource value: 0x7f0a005d
+			public const int ResultsPassed = 2131361885;
+			
+			// aapt resource value: 0x7f0a005c
+			public const int ResultsResult = 2131361884;
+			
+			// aapt resource value: 0x7f0a0069
+			public const int RunTestsButton = 2131361897;
+			
+			// aapt resource value: 0x7f0a006b
+			public const int TestSuiteListView = 2131361899;
+			
+			// aapt resource value: 0x7f0a0055
+			public const int Yellow = 2131361877;
 			
 			// aapt resource value: 0x7f0a0031
 			public const int action_bar = 2131361841;
@@ -1340,11 +1340,11 @@ namespace Unire_Android
 			// aapt resource value: 0x7f0a0029
 			public const int checkbox = 2131361833;
 			
-			// aapt resource value: 0x7f0a0062
-			public const int cityAnswer = 2131361890;
+			// aapt resource value: 0x7f0a0063
+			public const int cityAnswer = 2131361891;
 			
-			// aapt resource value: 0x7f0a0061
-			public const int cityRequest = 2131361889;
+			// aapt resource value: 0x7f0a0062
+			public const int cityRequest = 2131361890;
 			
 			// aapt resource value: 0x7f0a0017
 			public const int collapseActionView = 2131361815;
@@ -1394,20 +1394,20 @@ namespace Unire_Android
 			// aapt resource value: 0x7f0a0023
 			public const int image = 2131361827;
 			
-			// aapt resource value: 0x7f0a004c
-			public const int imageButton2 = 2131361868;
-			
 			// aapt resource value: 0x7f0a004d
-			public const int imageButton3 = 2131361869;
+			public const int imageButton2 = 2131361869;
 			
 			// aapt resource value: 0x7f0a004e
-			public const int imageButton4 = 2131361870;
+			public const int imageButton3 = 2131361870;
 			
 			// aapt resource value: 0x7f0a004f
-			public const int imageButton5 = 2131361871;
+			public const int imageButton4 = 2131361871;
 			
 			// aapt resource value: 0x7f0a0050
-			public const int imageButton6 = 2131361872;
+			public const int imageButton5 = 2131361872;
+			
+			// aapt resource value: 0x7f0a0051
+			public const int imageButton6 = 2131361873;
 			
 			// aapt resource value: 0x7f0a0041
 			public const int imageView1 = 2131361857;
@@ -1436,8 +1436,8 @@ namespace Unire_Android
 			// aapt resource value: 0x7f0a000a
 			public const int normal = 2131361802;
 			
-			// aapt resource value: 0x7f0a004b
-			public const int ov = 2131361867;
+			// aapt resource value: 0x7f0a004c
+			public const int ov = 2131361868;
 			
 			// aapt resource value: 0x7f0a0005
 			public const int progress_circular = 2131361797;

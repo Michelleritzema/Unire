@@ -12,6 +12,7 @@ using Android.Widget;
 using System.Threading;
 using Unire_Android.Resources;
 using Newtonsoft.Json;
+using System.IO;
 namespace Unire_Android
 {
     [Activity(Theme = "@style/Theme.Splash", MainLauncher = true, NoHistory = true)]
@@ -62,6 +63,9 @@ namespace Unire_Android
 
                     intent.PutExtra("User", JsonConvert.SerializeObject(user));
 
+
+                    string json = JsonConvert.SerializeObject(user);
+                    
                     this.StartActivity(intent);
                 }
 

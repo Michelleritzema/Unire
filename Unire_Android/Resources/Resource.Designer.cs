@@ -1139,61 +1139,64 @@ namespace Unire_Android
 			public const int cat_note = 2130837559;
 			
 			// aapt resource value: 0x7f020038
-			public const int cat_settings = 2130837560;
+			public const int cat_ov = 2130837560;
 			
 			// aapt resource value: 0x7f020039
-			public const int cat_task = 2130837561;
+			public const int cat_settings = 2130837561;
 			
 			// aapt resource value: 0x7f02003a
-			public const int cat_weather = 2130837562;
+			public const int cat_task = 2130837562;
 			
 			// aapt resource value: 0x7f02003b
-			public const int checkbox_style = 2130837563;
+			public const int cat_weather = 2130837563;
 			
 			// aapt resource value: 0x7f02003c
-			public const int edit_text_style = 2130837564;
+			public const int checkbox_style = 2130837564;
 			
 			// aapt resource value: 0x7f02003d
-			public const int Icon = 2130837565;
+			public const int edit_text_style = 2130837565;
 			
 			// aapt resource value: 0x7f02003e
-			public const int iconB = 2130837566;
+			public const int Icon = 2130837566;
 			
 			// aapt resource value: 0x7f02003f
-			public const int iconG = 2130837567;
+			public const int iconB = 2130837567;
 			
 			// aapt resource value: 0x7f020040
-			public const int iconO = 2130837568;
+			public const int iconG = 2130837568;
 			
 			// aapt resource value: 0x7f020041
-			public const int iconR = 2130837569;
+			public const int iconO = 2130837569;
 			
 			// aapt resource value: 0x7f020042
-			public const int iconY = 2130837570;
+			public const int iconR = 2130837570;
 			
 			// aapt resource value: 0x7f020043
-			public const int monoandroidsplash = 2130837571;
+			public const int iconY = 2130837571;
 			
 			// aapt resource value: 0x7f020044
-			public const int noti_blue = 2130837572;
+			public const int monoandroidsplash = 2130837572;
 			
 			// aapt resource value: 0x7f020045
-			public const int noti_green = 2130837573;
+			public const int noti_blue = 2130837573;
 			
 			// aapt resource value: 0x7f020046
-			public const int noti_orange = 2130837574;
+			public const int noti_green = 2130837574;
 			
 			// aapt resource value: 0x7f020047
-			public const int noti_purple = 2130837575;
+			public const int noti_orange = 2130837575;
 			
 			// aapt resource value: 0x7f020048
-			public const int noti_red = 2130837576;
+			public const int noti_purple = 2130837576;
 			
 			// aapt resource value: 0x7f020049
-			public const int noti_yellow = 2130837577;
+			public const int noti_red = 2130837577;
 			
 			// aapt resource value: 0x7f02004a
-			public const int Splash = 2130837578;
+			public const int noti_yellow = 2130837578;
+			
+			// aapt resource value: 0x7f02004b
+			public const int Splash = 2130837579;
 			
 			static Drawable()
 			{

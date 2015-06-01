@@ -47,14 +47,11 @@ namespace Unire_Android
         {
             Intent intent = new Intent(this,typeof(LoginConfirm));
           
-            //intent.PutExtra("UserID", 1);
-            //intent.PutExtra("Username", "Joseph");
-
             User user = new User()
             {
                
                 UserName = mUsername.Text,
-                Password = "password"
+                Password = mPassword.Text
             };
 
             intent.PutExtra("User", JsonConvert.SerializeObject(user));
@@ -66,6 +63,7 @@ namespace Unire_Android
                 edit.PutString("Username", mUsername.Text.Trim());
                 edit.PutString("Password", mPassword.Text.Trim());
                 edit.Apply();
+                
 
             }         
 

@@ -82,6 +82,7 @@ class MonoPackageManager_Resources {
 		"Unire_Android.dll",
 		"Xamarin.Android.Support.v4.dll",
 		"Xamarin.Android.Support.v7.AppCompat.dll",
+		"Xamarin.Android.NUnitLite.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

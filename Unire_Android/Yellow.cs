@@ -14,6 +14,11 @@ using Android.Support.V4.Widget;
 using Android.Support.V7.App;
 
 using SupportToolbar = Android.Support.V7.Widget.Toolbar;
+using System.Net;
+using System.IO;
+using Java.Net;
+using Java.IO;
+using Android.Util;
 
 namespace Unire_Android
 {
@@ -24,12 +29,17 @@ namespace Unire_Android
         private MyActionBarDrawerToggle mDrawerToggle;
         private DrawerLayout mDrawerLayout;
         private ListView mLeftDrawer;
+
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Yellow);
-           var textView = FindViewById<TextView>(Resource.Id.textView1);
-            textView.Text = Intent.GetStringExtra("text");
+            var textView = FindViewById<TextView>(Resource.Id.textView1);
+            //textView.Text = Intent.GetStringExtra("text");
+
+            ConnectionHTTP http_connection = new ConnectionHTTP();
+            String line = http_connection.Getline();
+            textView.Text = line;
 
             mToolbar = FindViewById<SupportToolbar>(Resource.Id.toolbar);
 
@@ -72,6 +82,7 @@ namespace Unire_Android
                 SupportActionBar.SetTitle(Resource.String.closeDrawer);
             }
         }
+
         public override bool OnOptionsItemSelected(IMenuItem item)
         {
             mDrawerToggle.OnOptionsItemSelected(item);
@@ -90,6 +101,36 @@ namespace Unire_Android
             }
             base.OnSaveInstanceState(outState);
           
+        }
+    }
+
+    public class ConnectionHTTP : AsyncTask
+    {
+        String line;
+        protected override void OnPreExecute()
+        {
+            String sURL = "http://www.e-dragon-94311.appspot.com";
+            URL url = new URL(sURL);
+            HttpURLConnection connection = (HttpURLConnection)url.OpenConnection();
+            connection.Connect();
+            BufferedReader br = new BufferedReader(new InputStreamReader(connection.InputStream));
+            line = br.ReadLine();
+            string tag = "unire";
+            Log.Info(tag, line);
+        }
+
+        protected override Java.Lang.Object DoInBackground(params Java.Lang.Object[] @params)
+        {
+            return null;
+        }
+
+        protected override void OnPostExecute(Java.Lang.Object result)
+        {
+        }
+
+        internal string Getline()
+        {
+            return line;
         }
     }
 }

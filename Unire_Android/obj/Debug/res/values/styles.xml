@@ -1,1 +1,3 @@
-<resources><style name="Mono.Android.Theme.Splash" parent="android:Theme"><item name="android:windowNoTitle">true</item></style></resources>
+<resources><style name="Theme.Splash" parent="android:Theme"><item name="android:windowBackground">@drawable/splash</item><item name="android:windowNoTitle">true</item></style><style name="MyTheme" parent="Theme.AppCompat.Light.NoActionBar"><item name="colorPrimary">#3163c6</item><item name="drawerArrowStyle">@style/MyDrawerArrowStyle</item></style><style name="MyDrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle"><item name="color">#F5F5F5</item><item name="spinBars">true</item>
+    &gt;
+  </style><style name="Mono.Android.Theme.Splash" parent="android:Theme"><item name="android:windowNoTitle">true</item></style></resources>

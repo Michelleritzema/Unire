@@ -1,0 +1,1359 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<api>
+<package name="com.google.gdata.util.common.base">
+<interface abstract="true" deprecated="not deprecated" final="false" name="Escaper" static="false" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="escape" native="false" return="java.lang.Appendable" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.Appendable">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="escape" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="com.google.gdata.util.common.base.UnicodeEscaper" extends-generic-aware="com.google.gdata.util.common.base.UnicodeEscaper" final="false" name="PercentEscaper" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="PercentEscaper" static="false" type="com.google.gdata.util.common.base.PercentEscaper" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="boolean">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="escape" native="false" return="char[]" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="SAFECHARS_URLENCODER" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;-_.*&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SAFEPATHCHARS_URLENCODER" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;-_.!~*'()@:$&amp;,;=&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SAFEQUERYSTRINGCHARS_URLENCODER" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;-_.!~*'()@:$,;/?:&quot;" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="Preconditions" static="false" visibility="public">
+<method abstract="false" deprecated="not deprecated" final="false" name="checkArgument" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="checkArgument" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+<parameter name="p1" type="java.lang.Object">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="checkArgument" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.Object...">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="checkContentsNotNull" native="false" return="T" static="true" synchronized="false" visibility="public">
+<typeParameters>
+<typeParameter name="T">
+<genericConstraints>
+<genericConstraint type="java.lang.Iterable&lt;?&gt;"/>
+</genericConstraints>
+</typeParameter>
+</typeParameters>
+<parameter name="p0" type="T">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="checkContentsNotNull" native="false" return="T" static="true" synchronized="false" visibility="public">
+<typeParameters>
+<typeParameter name="T">
+<genericConstraints>
+<genericConstraint type="java.lang.Iterable&lt;?&gt;"/>
+</genericConstraints>
+</typeParameter>
+</typeParameters>
+<parameter name="p0" type="T">
+</parameter>
+<parameter name="p1" type="java.lang.Object">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="checkContentsNotNull" native="false" return="T" static="true" synchronized="false" visibility="public">
+<typeParameters>
+<typeParameter name="T">
+<genericConstraints>
+<genericConstraint type="java.lang.Iterable&lt;?&gt;"/>
+</genericConstraints>
+</typeParameter>
+</typeParameters>
+<parameter name="p0" type="T">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.Object...">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="checkElementIndex" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="checkElementIndex" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="checkNotNull" native="false" return="T" static="true" synchronized="false" visibility="public">
+<typeParameters>
+<typeParameter name="T"/>
+</typeParameters>
+<parameter name="p0" type="T">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="checkNotNull" native="false" return="T" static="true" synchronized="false" visibility="public">
+<typeParameters>
+<typeParameter name="T"/>
+</typeParameters>
+<parameter name="p0" type="T">
+</parameter>
+<parameter name="p1" type="java.lang.Object">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="checkNotNull" native="false" return="T" static="true" synchronized="false" visibility="public">
+<typeParameters>
+<typeParameter name="T"/>
+</typeParameters>
+<parameter name="p0" type="T">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.Object...">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="checkPositionIndex" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="checkPositionIndex" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="checkPositionIndexes" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="checkState" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="checkState" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+<parameter name="p1" type="java.lang.Object">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="checkState" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.Object...">
+</parameter>
+</method>
+</class>
+<class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="UnicodeEscaper" static="false" visibility="public">
+<implements name="com.google.gdata.util.common.base.Escaper" name-generic-aware="com.google.gdata.util.common.base.Escaper">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="UnicodeEscaper" static="false" type="com.google.gdata.util.common.base.UnicodeEscaper" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="true" name="codePointAt" native="false" return="int" static="true" synchronized="false" visibility="protected">
+<parameter name="p0" type="java.lang.CharSequence">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="escape" native="false" return="char[]" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="escape" native="false" return="java.lang.Appendable" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.Appendable">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="escape" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="escapeSlow" native="false" return="java.lang.String" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="nextEscapeIndex" native="false" return="int" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="java.lang.CharSequence">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="UnicodeEscaper.1" static="false" visibility="">
+<implements name="java.lang.Appendable" name-generic-aware="java.lang.Appendable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="append" native="false" return="java.lang.Appendable" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="char">
+</parameter>
+<exception name="IOException" type="java.io.IOException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="append" native="false" return="java.lang.Appendable" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.CharSequence">
+</parameter>
+<exception name="IOException" type="java.io.IOException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="append" native="false" return="java.lang.Appendable" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.CharSequence">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<exception name="IOException" type="java.io.IOException">
+</exception>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.ThreadLocal" extends-generic-aware="java.lang.ThreadLocal&lt;char[]&gt;" final="false" name="UnicodeEscaper.2" static="true" visibility=""/>
+</package>
+<package name="oauth.signpost">
+<class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AbstractOAuthConsumer" static="false" visibility="public">
+<implements name="oauth.signpost.OAuthConsumer" name-generic-aware="oauth.signpost.OAuthConsumer">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="AbstractOAuthConsumer" static="false" type="oauth.signpost.AbstractOAuthConsumer" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="collectBodyParameters" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="oauth.signpost.http.HttpRequest">
+</parameter>
+<parameter name="p1" type="oauth.signpost.http.HttpParameters">
+</parameter>
+<exception name="IOException" type="java.io.IOException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="collectHeaderParameters" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="oauth.signpost.http.HttpRequest">
+</parameter>
+<parameter name="p1" type="oauth.signpost.http.HttpParameters">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="collectQueryParameters" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="oauth.signpost.http.HttpRequest">
+</parameter>
+<parameter name="p1" type="oauth.signpost.http.HttpParameters">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="completeOAuthParameters" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="oauth.signpost.http.HttpParameters">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="generateNonce" native="false" return="java.lang.String" static="false" synchronized="false" visibility="protected">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="generateTimestamp" native="false" return="java.lang.String" static="false" synchronized="false" visibility="protected">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getConsumerKey" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getConsumerSecret" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getRequestParameters" native="false" return="oauth.signpost.http.HttpParameters" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getToken" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getTokenSecret" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setAdditionalParameters" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="oauth.signpost.http.HttpParameters">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setMessageSigner" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="oauth.signpost.signature.OAuthMessageSigner">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setSendEmptyTokens" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setSigningStrategy" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="oauth.signpost.signature.SigningStrategy">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setTokenWithSecret" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="sign" native="false" return="oauth.signpost.http.HttpRequest" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="java.lang.Object">
+</parameter>
+<exception name="OAuthCommunicationException" type="oauth.signpost.exception.OAuthCommunicationException">
+</exception>
+<exception name="OAuthExpectationFailedException" type="oauth.signpost.exception.OAuthExpectationFailedException">
+</exception>
+<exception name="OAuthMessageSignerException" type="oauth.signpost.exception.OAuthMessageSignerException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="sign" native="false" return="java.lang.String" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<exception name="OAuthCommunicationException" type="oauth.signpost.exception.OAuthCommunicationException">
+</exception>
+<exception name="OAuthExpectationFailedException" type="oauth.signpost.exception.OAuthExpectationFailedException">
+</exception>
+<exception name="OAuthMessageSignerException" type="oauth.signpost.exception.OAuthMessageSignerException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="sign" native="false" return="oauth.signpost.http.HttpRequest" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="oauth.signpost.http.HttpRequest">
+</parameter>
+<exception name="OAuthCommunicationException" type="oauth.signpost.exception.OAuthCommunicationException">
+</exception>
+<exception name="OAuthExpectationFailedException" type="oauth.signpost.exception.OAuthExpectationFailedException">
+</exception>
+<exception name="OAuthMessageSignerException" type="oauth.signpost.exception.OAuthMessageSignerException">
+</exception>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="wrap" native="false" return="oauth.signpost.http.HttpRequest" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="java.lang.Object">
+</parameter>
+</method>
+</class>
+<class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AbstractOAuthProvider" static="false" visibility="public">
+<implements name="oauth.signpost.OAuthProvider" name-generic-aware="oauth.signpost.OAuthProvider">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="AbstractOAuthProvider" static="false" type="oauth.signpost.AbstractOAuthProvider" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="closeConnection" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="oauth.signpost.http.HttpRequest">
+</parameter>
+<parameter name="p1" type="oauth.signpost.http.HttpResponse">
+</parameter>
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="createRequest" native="false" return="oauth.signpost.http.HttpRequest" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAccessTokenEndpointUrl" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAuthorizationWebsiteUrl" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getRequestHeaders" native="false" return="java.util.Map&lt;java.lang.String, java.lang.String&gt;" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getRequestTokenEndpointUrl" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getResponseParameter" native="false" return="java.lang.String" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getResponseParameters" native="false" return="oauth.signpost.http.HttpParameters" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="handleUnexpectedResponse" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="oauth.signpost.http.HttpResponse">
+</parameter>
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isOAuth10a" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="removeListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="oauth.signpost.OAuthProviderListener">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="retrieveAccessToken" native="false" return="void" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="oauth.signpost.OAuthConsumer">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.String...">
+</parameter>
+<exception name="OAuthCommunicationException" type="oauth.signpost.exception.OAuthCommunicationException">
+</exception>
+<exception name="OAuthExpectationFailedException" type="oauth.signpost.exception.OAuthExpectationFailedException">
+</exception>
+<exception name="OAuthMessageSignerException" type="oauth.signpost.exception.OAuthMessageSignerException">
+</exception>
+<exception name="OAuthNotAuthorizedException" type="oauth.signpost.exception.OAuthNotAuthorizedException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="retrieveRequestToken" native="false" return="java.lang.String" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="oauth.signpost.OAuthConsumer">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.String...">
+</parameter>
+<exception name="OAuthCommunicationException" type="oauth.signpost.exception.OAuthCommunicationException">
+</exception>
+<exception name="OAuthExpectationFailedException" type="oauth.signpost.exception.OAuthExpectationFailedException">
+</exception>
+<exception name="OAuthMessageSignerException" type="oauth.signpost.exception.OAuthMessageSignerException">
+</exception>
+<exception name="OAuthNotAuthorizedException" type="oauth.signpost.exception.OAuthNotAuthorizedException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="retrieveToken" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="oauth.signpost.OAuthConsumer">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="oauth.signpost.http.HttpParameters">
+</parameter>
+<exception name="OAuthCommunicationException" type="oauth.signpost.exception.OAuthCommunicationException">
+</exception>
+<exception name="OAuthExpectationFailedException" type="oauth.signpost.exception.OAuthExpectationFailedException">
+</exception>
+<exception name="OAuthMessageSignerException" type="oauth.signpost.exception.OAuthMessageSignerException">
+</exception>
+<exception name="OAuthNotAuthorizedException" type="oauth.signpost.exception.OAuthNotAuthorizedException">
+</exception>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="sendRequest" native="false" return="oauth.signpost.http.HttpResponse" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="oauth.signpost.http.HttpRequest">
+</parameter>
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="oauth.signpost.OAuthProviderListener">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setOAuth10a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setRequestHeader" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setResponseParameters" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="oauth.signpost.http.HttpParameters">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="OAuth" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="OAuth" static="false" type="oauth.signpost.OAuth" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="addQueryParameters" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String...">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="addQueryParameters" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.util.Map&lt;java.lang.String, java.lang.String&gt;">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="addQueryString" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="debugOut" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="decodeForm" native="false" return="oauth.signpost.http.HttpParameters" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.io.InputStream">
+</parameter>
+<exception name="IOException" type="java.io.IOException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="decodeForm" native="false" return="oauth.signpost.http.HttpParameters" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="formEncode" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<typeParameters>
+<typeParameter name="T">
+<genericConstraints>
+<genericConstraint type="java.util.Map.Entry&lt;java.lang.String, java.lang.String&gt;"/>
+</genericConstraints>
+</typeParameter>
+</typeParameters>
+<parameter name="p0" type="java.util.Collection&lt;T&gt;">
+</parameter>
+<exception name="IOException" type="java.io.IOException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="formEncode" native="false" return="void" static="true" synchronized="false" visibility="public">
+<typeParameters>
+<typeParameter name="T">
+<genericConstraints>
+<genericConstraint type="java.util.Map.Entry&lt;java.lang.String, java.lang.String&gt;"/>
+</genericConstraints>
+</typeParameter>
+</typeParameters>
+<parameter name="p0" type="java.util.Collection&lt;T&gt;">
+</parameter>
+<parameter name="p1" type="java.io.OutputStream">
+</parameter>
+<exception name="IOException" type="java.io.IOException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isEmpty" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="oauthHeaderToParamsMap" native="false" return="oauth.signpost.http.HttpParameters" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="percentDecode" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="percentEncode" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="prepareOAuthHeader" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String...">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="safeToString" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.Object">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="toHeaderElement" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="toMap" native="false" return="java.util.Map&lt;java.lang.String, java.lang.String&gt;" static="true" synchronized="false" visibility="public">
+<typeParameters>
+<typeParameter name="T">
+<genericConstraints>
+<genericConstraint type="java.util.Map.Entry&lt;java.lang.String, java.lang.String&gt;"/>
+</genericConstraints>
+</typeParameter>
+</typeParameters>
+<parameter name="p0" type="java.util.Collection&lt;T&gt;">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="ENCODING" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;UTF-8&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="FORM_ENCODED" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;application/x-www-form-urlencoded&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="HTTP_AUTHORIZATION_HEADER" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;Authorization&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="OAUTH_CALLBACK" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;oauth_callback&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="OAUTH_CALLBACK_CONFIRMED" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;oauth_callback_confirmed&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="OAUTH_CONSUMER_KEY" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;oauth_consumer_key&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="OAUTH_NONCE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;oauth_nonce&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="OAUTH_SIGNATURE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;oauth_signature&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="OAUTH_SIGNATURE_METHOD" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;oauth_signature_method&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="OAUTH_TIMESTAMP" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;oauth_timestamp&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="OAUTH_TOKEN" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;oauth_token&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="OAUTH_TOKEN_SECRET" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;oauth_token_secret&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="OAUTH_VERIFIER" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;oauth_verifier&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="OAUTH_VERSION" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;oauth_version&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="OUT_OF_BAND" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;oob&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="VERSION_1_0" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;1.0&quot;" visibility="public" volatile="false">
+</field>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="OAuthConsumer" static="false" visibility="public">
+<implements name="java.io.Serializable" name-generic-aware="java.io.Serializable">
+</implements>
+<method abstract="true" deprecated="not deprecated" final="false" name="getConsumerKey" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="getConsumerSecret" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="getRequestParameters" native="false" return="oauth.signpost.http.HttpParameters" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="getToken" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="getTokenSecret" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="setAdditionalParameters" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="oauth.signpost.http.HttpParameters">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="setMessageSigner" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="oauth.signpost.signature.OAuthMessageSigner">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="setSendEmptyTokens" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="setSigningStrategy" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="oauth.signpost.signature.SigningStrategy">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="setTokenWithSecret" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="sign" native="false" return="oauth.signpost.http.HttpRequest" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.Object">
+</parameter>
+<exception name="OAuthCommunicationException" type="oauth.signpost.exception.OAuthCommunicationException">
+</exception>
+<exception name="OAuthExpectationFailedException" type="oauth.signpost.exception.OAuthExpectationFailedException">
+</exception>
+<exception name="OAuthMessageSignerException" type="oauth.signpost.exception.OAuthMessageSignerException">
+</exception>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="sign" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<exception name="OAuthCommunicationException" type="oauth.signpost.exception.OAuthCommunicationException">
+</exception>
+<exception name="OAuthExpectationFailedException" type="oauth.signpost.exception.OAuthExpectationFailedException">
+</exception>
+<exception name="OAuthMessageSignerException" type="oauth.signpost.exception.OAuthMessageSignerException">
+</exception>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="sign" native="false" return="oauth.signpost.http.HttpRequest" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="oauth.signpost.http.HttpRequest">
+</parameter>
+<exception name="OAuthCommunicationException" type="oauth.signpost.exception.OAuthCommunicationException">
+</exception>
+<exception name="OAuthExpectationFailedException" type="oauth.signpost.exception.OAuthExpectationFailedException">
+</exception>
+<exception name="OAuthMessageSignerException" type="oauth.signpost.exception.OAuthMessageSignerException">
+</exception>
+</method>
+</interface>
+<interface abstract="true" deprecated="not deprecated" final="false" name="OAuthProvider" static="false" visibility="public">
+<implements name="java.io.Serializable" name-generic-aware="java.io.Serializable">
+</implements>
+<method abstract="true" deprecated="not deprecated" final="false" name="getAccessTokenEndpointUrl" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="getAuthorizationWebsiteUrl" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="deprecated" final="false" name="getRequestHeaders" native="false" return="java.util.Map&lt;java.lang.String, java.lang.String&gt;" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="getRequestTokenEndpointUrl" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="getResponseParameters" native="false" return="oauth.signpost.http.HttpParameters" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="isOAuth10a" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="removeListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="oauth.signpost.OAuthProviderListener">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="retrieveAccessToken" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="oauth.signpost.OAuthConsumer">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.String...">
+</parameter>
+<exception name="OAuthCommunicationException" type="oauth.signpost.exception.OAuthCommunicationException">
+</exception>
+<exception name="OAuthExpectationFailedException" type="oauth.signpost.exception.OAuthExpectationFailedException">
+</exception>
+<exception name="OAuthMessageSignerException" type="oauth.signpost.exception.OAuthMessageSignerException">
+</exception>
+<exception name="OAuthNotAuthorizedException" type="oauth.signpost.exception.OAuthNotAuthorizedException">
+</exception>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="retrieveRequestToken" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="oauth.signpost.OAuthConsumer">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.String...">
+</parameter>
+<exception name="OAuthCommunicationException" type="oauth.signpost.exception.OAuthCommunicationException">
+</exception>
+<exception name="OAuthExpectationFailedException" type="oauth.signpost.exception.OAuthExpectationFailedException">
+</exception>
+<exception name="OAuthMessageSignerException" type="oauth.signpost.exception.OAuthMessageSignerException">
+</exception>
+<exception name="OAuthNotAuthorizedException" type="oauth.signpost.exception.OAuthNotAuthorizedException">
+</exception>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="setListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="oauth.signpost.OAuthProviderListener">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="setOAuth10a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="true" deprecated="deprecated" final="false" name="setRequestHeader" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="setResponseParameters" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="oauth.signpost.http.HttpParameters">
+</parameter>
+</method>
+</interface>
+<interface abstract="true" deprecated="not deprecated" final="false" name="OAuthProviderListener" static="false" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="onResponseReceived" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="oauth.signpost.http.HttpRequest">
+</parameter>
+<parameter name="p1" type="oauth.signpost.http.HttpResponse">
+</parameter>
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="prepareRequest" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="oauth.signpost.http.HttpRequest">
+</parameter>
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="prepareSubmission" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="oauth.signpost.http.HttpRequest">
+</parameter>
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+</interface>
+</package>
+<package name="oauth.signpost.basic">
+<class abstract="false" deprecated="not deprecated" extends="oauth.signpost.AbstractOAuthConsumer" extends-generic-aware="oauth.signpost.AbstractOAuthConsumer" final="false" name="DefaultOAuthConsumer" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="DefaultOAuthConsumer" static="false" type="oauth.signpost.basic.DefaultOAuthConsumer" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="wrap" native="false" return="oauth.signpost.http.HttpRequest" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="java.lang.Object">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="oauth.signpost.AbstractOAuthProvider" extends-generic-aware="oauth.signpost.AbstractOAuthProvider" final="false" name="DefaultOAuthProvider" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="DefaultOAuthProvider" static="false" type="oauth.signpost.basic.DefaultOAuthProvider" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="createRequest" native="false" return="oauth.signpost.http.HttpRequest" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<exception name="IOException" type="java.io.IOException">
+</exception>
+<exception name="MalformedURLException" type="java.net.MalformedURLException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="sendRequest" native="false" return="oauth.signpost.http.HttpResponse" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="oauth.signpost.http.HttpRequest">
+</parameter>
+<exception name="IOException" type="java.io.IOException">
+</exception>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="HttpURLConnectionRequestAdapter" static="false" visibility="public">
+<implements name="oauth.signpost.http.HttpRequest" name-generic-aware="oauth.signpost.http.HttpRequest">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="HttpURLConnectionRequestAdapter" static="false" type="oauth.signpost.basic.HttpURLConnectionRequestAdapter" visibility="public">
+<parameter name="p0" type="java.net.HttpURLConnection">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAllHeaders" native="false" return="java.util.Map&lt;java.lang.String, java.lang.String&gt;" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getContentType" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getHeader" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getMessagePayload" native="false" return="java.io.InputStream" static="false" synchronized="false" visibility="public">
+<exception name="IOException" type="java.io.IOException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getMethod" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getRequestUrl" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setHeader" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setRequestUrl" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="unwrap" native="false" return="java.net.HttpURLConnection" static="false" synchronized="false" visibility="public">
+</method>
+<field deprecated="not deprecated" final="false" name="connection" static="false" transient="false" type="java.net.HttpURLConnection" type-generic-aware="java.net.HttpURLConnection" visibility="protected" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="HttpURLConnectionResponseAdapter" static="false" visibility="public">
+<implements name="oauth.signpost.http.HttpResponse" name-generic-aware="oauth.signpost.http.HttpResponse">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="HttpURLConnectionResponseAdapter" static="false" type="oauth.signpost.basic.HttpURLConnectionResponseAdapter" visibility="public">
+<parameter name="p0" type="java.net.HttpURLConnection">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getContent" native="false" return="java.io.InputStream" static="false" synchronized="false" visibility="public">
+<exception name="IOException" type="java.io.IOException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getReasonPhrase" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getStatusCode" native="false" return="int" static="false" synchronized="false" visibility="public">
+<exception name="IOException" type="java.io.IOException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="unwrap" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="UrlStringRequestAdapter" static="false" visibility="public">
+<implements name="oauth.signpost.http.HttpRequest" name-generic-aware="oauth.signpost.http.HttpRequest">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="UrlStringRequestAdapter" static="false" type="oauth.signpost.basic.UrlStringRequestAdapter" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAllHeaders" native="false" return="java.util.Map&lt;java.lang.String, java.lang.String&gt;" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getContentType" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getHeader" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getMessagePayload" native="false" return="java.io.InputStream" static="false" synchronized="false" visibility="public">
+<exception name="IOException" type="java.io.IOException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getMethod" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getRequestUrl" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setHeader" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setRequestUrl" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="unwrap" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+</package>
+<package name="oauth.signpost.commonshttp">
+<class abstract="false" deprecated="not deprecated" extends="oauth.signpost.AbstractOAuthConsumer" extends-generic-aware="oauth.signpost.AbstractOAuthConsumer" final="false" name="CommonsHttpOAuthConsumer" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="CommonsHttpOAuthConsumer" static="false" type="oauth.signpost.commonshttp.CommonsHttpOAuthConsumer" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="wrap" native="false" return="oauth.signpost.http.HttpRequest" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="java.lang.Object">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="oauth.signpost.AbstractOAuthProvider" extends-generic-aware="oauth.signpost.AbstractOAuthProvider" final="false" name="CommonsHttpOAuthProvider" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="CommonsHttpOAuthProvider" static="false" type="oauth.signpost.commonshttp.CommonsHttpOAuthProvider" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="CommonsHttpOAuthProvider" static="false" type="oauth.signpost.commonshttp.CommonsHttpOAuthProvider" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+<parameter name="p3" type="org.apache.http.client.HttpClient">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="createRequest" native="false" return="oauth.signpost.http.HttpRequest" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="sendRequest" native="false" return="oauth.signpost.http.HttpResponse" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="oauth.signpost.http.HttpRequest">
+</parameter>
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setHttpClient" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.apache.http.client.HttpClient">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="HttpRequestAdapter" static="false" visibility="public">
+<implements name="oauth.signpost.http.HttpRequest" name-generic-aware="oauth.signpost.http.HttpRequest">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="HttpRequestAdapter" static="false" type="oauth.signpost.commonshttp.HttpRequestAdapter" visibility="public">
+<parameter name="p0" type="org.apache.http.client.methods.HttpUriRequest">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAllHeaders" native="false" return="java.util.Map&lt;java.lang.String, java.lang.String&gt;" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getContentType" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getHeader" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getMessagePayload" native="false" return="java.io.InputStream" static="false" synchronized="false" visibility="public">
+<exception name="IOException" type="java.io.IOException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getMethod" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getRequestUrl" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setHeader" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setRequestUrl" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="unwrap" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="HttpResponseAdapter" static="false" visibility="public">
+<implements name="oauth.signpost.http.HttpResponse" name-generic-aware="oauth.signpost.http.HttpResponse">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="HttpResponseAdapter" static="false" type="oauth.signpost.commonshttp.HttpResponseAdapter" visibility="public">
+<parameter name="p0" type="org.apache.http.HttpResponse">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getContent" native="false" return="java.io.InputStream" static="false" synchronized="false" visibility="public">
+<exception name="IOException" type="java.io.IOException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getReasonPhrase" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getStatusCode" native="false" return="int" static="false" synchronized="false" visibility="public">
+<exception name="IOException" type="java.io.IOException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="unwrap" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+</package>
+<package name="oauth.signpost.exception">
+<class abstract="false" deprecated="not deprecated" extends="oauth.signpost.exception.OAuthException" extends-generic-aware="oauth.signpost.exception.OAuthException" final="false" name="OAuthCommunicationException" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="OAuthCommunicationException" static="false" type="oauth.signpost.exception.OAuthCommunicationException" visibility="public">
+<parameter name="p0" type="java.lang.Exception">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="OAuthCommunicationException" static="false" type="oauth.signpost.exception.OAuthCommunicationException" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getResponseBody" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="true" deprecated="not deprecated" extends="java.lang.Exception" extends-generic-aware="java.lang.Exception" final="false" name="OAuthException" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="OAuthException" static="false" type="oauth.signpost.exception.OAuthException" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="OAuthException" static="false" type="oauth.signpost.exception.OAuthException" visibility="public">
+<parameter name="p0" type="java.lang.Throwable">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="OAuthException" static="false" type="oauth.signpost.exception.OAuthException" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.Throwable">
+</parameter>
+</constructor>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="oauth.signpost.exception.OAuthException" extends-generic-aware="oauth.signpost.exception.OAuthException" final="false" name="OAuthExpectationFailedException" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="OAuthExpectationFailedException" static="false" type="oauth.signpost.exception.OAuthExpectationFailedException" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</constructor>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="oauth.signpost.exception.OAuthException" extends-generic-aware="oauth.signpost.exception.OAuthException" final="false" name="OAuthMessageSignerException" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="OAuthMessageSignerException" static="false" type="oauth.signpost.exception.OAuthMessageSignerException" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="OAuthMessageSignerException" static="false" type="oauth.signpost.exception.OAuthMessageSignerException" visibility="public">
+<parameter name="p0" type="java.lang.Exception">
+</parameter>
+</constructor>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="oauth.signpost.exception.OAuthException" extends-generic-aware="oauth.signpost.exception.OAuthException" final="false" name="OAuthNotAuthorizedException" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="OAuthNotAuthorizedException" static="false" type="oauth.signpost.exception.OAuthNotAuthorizedException" visibility="public">
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="OAuthNotAuthorizedException" static="false" type="oauth.signpost.exception.OAuthNotAuthorizedException" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getResponseBody" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+</package>
+<package name="oauth.signpost.http">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="HttpParameters" static="false" visibility="public">
+<implements name="java.io.Serializable" name-generic-aware="java.io.Serializable">
+</implements>
+<implements name="java.util.Map" name-generic-aware="java.util.Map&lt;java.lang.String, java.util.SortedSet&lt;java.lang.String&gt;&gt;">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="HttpParameters" static="false" type="oauth.signpost.http.HttpParameters" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="clear" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="containsKey" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.Object">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="containsValue" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.Object">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="entrySet" native="false" return="java.util.Set&lt;java.util.Map.Entry&lt;java.lang.String, java.util.SortedSet&lt;java.lang.String&gt;&gt;&gt;" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="get" native="false" return="java.util.SortedSet&lt;java.lang.String&gt;" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.Object">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAsHeaderElement" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAsQueryString" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.Object">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAsQueryString" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.Object">
+</parameter>
+<parameter name="p1" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getFirst" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.Object">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getFirst" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.Object">
+</parameter>
+<parameter name="p1" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getOAuthParameters" native="false" return="oauth.signpost.http.HttpParameters" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isEmpty" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="keySet" native="false" return="java.util.Set&lt;java.lang.String&gt;" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="put" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="put" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="put" native="false" return="java.util.SortedSet&lt;java.lang.String&gt;" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.util.SortedSet&lt;java.lang.String&gt;">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="put" native="false" return="java.util.SortedSet&lt;java.lang.String&gt;" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.util.SortedSet&lt;java.lang.String&gt;">
+</parameter>
+<parameter name="p2" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="putAll" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String[]">
+</parameter>
+<parameter name="p1" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="putAll" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.util.Map&lt;? extends java.lang.String, ? extends java.util.SortedSet&lt;java.lang.String&gt;&gt;">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="putAll" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.util.Map&lt;? extends java.lang.String, ? extends java.util.SortedSet&lt;java.lang.String&gt;&gt;">
+</parameter>
+<parameter name="p1" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="putMap" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.util.Map&lt;java.lang.String, java.util.List&lt;java.lang.String&gt;&gt;">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="putNull" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="remove" native="false" return="java.util.SortedSet&lt;java.lang.String&gt;" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.Object">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="size" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="values" native="false" return="java.util.Collection&lt;java.util.SortedSet&lt;java.lang.String&gt;&gt;" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="HttpRequest" static="false" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="getAllHeaders" native="false" return="java.util.Map&lt;java.lang.String, java.lang.String&gt;" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="getContentType" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="getHeader" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="getMessagePayload" native="false" return="java.io.InputStream" static="false" synchronized="false" visibility="public">
+<exception name="IOException" type="java.io.IOException">
+</exception>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="getMethod" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="getRequestUrl" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="setHeader" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="setRequestUrl" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="unwrap" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+</method>
+</interface>
+<interface abstract="true" deprecated="not deprecated" final="false" name="HttpResponse" static="false" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="getContent" native="false" return="java.io.InputStream" static="false" synchronized="false" visibility="public">
+<exception name="IOException" type="java.io.IOException">
+</exception>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="getReasonPhrase" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="getStatusCode" native="false" return="int" static="false" synchronized="false" visibility="public">
+<exception name="IOException" type="java.io.IOException">
+</exception>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="unwrap" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+</method>
+</interface>
+</package>
+<package name="oauth.signpost.signature">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AuthorizationHeaderSigningStrategy" static="false" visibility="public">
+<implements name="oauth.signpost.signature.SigningStrategy" name-generic-aware="oauth.signpost.signature.SigningStrategy">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="AuthorizationHeaderSigningStrategy" static="false" type="oauth.signpost.signature.AuthorizationHeaderSigningStrategy" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="writeSignature" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="oauth.signpost.http.HttpRequest">
+</parameter>
+<parameter name="p2" type="oauth.signpost.http.HttpParameters">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="oauth.signpost.signature.OAuthMessageSigner" extends-generic-aware="oauth.signpost.signature.OAuthMessageSigner" final="false" name="HmacSha1MessageSigner" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="HmacSha1MessageSigner" static="false" type="oauth.signpost.signature.HmacSha1MessageSigner" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getSignatureMethod" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="sign" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="oauth.signpost.http.HttpRequest">
+</parameter>
+<parameter name="p1" type="oauth.signpost.http.HttpParameters">
+</parameter>
+<exception name="OAuthMessageSignerException" type="oauth.signpost.exception.OAuthMessageSignerException">
+</exception>
+</method>
+</class>
+<class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="OAuthMessageSigner" static="false" visibility="public">
+<implements name="java.io.Serializable" name-generic-aware="java.io.Serializable">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="OAuthMessageSigner" static="false" type="oauth.signpost.signature.OAuthMessageSigner" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="base64Encode" native="false" return="java.lang.String" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="decodeBase64" native="false" return="byte[]" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getConsumerSecret" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="getSignatureMethod" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getTokenSecret" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setConsumerSecret" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setTokenSecret" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="sign" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="oauth.signpost.http.HttpRequest">
+</parameter>
+<parameter name="p1" type="oauth.signpost.http.HttpParameters">
+</parameter>
+<exception name="OAuthMessageSignerException" type="oauth.signpost.exception.OAuthMessageSignerException">
+</exception>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="oauth.signpost.signature.OAuthMessageSigner" extends-generic-aware="oauth.signpost.signature.OAuthMessageSigner" final="false" name="PlainTextMessageSigner" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="PlainTextMessageSigner" static="false" type="oauth.signpost.signature.PlainTextMessageSigner" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getSignatureMethod" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="sign" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="oauth.signpost.http.HttpRequest">
+</parameter>
+<parameter name="p1" type="oauth.signpost.http.HttpParameters">
+</parameter>
+<exception name="OAuthMessageSignerException" type="oauth.signpost.exception.OAuthMessageSignerException">
+</exception>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="QueryStringSigningStrategy" static="false" visibility="public">
+<implements name="oauth.signpost.signature.SigningStrategy" name-generic-aware="oauth.signpost.signature.SigningStrategy">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="QueryStringSigningStrategy" static="false" type="oauth.signpost.signature.QueryStringSigningStrategy" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="writeSignature" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="oauth.signpost.http.HttpRequest">
+</parameter>
+<parameter name="p2" type="oauth.signpost.http.HttpParameters">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SignatureBaseString" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="SignatureBaseString" static="false" type="oauth.signpost.signature.SignatureBaseString" visibility="public">
+<parameter name="p0" type="oauth.signpost.http.HttpRequest">
+</parameter>
+<parameter name="p1" type="oauth.signpost.http.HttpParameters">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="generate" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<exception name="OAuthMessageSignerException" type="oauth.signpost.exception.OAuthMessageSignerException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="normalizeRequestParameters" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<exception name="IOException" type="java.io.IOException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="normalizeRequestUrl" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<exception name="URISyntaxException" type="java.net.URISyntaxException">
+</exception>
+</method>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="SigningStrategy" static="false" visibility="public">
+<implements name="java.io.Serializable" name-generic-aware="java.io.Serializable">
+</implements>
+<method abstract="true" deprecated="not deprecated" final="false" name="writeSignature" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="oauth.signpost.http.HttpRequest">
+</parameter>
+<parameter name="p2" type="oauth.signpost.http.HttpParameters">
+</parameter>
+</method>
+</interface>
+</package>
+</api>

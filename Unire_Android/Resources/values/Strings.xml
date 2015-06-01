@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="Hello">Hello World, Click Me!</string>
-    <string name="ApplicationName">Unire_Android</string>
+    <string name="ApplicationName">Unire</string>
+    <string name="Purple">Purple notification</string>
+    <string name="Red">Red notification</string>
+    <string name="Yellow">Yellow notification</string>
+    <string name="Green">Green notification</string>
+    <string name="Blue">Blue notification</string>
+    <string name="Orange">Orange notification</string>
+  <string name="openDrawer">Drawer Open</string>
+  <string name="closeDrawer">Drawer Closed</string>
+  <string name="cityRequest">Where do you live?</string>
+  <string name="oneTimeTitle">Startup settings</string>
+  <string name="welcome">Welcome to Unire!</string>
+  <string name="credentials">Please fill in your Hogeschool Rotterdam credentials</string>
+  <string name="student_number">Student number: </string>
+  <string name="password">Password: </string>
 </resources>

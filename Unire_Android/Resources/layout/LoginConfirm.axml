@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F2F2F2"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="Welcome"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/userid"
+        android:layout_centerInParent="true"
+        android:textColor="#000"
+        android:gravity="center" />
+    <TextView
+        android:text="Username"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userid"
+        android:id="@+id/username"
+        android:textColor="#000"
+        android:gravity="center" />
+    <Button
+        android:id="@+id/GetStarted"
+        android:text="GetStarted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/username"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/button_email_style" />
+</RelativeLayout>

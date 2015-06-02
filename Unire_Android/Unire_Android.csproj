@@ -60,6 +60,9 @@
   <ItemGroup>
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>..\..\Newtonsoft.Json-master\Lib\NUnit\DotNet\nunit.framework.dll</HintPath>
     </Reference>
@@ -82,9 +85,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Login.cs" />
     <Compile Include="NotificationAdapter.cs" />
     <Compile Include="CreateNotification.cs" />
+    <Compile Include="LoginConfirm.cs" />
+    <Compile Include="Login.cs" />
+    <Compile Include="SplashScreen.cs" />
     <Compile Include="Settings.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Blue.cs" />
@@ -92,7 +97,7 @@
     <Compile Include="MyActionBarDrawerToggle.cs" />
     <Compile Include="Red.cs" />
     <Compile Include="Orange.cs" />
-    <Compile Include="SplashScreen.cs" />
+    <Compile Include="User.cs" />
     <Compile Include="Yellow.cs" />
     <Compile Include="Purple.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
@@ -100,6 +105,8 @@
     <Compile Include="SendNotification.cs" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidResource Include="Resources\layout\Login.axml" />
+    <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <AndroidResource Include="Resources\layout\Purple.axml" />
@@ -113,7 +120,6 @@
     </AndroidResource>
     <AndroidResource Include="Resources\layout\Settings.axml" />
     <AndroidResource Include="Resources\layout\Startup.axml" />
-    <AndroidResource Include="Resources\layout\Login.axml" />
     <AndroidResource Include="Resources\drawable\calendar.png" />
     <AndroidResource Include="Resources\drawable\notes.png" />
     <AndroidResource Include="Resources\drawable\tasks.png" />
@@ -121,6 +127,7 @@
     <AndroidResource Include="Resources\drawable\settings.png" />
     <AndroidResource Include="Resources\drawable\ov.png" />
     <AndroidResource Include="Resources\layout\NotificationRow.axml" />
+    <AndroidResource Include="Resources\layout\LoginConfirm.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
@@ -156,7 +163,13 @@
     <AndroidResource Include="Resources\drawable\Notification.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\drawable\checkbox_style.xml" />
+    <AndroidResource Include="Resources\drawable\button_email_style.xml" />
+    <AndroidResource Include="Resources\drawable\edit_text_style.xml" />
+    <AndroidResource Include="Resources\anim\slide_in_top.xml" />
+    <AndroidResource Include="Resources\anim\slide_out_bottom.xml" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="..\Unire_Shared\Unire_Shared.projitems" Label="Shared" Condition="Exists('..\Unire_Shared\Unire_Shared.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

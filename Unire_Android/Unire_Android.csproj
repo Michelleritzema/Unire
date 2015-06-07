@@ -85,24 +85,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NotificationAdapter.cs" />
-    <Compile Include="CreateNotification.cs" />
-    <Compile Include="LoginConfirm.cs" />
-    <Compile Include="Login.cs" />
-    <Compile Include="SplashScreen.cs" />
-    <Compile Include="Settings.cs" />
-    <Compile Include="MainActivity.cs" />
-    <Compile Include="Blue.cs" />
-    <Compile Include="Green.cs" />
-    <Compile Include="MyActionBarDrawerToggle.cs" />
-    <Compile Include="Red.cs" />
-    <Compile Include="Orange.cs" />
-    <Compile Include="User.cs" />
-    <Compile Include="Yellow.cs" />
-    <Compile Include="Purple.cs" />
+    <Compile Include="com.unire.other\CategoryMethods.cs" />
+    <Compile Include="com.unire.notification\NotificationAdapter.cs" />
+    <Compile Include="com.unire.notification\CreateNotification.cs" />
+    <Compile Include="com.unire.activities\LoginConfirm.cs" />
+    <Compile Include="com.unire.activities\Login.cs" />
+    <Compile Include="com.unire.activities\SplashScreen.cs" />
+    <Compile Include="com.unire.activities\Settings.cs" />
+    <Compile Include="com.unire.activities\Homescreen.cs" />
+    <Compile Include="com.unire.activities\Blue.cs" />
+    <Compile Include="com.unire.activities\Green.cs" />
+    <Compile Include="com.unire.support\MyActionBarDrawerToggle.cs" />
+    <Compile Include="com.unire.activities\Red.cs" />
+    <Compile Include="com.unire.activities\Orange.cs" />
+    <Compile Include="com.unire.support\User.cs" />
+    <Compile Include="com.unire.activities\Yellow.cs" />
+    <Compile Include="com.unire.activities\Purple.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SendNotification.cs" />
+    <Compile Include="com.unire.notification\SendNotification.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Login.axml" />

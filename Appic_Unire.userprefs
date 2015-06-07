@@ -1,11 +1,9 @@
 ﻿<Properties StartupItem="Unire_Android\Unire_Android.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.1257846e" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Unire_Shared\HttpDataConnection.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Unire_Android\Resources\values\Strings.xml">
     <Files>
-      <File FileName="Unire_Android\MainActivity.cs" Line="34" Column="4" />
       <File FileName="Unire_Android\Resources\values\Strings.xml" Line="1" Column="1" />
-      <File FileName="Unire_Android\Yellow.cs" Line="1" Column="1" />
-      <File FileName="Unire_Shared\HttpDataConnection.cs" Line="28" Column="39" />
+      <File FileName="Unire_Shared\HttpDataConnection.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

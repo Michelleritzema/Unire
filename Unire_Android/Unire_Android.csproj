@@ -58,6 +58,9 @@
     </MonoDroidExtraArgs>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="GCM.Client">
+      <HintPath>..\..\GCMClient-1.0\lib\android\GCM.Client.dll</HintPath>
+    </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
     <Reference Include="Newtonsoft.Json">

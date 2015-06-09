@@ -10,5 +10,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)HttpDataConnection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GCMBroadcastReceiver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GCMIntentService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RegisterUser.cs" />
   </ItemGroup>
 </Project>

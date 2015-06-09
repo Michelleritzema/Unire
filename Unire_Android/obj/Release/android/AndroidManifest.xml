@@ -2,17 +2,17 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="Unire_Android.Unire_Android" android:versionCode="1" android:versionName="1.0">
   <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="22" />
   <application android:label="Unire" android:icon="@drawable/icon" android:name="mono.android.app.Application">
-    <activity android:label="LoginConfirm" android:name="md5082d994e7a2812d3143c674da8e591a4.LoginConfirm" />
-    <activity android:icon="@drawable/icon" android:label="Unire_Android" android:theme="@style/MyTheme" android:name="md5082d994e7a2812d3143c674da8e591a4.Login" />
+    <activity android:label="Unire" android:name="md5082d994e7a2812d3143c674da8e591a4.LoginConfirm" />
+    <activity android:icon="@drawable/icon" android:label="Unire" android:theme="@style/MyTheme" android:name="md5082d994e7a2812d3143c674da8e591a4.Login" />
     <activity android:noHistory="true" android:theme="@style/Theme.Splash" android:name="md5082d994e7a2812d3143c674da8e591a4.SplashScreen" />
-    <activity android:icon="@drawable/icon" android:label="Unire_Android" android:theme="@style/MyTheme" android:name="md5082d994e7a2812d3143c674da8e591a4.Settings" />
+    <activity android:icon="@drawable/icon" android:label="Unire" android:theme="@style/MyTheme" android:name="md5082d994e7a2812d3143c674da8e591a4.Settings" />
     <activity android:icon="@drawable/icon" android:label="Unire" android:theme="@style/MyTheme" android:name="md5082d994e7a2812d3143c674da8e591a4.Homescreen" />
     <activity android:icon="@drawable/iconb" android:label="Unire" android:theme="@style/MyTheme" android:name="md5082d994e7a2812d3143c674da8e591a4.Blue" />
-    <activity android:icon="@drawable/icong" android:label="Green" android:theme="@style/MyTheme" android:name="md5082d994e7a2812d3143c674da8e591a4.Green" />
-    <activity android:icon="@drawable/iconr" android:label="Red" android:theme="@style/MyTheme" android:name="md5082d994e7a2812d3143c674da8e591a4.Red" />
-    <activity android:icon="@drawable/icono" android:label="Orange" android:theme="@style/MyTheme" android:name="md5082d994e7a2812d3143c674da8e591a4.Orange" />
-    <activity android:icon="@drawable/icony" android:label="Yellow" android:theme="@style/MyTheme" android:name="md5082d994e7a2812d3143c674da8e591a4.Yellow" />
-    <activity android:icon="@drawable/icono" android:label="Purple" android:theme="@style/MyTheme" android:name="md5082d994e7a2812d3143c674da8e591a4.Purple" />
+    <activity android:icon="@drawable/icong" android:label="Unire" android:theme="@style/MyTheme" android:name="md5082d994e7a2812d3143c674da8e591a4.Green" />
+    <activity android:icon="@drawable/iconr" android:label="Unire" android:theme="@style/MyTheme" android:name="md5082d994e7a2812d3143c674da8e591a4.Red" />
+    <activity android:icon="@drawable/icono" android:label="Unire" android:theme="@style/MyTheme" android:name="md5082d994e7a2812d3143c674da8e591a4.Orange" />
+    <activity android:icon="@drawable/icony" android:label="Unire" android:theme="@style/MyTheme" android:name="md5082d994e7a2812d3143c674da8e591a4.Yellow" />
+    <activity android:icon="@drawable/icono" android:label="Unire" android:theme="@style/MyTheme" android:name="md5082d994e7a2812d3143c674da8e591a4.Purple" />
     <activity android:label="Unire_Android" android:theme="@style/MyTheme" android:name="md5082d994e7a2812d3143c674da8e591a4.SendNotification" />
     <activity android:label="Web Authenticator" android:name="md550f8a10a740eb4fb6376baab8337ce22.FormAuthenticatorActivity" />
     <activity android:label="Web Authenticator" android:name="md550f8a10a740eb4fb6376baab8337ce22.WebAuthenticatorActivity" />

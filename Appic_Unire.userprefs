@@ -1,9 +1,20 @@
 ﻿<Properties StartupItem="Unire_Android\Unire_Android.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.1257846e" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Unire_Android\Resources\values\Strings.xml">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Unire_Android\com.unire.activities\Yellow.cs">
     <Files>
-      <File FileName="Unire_Android\Resources\values\Strings.xml" Line="1" Column="1" />
+      <File FileName="Unire_Android\Resources\values\Strings.xml" Line="12" Column="36" />
       <File FileName="Unire_Shared\HttpDataConnection.cs" Line="1" Column="1" />
+      <File FileName="Unire_Android\com.unire.activities\Green.cs" Line="14" Column="29" />
+      <File FileName="Unire_Android\com.unire.activities\Login.cs" Line="8" Column="23" />
+      <File FileName="Unire_Android\com.unire.activities\Blue.cs" Line="1" Column="1" />
+      <File FileName="Unire_Android\com.unire.activities\Homescreen.cs" Line="5" Column="14" />
+      <File FileName="Unire_Android\com.unire.activities\LoginConfirm.cs" Line="11" Column="29" />
+      <File FileName="Unire_Android\com.unire.activities\Orange.cs" Line="14" Column="29" />
+      <File FileName="Unire_Android\com.unire.activities\Purple.cs" Line="14" Column="29" />
+      <File FileName="Unire_Android\com.unire.activities\Red.cs" Line="14" Column="29" />
+      <File FileName="Unire_Android\com.unire.activities\Settings.cs" Line="1" Column="2" />
+      <File FileName="Unire_Android\com.unire.activities\SplashScreen.cs" Line="8" Column="23" />
+      <File FileName="Unire_Android\com.unire.activities\Yellow.cs" Line="14" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

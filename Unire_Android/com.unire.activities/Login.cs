@@ -6,12 +6,17 @@ using Android.Widget;
 using Android.Views.InputMethods;
 using Unire_Android.Resources;
 using Newtonsoft.Json;
+using Gcm.Client;
+using Unire_Shared;
+using Android.Util;
 
 namespace Unire_Android
 {
     [Activity(Label = "Unire", MainLauncher = false, Icon = "@drawable/icon", Theme = "@style/MyTheme")]
     public class Login : Activity
     {
+
+        const string TAG = "GCM-CLIENT";
         RelativeLayout mRelativeLayout;
         Button mButton;
         EditText mUsername;
@@ -21,9 +26,10 @@ namespace Unire_Android
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-
-            // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Login);
+
+            GcmClient.CheckDevice(this);
+            GcmClient.CheckManifest(this);
 
             mButton = FindViewById<Button>(Resource.Id.btnLogin);
             mRelativeLayout = FindViewById<RelativeLayout>(Resource.Id.mainView);
@@ -32,19 +38,14 @@ namespace Unire_Android
             mCbxRemMe = FindViewById<CheckBox>(Resource.Id.cbxRememberMe);
             mRelativeLayout.Click += mRelativeLayout_Click;
             mButton.Click  += mButton_Click;
-
-
-
         }
 
         private void mButton_Click(object sender, EventArgs e)
         {
             Intent intent = new Intent(this,typeof(LoginConfirm));
            // var c = GetSharedPreferences(GetString)
-          
             User user = new User()
             {
-               
                 UserName = mUsername.Text,
                 Password = mPassword.Text
             };
@@ -59,20 +60,14 @@ namespace Unire_Android
                 var editor= prefs.Edit();
                 editor.PutString("Username", mUsername.Text.Trim());
                 editor.PutString("Password", mPassword.Text.Trim());
-
-                
-
                 editor.Apply();
-               
+            }
 
-
-
-
-            }         
+            GcmClient.Register(this, GcmBroadcastReceiver.SENDER_IDS);
 
             this.StartActivity(intent);
             this.OverridePendingTransition(Resource.Animation.slide_in_top, Resource.Animation.slide_out_bottom);
-           // this.Finish();
+            this.Finish();
         }
 
         

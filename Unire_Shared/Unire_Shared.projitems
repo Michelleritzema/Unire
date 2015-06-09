@@ -9,9 +9,7 @@
     <Import_RootNamespace>Unire_Shared</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)GcmService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)HttpDataConnection.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)GCMBroadcastReceiver.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)GCMIntentService.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)RegisterUser.cs" />
   </ItemGroup>
 </Project>

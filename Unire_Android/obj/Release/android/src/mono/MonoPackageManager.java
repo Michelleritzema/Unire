@@ -80,9 +80,8 @@ public class MonoPackageManager {
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		"Unire_Android.dll",
+		"GCM.Client.dll",
 		"Newtonsoft.Json.dll",
-		"nunit.framework.dll",
-		"NUnitLite.dll",
 		"Xamarin.Android.Support.v4.dll",
 		"Xamarin.Android.Support.v7.AppCompat.dll",
 		"Xamarin.Auth.Android.dll",

@@ -1,9 +1,8 @@
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Unire_Android.dll
+C:\Users\Michelle\Desktop\GCMClient-1.0\lib\android\GCM.Client.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v5.0\Mono.Android.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\mscorlib.dll
 C:\Users\Michelle\Desktop\Unire\packages\Newtonsoft.Json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll
-C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\nunit.framework.dll
-C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\NUnitLite.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Core.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Net.Http.dll

@@ -5,6 +5,9 @@ using Android.OS;
 using Android.Widget;
 using Unire_Android.Resources;
 using Newtonsoft.Json;
+using Gcm.Client;
+using Android.Util;
+using System.Threading;
 
 namespace Unire_Android
 {
@@ -12,7 +15,7 @@ namespace Unire_Android
     public class LoginConfirm : Activity
     {
 
-        
+        const string TAG = "GCM-CLIENT";
         TextView mUserID;
         TextView mUsername;
         User mLoggedOnUser;
@@ -31,6 +34,16 @@ namespace Unire_Android
             mUsername.Text = mLoggedOnUser.UserName;
            mGetStarted.Click += mGetStarted_Click;
             // Create your application here
+
+           Thread.Sleep(10000);
+			var registrationId = GcmClient.GetRegistrationId(this);
+           	Toast.MakeText(this, registrationId, ToastLength.Long).Show();
+
+           if (!string.IsNullOrEmpty(registrationId))
+           {
+               Log.Info(TAG, registrationId);
+               
+           }
          
         }
 

@@ -26,6 +26,7 @@ namespace Unire_Android
 		
 		public static void UpdateIdValues()
 		{
+			global::Gcm.Client.Resource.String.library_name = global::Unire_Android.Resource.String.library_name;
 		}
 		
 		public partial class Animation
@@ -1232,26 +1233,26 @@ namespace Unire_Android
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0b0057
-			public const int Blue = 2131427415;
+			// aapt resource value: 0x7f0b005c
+			public const int Blue = 2131427420;
 			
-			// aapt resource value: 0x7f0b004f
-			public const int GetStarted = 2131427407;
+			// aapt resource value: 0x7f0b0054
+			public const int GetStarted = 2131427412;
 			
-			// aapt resource value: 0x7f0b0058
-			public const int Green = 2131427416;
+			// aapt resource value: 0x7f0b005d
+			public const int Green = 2131427421;
 			
-			// aapt resource value: 0x7f0b005a
-			public const int Orange = 2131427418;
-			
-			// aapt resource value: 0x7f0b0056
-			public const int Purple = 2131427414;
+			// aapt resource value: 0x7f0b005f
+			public const int Orange = 2131427423;
 			
 			// aapt resource value: 0x7f0b005b
-			public const int Red = 2131427419;
+			public const int Purple = 2131427419;
 			
-			// aapt resource value: 0x7f0b0059
-			public const int Yellow = 2131427417;
+			// aapt resource value: 0x7f0b0060
+			public const int Red = 2131427424;
+			
+			// aapt resource value: 0x7f0b005e
+			public const int Yellow = 2131427422;
 			
 			// aapt resource value: 0x7f0b0031
 			public const int action_bar = 2131427377;
@@ -1301,29 +1302,32 @@ namespace Unire_Android
 			// aapt resource value: 0x7f0b0013
 			public const int beginning = 2131427347;
 			
-			// aapt resource value: 0x7f0b004b
-			public const int btnLogin = 2131427403;
+			// aapt resource value: 0x7f0b0050
+			public const int btnLogin = 2131427408;
 			
-			// aapt resource value: 0x7f0b004c
-			public const int cbxRememberMe = 2131427404;
+			// aapt resource value: 0x7f0b0042
+			public const int buttonRegister = 2131427394;
+			
+			// aapt resource value: 0x7f0b0051
+			public const int cbxRememberMe = 2131427409;
 			
 			// aapt resource value: 0x7f0b0029
 			public const int checkbox = 2131427369;
 			
-			// aapt resource value: 0x7f0b0061
-			public const int cityAnswer = 2131427425;
+			// aapt resource value: 0x7f0b0066
+			public const int cityAnswer = 2131427430;
 			
-			// aapt resource value: 0x7f0b0060
-			public const int cityRequest = 2131427424;
+			// aapt resource value: 0x7f0b0065
+			public const int cityRequest = 2131427429;
 			
 			// aapt resource value: 0x7f0b0017
 			public const int collapseActionView = 2131427351;
 			
-			// aapt resource value: 0x7f0b0042
-			public const int current_date = 2131427394;
+			// aapt resource value: 0x7f0b0047
+			public const int current_date = 2131427399;
 			
-			// aapt resource value: 0x7f0b0043
-			public const int current_text = 2131427395;
+			// aapt resource value: 0x7f0b0048
+			public const int current_text = 2131427400;
 			
 			// aapt resource value: 0x7f0b002f
 			public const int decor_content_parent = 2131427375;
@@ -1337,8 +1341,8 @@ namespace Unire_Android
 			// aapt resource value: 0x7f0b000c
 			public const int disableHome = 2131427340;
 			
-			// aapt resource value: 0x7f0b0040
-			public const int drawer_layout = 2131427392;
+			// aapt resource value: 0x7f0b0045
+			public const int drawer_layout = 2131427397;
 			
 			// aapt resource value: 0x7f0b001c
 			public const int dropdown = 2131427356;
@@ -1370,8 +1374,8 @@ namespace Unire_Android
 			// aapt resource value: 0x7f0b0023
 			public const int image = 2131427363;
 			
-			// aapt resource value: 0x7f0b0046
-			public const int left_drawer = 2131427398;
+			// aapt resource value: 0x7f0b004b
+			public const int left_drawer = 2131427403;
 			
 			// aapt resource value: 0x7f0b0009
 			public const int listMode = 2131427337;
@@ -1379,44 +1383,44 @@ namespace Unire_Android
 			// aapt resource value: 0x7f0b0025
 			public const int list_item = 2131427365;
 			
-			// aapt resource value: 0x7f0b0041
-			public const int logo_blue = 2131427393;
+			// aapt resource value: 0x7f0b0046
+			public const int logo_blue = 2131427398;
 			
-			// aapt resource value: 0x7f0b0053
-			public const int logo_calendar = 2131427411;
+			// aapt resource value: 0x7f0b0058
+			public const int logo_calendar = 2131427416;
 			
-			// aapt resource value: 0x7f0b0047
-			public const int logo_green = 2131427399;
+			// aapt resource value: 0x7f0b004c
+			public const int logo_green = 2131427404;
 			
-			// aapt resource value: 0x7f0b0052
-			public const int logo_notes = 2131427410;
-			
-			// aapt resource value: 0x7f0b005d
-			public const int logo_orange = 2131427421;
-			
-			// aapt resource value: 0x7f0b0050
-			public const int logo_ov = 2131427408;
-			
-			// aapt resource value: 0x7f0b005e
-			public const int logo_purple = 2131427422;
-			
-			// aapt resource value: 0x7f0b005f
-			public const int logo_red = 2131427423;
-			
-			// aapt resource value: 0x7f0b0055
-			public const int logo_settings = 2131427413;
-			
-			// aapt resource value: 0x7f0b0051
-			public const int logo_tasks = 2131427409;
-			
-			// aapt resource value: 0x7f0b0054
-			public const int logo_weather = 2131427412;
+			// aapt resource value: 0x7f0b0057
+			public const int logo_notes = 2131427415;
 			
 			// aapt resource value: 0x7f0b0062
-			public const int logo_yellow = 2131427426;
+			public const int logo_orange = 2131427426;
 			
-			// aapt resource value: 0x7f0b0048
-			public const int mainView = 2131427400;
+			// aapt resource value: 0x7f0b0055
+			public const int logo_ov = 2131427413;
+			
+			// aapt resource value: 0x7f0b0063
+			public const int logo_purple = 2131427427;
+			
+			// aapt resource value: 0x7f0b0064
+			public const int logo_red = 2131427428;
+			
+			// aapt resource value: 0x7f0b005a
+			public const int logo_settings = 2131427418;
+			
+			// aapt resource value: 0x7f0b0056
+			public const int logo_tasks = 2131427414;
+			
+			// aapt resource value: 0x7f0b0059
+			public const int logo_weather = 2131427417;
+			
+			// aapt resource value: 0x7f0b0067
+			public const int logo_yellow = 2131427431;
+			
+			// aapt resource value: 0x7f0b004d
+			public const int mainView = 2131427405;
 			
 			// aapt resource value: 0x7f0b0015
 			public const int middle = 2131427349;
@@ -1430,14 +1434,14 @@ namespace Unire_Android
 			// aapt resource value: 0x7f0b000a
 			public const int normal = 2131427338;
 			
-			// aapt resource value: 0x7f0b005c
-			public const int notification_row = 2131427420;
+			// aapt resource value: 0x7f0b0061
+			public const int notification_row = 2131427425;
 			
-			// aapt resource value: 0x7f0b0045
-			public const int older_notifications = 2131427397;
+			// aapt resource value: 0x7f0b004a
+			public const int older_notifications = 2131427402;
 			
-			// aapt resource value: 0x7f0b0044
-			public const int older_title = 2131427396;
+			// aapt resource value: 0x7f0b0049
+			public const int older_title = 2131427401;
 			
 			// aapt resource value: 0x7f0b0005
 			public const int progress_circular = 2131427333;
@@ -1499,17 +1503,29 @@ namespace Unire_Android
 			// aapt resource value: 0x7f0b000b
 			public const int tabMode = 2131427339;
 			
+			// aapt resource value: 0x7f0b0043
+			public const int textHints = 2131427395;
+			
+			// aapt resource value: 0x7f0b0041
+			public const int textLastMessage = 2131427393;
+			
+			// aapt resource value: 0x7f0b0040
+			public const int textRegistrationId = 2131427392;
+			
+			// aapt resource value: 0x7f0b003f
+			public const int textRegistrationStatus = 2131427391;
+			
 			// aapt resource value: 0x7f0b0027
 			public const int title = 2131427367;
 			
-			// aapt resource value: 0x7f0b003f
-			public const int toolbar = 2131427391;
+			// aapt resource value: 0x7f0b0044
+			public const int toolbar = 2131427396;
 			
-			// aapt resource value: 0x7f0b004a
-			public const int txtPassword = 2131427402;
+			// aapt resource value: 0x7f0b004f
+			public const int txtPassword = 2131427407;
 			
-			// aapt resource value: 0x7f0b0049
-			public const int txtUserName = 2131427401;
+			// aapt resource value: 0x7f0b004e
+			public const int txtUserName = 2131427406;
 			
 			// aapt resource value: 0x7f0b0008
 			public const int up = 2131427336;
@@ -1517,11 +1533,11 @@ namespace Unire_Android
 			// aapt resource value: 0x7f0b0012
 			public const int useLogo = 2131427346;
 			
-			// aapt resource value: 0x7f0b004d
-			public const int userid = 2131427405;
+			// aapt resource value: 0x7f0b0052
+			public const int userid = 2131427410;
 			
-			// aapt resource value: 0x7f0b004e
-			public const int username = 2131427406;
+			// aapt resource value: 0x7f0b0053
+			public const int username = 2131427411;
 			
 			// aapt resource value: 0x7f0b001a
 			public const int withText = 2131427354;
@@ -1628,46 +1644,49 @@ namespace Unire_Android
 			public const int abc_simple_dropdown_hint = 2130903062;
 			
 			// aapt resource value: 0x7f030017
-			public const int Blue = 2130903063;
+			public const int Bleh = 2130903063;
 			
 			// aapt resource value: 0x7f030018
-			public const int Green = 2130903064;
+			public const int Blue = 2130903064;
 			
 			// aapt resource value: 0x7f030019
-			public const int Login = 2130903065;
+			public const int Green = 2130903065;
 			
 			// aapt resource value: 0x7f03001a
-			public const int LoginConfirm = 2130903066;
+			public const int Login = 2130903066;
 			
 			// aapt resource value: 0x7f03001b
-			public const int Main = 2130903067;
+			public const int LoginConfirm = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
-			public const int Menu = 2130903068;
+			public const int Main = 2130903068;
 			
 			// aapt resource value: 0x7f03001d
-			public const int NotificationRow = 2130903069;
+			public const int Menu = 2130903069;
 			
 			// aapt resource value: 0x7f03001e
-			public const int Orange = 2130903070;
+			public const int NotificationRow = 2130903070;
 			
 			// aapt resource value: 0x7f03001f
-			public const int Purple = 2130903071;
+			public const int Orange = 2130903071;
 			
 			// aapt resource value: 0x7f030020
-			public const int Red = 2130903072;
+			public const int Purple = 2130903072;
 			
 			// aapt resource value: 0x7f030021
-			public const int Settings = 2130903073;
+			public const int Red = 2130903073;
 			
 			// aapt resource value: 0x7f030022
-			public const int Startup = 2130903074;
+			public const int Settings = 2130903074;
 			
 			// aapt resource value: 0x7f030023
-			public const int support_simple_spinner_dropdown_item = 2130903075;
+			public const int Startup = 2130903075;
 			
 			// aapt resource value: 0x7f030024
-			public const int Yellow = 2130903076;
+			public const int support_simple_spinner_dropdown_item = 2130903076;
+			
+			// aapt resource value: 0x7f030025
+			public const int Yellow = 2130903077;
 			
 			static Layout()
 			{
@@ -1759,6 +1778,9 @@ namespace Unire_Android
 			
 			// aapt resource value: 0x7f07000b
 			public const int credentials = 2131165195;
+			
+			// aapt resource value: 0x7f07001e
+			public const int library_name = 2131165214;
 			
 			// aapt resource value: 0x7f070009
 			public const int oneTimeTitle = 2131165193;

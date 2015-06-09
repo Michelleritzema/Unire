@@ -2,9 +2,14 @@
 using Android.OS;
 using Android.Support.V7.App;
 using Android.Widget;
+using Android.Content;
+using Android.Runtime;
+using Android.Views;
+using Android.Util;
 using System;
-using Unire_Shared;
+using Gcm.Client;
 
+using Unire_Shared;
 using SupportToolbar = Android.Support.V7.Widget.Toolbar;
 
 
@@ -23,6 +28,11 @@ namespace Unire_Android
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Main);
             connection = new HttpDataConnection(url, this);
+
+			//GcmClient.CheckDevice(this);
+			//GcmClient.CheckManifest(this);
+			//Call to register
+			//GcmClient.Register(this, GcmBroadcastReceiver.SENDER_IDS);
 
             mToolbar = FindViewById<SupportToolbar>(Resource.Id.toolbar);
             SetSupportActionBar(mToolbar);
@@ -43,6 +53,3 @@ namespace Unire_Android
         }
     }
 }
-
-    
-

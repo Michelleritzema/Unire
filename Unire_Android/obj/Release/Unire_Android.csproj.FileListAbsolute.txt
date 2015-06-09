@@ -66,8 +66,9 @@ C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\anim\slide_in_top.xml
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\anim\slide_out_bottom.xml
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Unire_Android.dll
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Unire_Android.pdb
-C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Unire_Android.Unire_Android.apk
-C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Unire_Android.Unire_Android-Signed.apk
+C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\com.appic.unire.apk
+C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\com.appic.unire-Signed.apk
+C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\GCM.Client.dll
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Newtonsoft.Json.dll
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Xamarin.Android.Support.v4.dll
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Xamarin.Android.Support.v7.AppCompat.dll
@@ -76,7 +77,7 @@ C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Newtonsoft.Json.xml
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Xamarin.Auth.Android.xml
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\Unire_Android.dll
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\Unire_Android.pdb
-C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\android\bin\Unire_Android.Unire_Android.apk
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\android\bin\com.appic.unire.apk
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\layout\login.xml
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\layout\purple.xml
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\layout\red.xml
@@ -95,6 +96,7 @@ C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\drawable\settings.
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\drawable\ov.png
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\layout\notificationrow.xml
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\layout\loginconfirm.xml
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\layout\bleh.xml
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\layout\main.xml
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\drawable\noti_purple.png
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\drawable\noti_blue.png

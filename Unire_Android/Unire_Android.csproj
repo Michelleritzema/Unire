@@ -66,12 +66,6 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="nunit.framework">
-      <HintPath>..\..\Newtonsoft.Json-master\Lib\NUnit\DotNet\nunit.framework.dll</HintPath>
-    </Reference>
-    <Reference Include="NUnitLite">
-      <HintPath>..\..\Newtonsoft.Json-master\Lib\NUnit\Compact\NUnitLite.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Net.Http" />
@@ -132,6 +126,7 @@
     <AndroidResource Include="Resources\drawable\ov.png" />
     <AndroidResource Include="Resources\layout\NotificationRow.axml" />
     <AndroidResource Include="Resources\layout\LoginConfirm.axml" />
+    <AndroidResource Include="Resources\layout\Bleh.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />

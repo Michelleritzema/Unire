@@ -4,10 +4,10 @@ using Android.Content;
 using Android.OS;
 using Android.Widget;
 using Unire_Android.Resources;
-using Newtonsoft.Json;
 using Gcm.Client;
 using Android.Util;
 using System.Threading;
+using Newtonsoft.Json;
 
 namespace Unire_Android
 {

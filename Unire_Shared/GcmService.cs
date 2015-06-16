@@ -48,6 +48,11 @@ namespace Unire_Shared
             editor.Apply();
         }
 
+		protected override void OnUnRegistered(Context context, string registrationId)
+		{
+			Log.Info(TAG, "Unregistered");
+		}
+
         //This method is called when a new notification is pushed from the server.
         protected override void OnMessage(Context context, Intent intent)
         {

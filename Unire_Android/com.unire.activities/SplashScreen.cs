@@ -6,6 +6,8 @@ using Android.Widget;
 using System.Threading;
 using Unire_Android.Resources;
 using Newtonsoft.Json;
+
+
 namespace Unire_Android
 {
     [Activity(Theme = "@style/Theme.Splash", MainLauncher = true, NoHistory = true)]

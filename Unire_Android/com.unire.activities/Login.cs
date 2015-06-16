@@ -1,14 +1,19 @@
 using System;
+using System.Collections.Generic;
+using System.Net.Http;
 using Android.App;
 using Android.Content;
 using Android.OS;
-using Android.Widget;
-using Android.Views.InputMethods;
-using Unire_Android.Resources;
-using Newtonsoft.Json;
-using Gcm.Client;
-using Unire_Shared;
 using Android.Util;
+using Android.Views.InputMethods;
+using Android.Widget;
+
+using Unire_Android.Resources;
+using Unire_Shared;
+using Gcm.Client;
+using Newtonsoft.Json;
+using System.Threading;
+
 
 namespace Unire_Android
 {
@@ -16,7 +21,7 @@ namespace Unire_Android
     public class Login : Activity
     {
 
-        const string TAG = "GCM-CLIENT";
+        const string TAG = "Login";
         RelativeLayout mRelativeLayout;
         Button mButton;
         EditText mUsername;
@@ -42,41 +47,59 @@ namespace Unire_Android
 
         private void mButton_Click(object sender, EventArgs e)
         {
-            Intent intent = new Intent(this,typeof(LoginConfirm));
-           // var c = GetSharedPreferences(GetString)
+            GcmClient.Register(this, GcmBroadcastReceiver.SENDER_IDS);
+            Thread.Sleep(10000);
+            var registrationId = GcmClient.GetRegistrationId(this);
+            Log.Info(TAG, "Using registrationId " + registrationId);
+            Toast.MakeText(this, registrationId, ToastLength.Long).Show();
+            
             User user = new User()
             {
                 UserName = mUsername.Text,
-                Password = mPassword.Text
+                Password = mPassword.Text,
+                Key = registrationId
             };
-
-            intent.PutExtra("User", JsonConvert.SerializeObject(user));
+            DictionaryStrings(user);
 
             if (mCbxRemMe.Checked)
             {
-              // ISharedPreferences pref = Application.Context.GetSharedPreferences("UserInfo", FileCreationMode.Private);
-              //  ISharedPreferencesEditor editor = pref.Edit();
+                //ISharedPreferences pref = Application.Context.GetSharedPreferences("UserInfo", FileCreationMode.Private);
+                //ISharedPreferencesEditor editor = pref.Edit();
                 var prefs = Application.Context.GetSharedPreferences("UserInfo", FileCreationMode.Private);
-                var editor= prefs.Edit();
+                var editor = prefs.Edit();
                 editor.PutString("Username", mUsername.Text.Trim());
                 editor.PutString("Password", mPassword.Text.Trim());
+                editor.PutString("RegistrationId", registrationId);
                 editor.Apply();
             }
 
-            GcmClient.Register(this, GcmBroadcastReceiver.SENDER_IDS);
-
+            Intent intent = new Intent(this, typeof(LoginConfirm));
+            intent.PutExtra("User", JsonConvert.SerializeObject(user));
             this.StartActivity(intent);
             this.OverridePendingTransition(Resource.Animation.slide_in_top, Resource.Animation.slide_out_bottom);
             this.Finish();
         }
 
-        
-   
-
         void mRelativeLayout_Click(object sender, EventArgs e)
         {
             InputMethodManager inputManager = (InputMethodManager)this.GetSystemService(Activity.InputMethodService);
             inputManager.HideSoftInputFromWindow(this.CurrentFocus.WindowToken, HideSoftInputFlags.None);
+        }
+
+        async void DictionaryStrings(User user)
+        {
+            var Client = new HttpClient();
+            string apiUrl = "http://e-dragon-94311.appspot.com/login";
+            var values = new Dictionary<string, string>
+            {
+                { "username", user.UserName},
+                { "password", user.Password},
+                { "regId", user.Key}
+            };
+
+            var content = new FormUrlEncodedContent(values);
+            var response = await Client.PostAsync(apiUrl, content);
+            var responseString = await response.Content.ReadAsStringAsync();
         }
     }
 }

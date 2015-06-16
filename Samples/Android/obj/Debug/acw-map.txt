@@ -1,0 +1,20 @@
+Sample.MainActivity, Sample;md5e44603b235f21ebfbb6b3d0f2dc433d5.MainActivity
+Sample.MainActivity, Sample, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e44603b235f21ebfbb6b3d0f2dc433d5.MainActivity
+Sample.MainActivity;md5e44603b235f21ebfbb6b3d0f2dc433d5.MainActivity
+sample.MainActivity;md5e44603b235f21ebfbb6b3d0f2dc433d5.MainActivity
+Sample.GcmBroadcastReceiver, Sample;md5e44603b235f21ebfbb6b3d0f2dc433d5.GcmBroadcastReceiver
+Sample.GcmBroadcastReceiver, Sample, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e44603b235f21ebfbb6b3d0f2dc433d5.GcmBroadcastReceiver
+Sample.GcmBroadcastReceiver;md5e44603b235f21ebfbb6b3d0f2dc433d5.GcmBroadcastReceiver
+sample.GcmBroadcastReceiver;md5e44603b235f21ebfbb6b3d0f2dc433d5.GcmBroadcastReceiver
+Sample.PushHandlerService, Sample;md5e44603b235f21ebfbb6b3d0f2dc433d5.PushHandlerService
+Sample.PushHandlerService, Sample, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e44603b235f21ebfbb6b3d0f2dc433d5.PushHandlerService
+Sample.PushHandlerService;md5e44603b235f21ebfbb6b3d0f2dc433d5.PushHandlerService
+sample.PushHandlerService;md5e44603b235f21ebfbb6b3d0f2dc433d5.PushHandlerService
+Gcm.Client.GcmBroadcastReceiverBase`1, GCM.Client;md5214eafb7e7b3b7fcc363a68a6358563f.GcmBroadcastReceiverBase_1
+Gcm.Client.GcmBroadcastReceiverBase`1, GCM.Client, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md5214eafb7e7b3b7fcc363a68a6358563f.GcmBroadcastReceiverBase_1
+Gcm.Client.GcmBroadcastReceiverBase`1;md5214eafb7e7b3b7fcc363a68a6358563f.GcmBroadcastReceiverBase_1
+gcm.client.GcmBroadcastReceiverBase_1;md5214eafb7e7b3b7fcc363a68a6358563f.GcmBroadcastReceiverBase_1
+Gcm.Client.GcmServiceBase, GCM.Client;md5214eafb7e7b3b7fcc363a68a6358563f.GcmServiceBase
+Gcm.Client.GcmServiceBase, GCM.Client, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md5214eafb7e7b3b7fcc363a68a6358563f.GcmServiceBase
+Gcm.Client.GcmServiceBase;md5214eafb7e7b3b7fcc363a68a6358563f.GcmServiceBase
+gcm.client.GcmServiceBase;md5214eafb7e7b3b7fcc363a68a6358563f.GcmServiceBase

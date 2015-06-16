@@ -1,0 +1,2 @@
+C:\Users\Michelle\Desktop\GCM.Client\Samples\Android\bin\Debug\Sample.dll
+C:\Users\Michelle\Desktop\GCM.Client\lib\Android\GCM.Client.dll

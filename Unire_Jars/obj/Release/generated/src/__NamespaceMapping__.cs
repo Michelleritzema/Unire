@@ -1,7 +1,0 @@
-[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.google.gdata.util.common.base", Managed="Com.Google.Gdata.Util.Common.Base")]
-[assembly:global::Android.Runtime.NamespaceMapping (Java = "oauth.signpost", Managed="Oauth.Signpost")]
-[assembly:global::Android.Runtime.NamespaceMapping (Java = "oauth.signpost.basic", Managed="Oauth.Signpost.Basic")]
-[assembly:global::Android.Runtime.NamespaceMapping (Java = "oauth.signpost.commonshttp", Managed="Oauth.Signpost.Commonshttp")]
-[assembly:global::Android.Runtime.NamespaceMapping (Java = "oauth.signpost.exception", Managed="Oauth.Signpost.Exception")]
-[assembly:global::Android.Runtime.NamespaceMapping (Java = "oauth.signpost.http", Managed="Oauth.Signpost.Http")]
-[assembly:global::Android.Runtime.NamespaceMapping (Java = "oauth.signpost.signature", Managed="Oauth.Signpost.Signature")]

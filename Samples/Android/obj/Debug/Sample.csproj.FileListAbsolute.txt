@@ -1,0 +1,17 @@
+C:\Users\Michelle\Desktop\GCM.Client\Samples\Android\bin\Debug\Sample.dll
+C:\Users\Michelle\Desktop\GCM.Client\Samples\Android\bin\Debug\Sample.pdb
+C:\Users\Michelle\Desktop\GCM.Client\Samples\Android\bin\Debug\Sample.dll.mdb
+C:\Users\Michelle\Desktop\GCM.Client\Samples\Android\bin\Debug\com.gcm.sample.apk
+C:\Users\Michelle\Desktop\GCM.Client\Samples\Android\bin\Debug\com.gcm.sample-Signed.apk
+C:\Users\Michelle\Desktop\GCM.Client\Samples\Android\bin\Debug\GCM.Client.dll
+C:\Users\Michelle\Desktop\GCM.Client\Samples\Android\bin\Debug\GCM.Client.pdb
+C:\Users\Michelle\Desktop\GCM.Client\Samples\Android\bin\Debug\GCM.Client.dll.mdb
+C:\Users\Michelle\Desktop\GCM.Client\Samples\Android\obj\Debug\Sample.csprojResolveAssemblyReference.cache
+C:\Users\Michelle\Desktop\GCM.Client\Samples\Android\obj\Debug\Sample.dll
+C:\Users\Michelle\Desktop\GCM.Client\Samples\Android\obj\Debug\Sample.pdb
+C:\Users\Michelle\Desktop\GCM.Client\Samples\Android\obj\Debug\android\bin\com.gcm.sample.apk
+C:\Users\Michelle\Desktop\GCM.Client\Samples\Android\obj\Debug\res\layout\main.xml
+C:\Users\Michelle\Desktop\GCM.Client\Samples\Android\obj\Debug\res\values\strings.xml
+C:\Users\Michelle\Desktop\GCM.Client\Samples\Android\obj\Debug\res\drawable\icon.png
+C:\Users\Michelle\Desktop\GCM.Client\Samples\Android\obj\Debug\R.cs.flag
+C:\Users\Michelle\Desktop\GCM.Client\Samples\Android\obj\Debug\uploadflags.txt

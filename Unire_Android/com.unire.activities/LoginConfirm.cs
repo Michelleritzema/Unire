@@ -1,5 +1,6 @@
 using Android.App;
 using Android.Content;
+using Android.Content.PM;
 using Android.OS;
 using Android.Util;
 using Android.Widget;
@@ -13,12 +14,12 @@ using Gcm.Client;
 
 namespace Unire_Android
 {
-    [Activity(Label = "Unire", NoHistory = true, Icon = "@drawable/icon", Theme = "@style/MyTheme")]
+    [Activity(Label = "Unire", NoHistory = true, Icon = "@drawable/icon", 
+        Theme = "@style/MyTheme", ScreenOrientation = ScreenOrientation.Portrait)]
     public class LoginConfirm : Activity
     {
 
        /* The LoginConfirm class shows the user that the login succeeded
-        * 
         */
 
         private const string TAG = "LoginConfirm";
@@ -40,7 +41,6 @@ namespace Unire_Android
             mUsername.Text = mLoggedOnUser.userName;
             mGetStarted.Click += mGetStarted_Click;
 
-            //Thread.Sleep(10000);
 			var registrationId = GcmClient.GetRegistrationId(this);
             Log.Info(TAG, "Using registrationId " + registrationId);
            	Toast.MakeText(this, registrationId, ToastLength.Long).Show();   

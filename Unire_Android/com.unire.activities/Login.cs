@@ -1,5 +1,6 @@
 using Android.App;
 using Android.Content;
+using Android.Content.PM;
 using Android.OS;
 using Android.Util;
 using Android.Views.InputMethods;
@@ -17,7 +18,8 @@ using Gcm.Client;
 
 namespace Unire_Android
 {
-    [Activity(Label = "Unire", MainLauncher = false, NoHistory = true, Icon = "@drawable/icon", Theme = "@style/MyTheme")]
+    [Activity(Label = "Unire", MainLauncher = false, NoHistory = true, Icon = "@drawable/icon", 
+        Theme = "@style/MyTheme", ScreenOrientation = ScreenOrientation.Portrait)]
     public class Login : Activity
     {
 
@@ -55,8 +57,6 @@ namespace Unire_Android
             GcmClient.Register(this, GcmBroadcastReceiver.SENDER_IDS);
             Thread.Sleep(5000);
             var registrationId = GcmClient.GetRegistrationId(this);
-            Log.Info(TAG, "Using registrationId " + registrationId);
-            Toast.MakeText(this, registrationId, ToastLength.Long).Show();
             
             //Create a new User to be sent with the intent
             User user = new User()

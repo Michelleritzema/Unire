@@ -1,38 +1,41 @@
 ﻿using Android.App;
-using Android.OS;
-using Android.Support.V7.App;
-using Android.Widget;
 using Android.Content;
+using Android.Content.PM;
+using Android.OS;
 using Android.Runtime;
-using Android.Views;
+using Android.Support.V7.App;
 using Android.Util;
+using Android.Views;
+using Android.Widget;
 using System;
-using Gcm.Client;
 
-using Unire_Shared;
 using SupportToolbar = Android.Support.V7.Widget.Toolbar;
+using Unire_Shared;
+using Gcm.Client;
 
 
 namespace Unire_Android
 {
-    [Activity(Label = "Unire", MainLauncher = false, Icon = "@drawable/icon", Theme = "@style/MyTheme")]
+    [Activity(Label = "Unire", MainLauncher = false, Icon = "@drawable/icon", 
+        Theme = "@style/MyTheme", ScreenOrientation = ScreenOrientation.Portrait)]
     public class Homescreen : ActionBarActivity
     {
 
+       /* This is the homescreen. The user always goes back to this activity.
+        * The buttons all activate different intents. From the homescreen, the
+        * async task GetNewNotifications is frequently checking if new notifications
+        * have arrived.
+        */
+
         private SupportToolbar mToolbar;
-        HttpDataConnection connection;
-        private String url = "http://www.e-dragon-94311.appspot.com/grades";
+        private HttpDataConnection connection;
+        //private String url = new Setup().getGradesURL();
              
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Main);
-            connection = new HttpDataConnection(url, this);
-
-			//GcmClient.CheckDevice(this);
-			//GcmClient.CheckManifest(this);
-			//Call to register
-			//GcmClient.Register(this, GcmBroadcastReceiver.SENDER_IDS);
+            //connection = new HttpDataConnection(url, this);
 
             mToolbar = FindViewById<SupportToolbar>(Resource.Id.toolbar);
             SetSupportActionBar(mToolbar);

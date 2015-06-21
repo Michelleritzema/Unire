@@ -1,17 +1,18 @@
 using Android.App;
 using Android.Content;
+using Android.Content.PM;
 using Android.OS;
 using Android.Widget;
 using Newtonsoft.Json;
 using System;
 using System.Threading;
-
 using Unire_Android.Resources;
 
 
 namespace Unire_Android
 {
-    [Activity(Theme = "@style/Theme.Splash", MainLauncher = true, NoHistory = true)]
+    [Activity(Theme = "@style/Theme.Splash", MainLauncher = true, 
+        NoHistory = true, ScreenOrientation = ScreenOrientation.Portrait)]
     public class SplashScreen : Activity
     {
 

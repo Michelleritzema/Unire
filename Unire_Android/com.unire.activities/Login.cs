@@ -1,23 +1,23 @@
-using System;
-using System.Collections.Generic;
-using System.Net.Http;
 using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Util;
 using Android.Views.InputMethods;
 using Android.Widget;
+using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.Net.Http;
+using System.Threading;
 
 using Unire_Android.Resources;
 using Unire_Shared;
 using Gcm.Client;
-using Newtonsoft.Json;
-using System.Threading;
 
 
 namespace Unire_Android
 {
-    [Activity(Label = "Unire", MainLauncher = false, Icon = "@drawable/icon", Theme = "@style/MyTheme")]
+    [Activity(Label = "Unire", MainLauncher = false, NoHistory = true, Icon = "@drawable/icon", Theme = "@style/MyTheme")]
     public class Login : Activity
     {
 
@@ -55,9 +55,9 @@ namespace Unire_Android
             
             User user = new User()
             {
-                UserName = mUsername.Text,
-                Password = mPassword.Text,
-                Key = registrationId
+                userName = mUsername.Text,
+                password = mPassword.Text,
+                key = registrationId
             };
             DictionaryStrings(user);
 
@@ -92,9 +92,9 @@ namespace Unire_Android
             string apiUrl = "http://e-dragon-94311.appspot.com/login";
             var values = new Dictionary<string, string>
             {
-                { "username", user.UserName},
-                { "password", user.Password},
-                { "regId", user.Key}
+                { "username", user.userName},
+                { "password", user.password},
+                { "regId", user.key}
             };
 
             var content = new FormUrlEncodedContent(values);

@@ -64,6 +64,7 @@ C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\drawable\edit_text_sty
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\layout\loginconfirm.xml
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\anim\slide_in_top.xml
 C:\Users\Anny\Desktop\Unire\Unire_Android\obj\Release\res\anim\slide_out_bottom.xml
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\Unire_Android.csprojResolveAssemblyReference.cache
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Unire_Android.dll
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Unire_Android.pdb
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\com.appic.unire.apk
@@ -122,4 +123,3 @@ C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\anim\slide_in_top.
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\res\anim\slide_out_bottom.xml
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\R.cs.flag
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\uploadflags.txt
-C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Release\Unire_Android.csprojResolveAssemblyReference.cache

@@ -82,6 +82,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="com.unire.notification\Grade.cs" />
     <Compile Include="com.unire.other\CategoryMethods.cs" />
     <Compile Include="com.unire.notification\NotificationAdapter.cs" />
     <Compile Include="com.unire.notification\CreateNotification.cs" />
@@ -168,7 +169,16 @@
     <AndroidResource Include="Resources\anim\slide_in_top.xml" />
     <AndroidResource Include="Resources\anim\slide_out_bottom.xml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <XamarinComponentReference Include="GCMClient">
+      <Visible>False</Visible>
+      <Version>1.0</Version>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="json.net">
+      <Visible>False</Visible>
+      <Version>6.0.8.1</Version>
+    </XamarinComponentReference>
+  </ItemGroup>
   <Import Project="..\Unire_Shared\Unire_Shared.projitems" Label="Shared" Condition="Exists('..\Unire_Shared\Unire_Shared.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

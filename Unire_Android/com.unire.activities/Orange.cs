@@ -7,6 +7,8 @@ using Android.Support.V4.Widget;
 using Android.Support.V7.App;
 
 using SupportToolbar = Android.Support.V7.Widget.Toolbar;
+using Newtonsoft.Json.Linq;
+using Newtonsoft.Json;
 
 
 namespace Unire_Android
@@ -59,7 +61,31 @@ namespace Unire_Android
 
             if (Intent.GetStringExtra("text") != null)
             {
-                current_text.Text = Intent.GetStringExtra("text");   
+                string text = Intent.GetStringExtra("text");
+
+                
+                /*var json = JsonValue.Parse(myStringJson);
+                var data = json["data"];
+
+                foreach (var dataItem in data)
+                {
+                    string myValue = dataItem.Value["myKey"]; //Here is the compilation error
+                    //...
+                });*/
+                
+
+
+                //var obj = (JObject)JsonConvert.DeserializeObject(text);
+                //var dict = obj.ToDictionary(p => p.Name, p => p.Value);
+
+                //var dt = (string)dict["c"];
+                //var d = (double)dict["g"];
+
+
+
+                //JObject json = JObject.Parse(text);
+                //string grade = (string)json["grade"];
+                current_text.Text = Intent.GetStringExtra(text);
             }
             else
             {

@@ -31,7 +31,7 @@ namespace Unire_Android
             mLoggedOnUser = JsonConvert.DeserializeObject<User>(Intent.GetStringExtra("User"));
             mGetStarted = FindViewById<Button>(Resource.Id.GetStarted);
            // mUserID.Text = mLoggedOnUser.UserID.ToString();
-            mUsername.Text = mLoggedOnUser.UserName;
+            mUsername.Text = mLoggedOnUser.userName;
            mGetStarted.Click += mGetStarted_Click;
             // Create your application here
 

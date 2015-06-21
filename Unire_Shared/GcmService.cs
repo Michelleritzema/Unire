@@ -1,9 +1,9 @@
 using System.Text;
 using Android.App;
 using Android.Content;
+using Android.Preferences;
 using Android.Util;
 using Gcm.Client;
-using Android.Preferences;
 
 using Unire_Android;
 
@@ -27,7 +27,7 @@ namespace Unire_Shared
     
     public class GcmBroadcastReceiver : GcmBroadcastReceiverBase<PushHandlerService>
     {
-        //Sender ID (Your Google API Console App Project ID)
+        //Sender ID (The Google API Console App Project ID)
         public static string[] SENDER_IDS = new string[] { "587671955885" };
         public const string TAG = "Unire_GCM_Service";
     }

@@ -29,8 +29,8 @@ namespace Unire_Shared
         {
             System.Net.WebClient wc = new System.Net.WebClient();
             string notification = wc.DownloadString(url);
-            //CreateNotification new_notification = new CreateNotification(
-            //    context, "Cijfer", notification, "noti_orange", 4);
+            CreateNotification new_notification = new CreateNotification(
+                context, "Cijfer", notification, "noti_orange", 4);
         }
     }
 }

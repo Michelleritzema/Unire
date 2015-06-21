@@ -47,16 +47,5 @@
             android:layout_marginRight="40dp"
             android:layout_marginLeft="40dp"
             android:background="@drawable/button_email_style" />
-        <CheckBox
-            android:text="Remember Me"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/cbxRememberMe"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="100dp"
-            android:layout_marginRight="100dp"
-            android:gravity="center"
-            android:textColor="#4A6EA9"
-            android:button="@drawable/checkbox_style" />
     </LinearLayout>
 </RelativeLayout>

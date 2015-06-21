@@ -1233,26 +1233,26 @@ namespace Unire_Android
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0b005c
-			public const int Blue = 2131427420;
-			
-			// aapt resource value: 0x7f0b0054
-			public const int GetStarted = 2131427412;
-			
-			// aapt resource value: 0x7f0b005d
-			public const int Green = 2131427421;
-			
-			// aapt resource value: 0x7f0b005f
-			public const int Orange = 2131427423;
-			
 			// aapt resource value: 0x7f0b005b
-			public const int Purple = 2131427419;
+			public const int Blue = 2131427419;
 			
-			// aapt resource value: 0x7f0b0060
-			public const int Red = 2131427424;
+			// aapt resource value: 0x7f0b0053
+			public const int GetStarted = 2131427411;
+			
+			// aapt resource value: 0x7f0b005c
+			public const int Green = 2131427420;
 			
 			// aapt resource value: 0x7f0b005e
-			public const int Yellow = 2131427422;
+			public const int Orange = 2131427422;
+			
+			// aapt resource value: 0x7f0b005a
+			public const int Purple = 2131427418;
+			
+			// aapt resource value: 0x7f0b005f
+			public const int Red = 2131427423;
+			
+			// aapt resource value: 0x7f0b005d
+			public const int Yellow = 2131427421;
 			
 			// aapt resource value: 0x7f0b0031
 			public const int action_bar = 2131427377;
@@ -1308,17 +1308,14 @@ namespace Unire_Android
 			// aapt resource value: 0x7f0b0042
 			public const int buttonRegister = 2131427394;
 			
-			// aapt resource value: 0x7f0b0051
-			public const int cbxRememberMe = 2131427409;
-			
 			// aapt resource value: 0x7f0b0029
 			public const int checkbox = 2131427369;
 			
-			// aapt resource value: 0x7f0b0066
-			public const int cityAnswer = 2131427430;
-			
 			// aapt resource value: 0x7f0b0065
-			public const int cityRequest = 2131427429;
+			public const int cityAnswer = 2131427429;
+			
+			// aapt resource value: 0x7f0b0064
+			public const int cityRequest = 2131427428;
 			
 			// aapt resource value: 0x7f0b0017
 			public const int collapseActionView = 2131427351;
@@ -1386,38 +1383,38 @@ namespace Unire_Android
 			// aapt resource value: 0x7f0b0046
 			public const int logo_blue = 2131427398;
 			
-			// aapt resource value: 0x7f0b0058
-			public const int logo_calendar = 2131427416;
+			// aapt resource value: 0x7f0b0057
+			public const int logo_calendar = 2131427415;
 			
 			// aapt resource value: 0x7f0b004c
 			public const int logo_green = 2131427404;
 			
-			// aapt resource value: 0x7f0b0057
-			public const int logo_notes = 2131427415;
+			// aapt resource value: 0x7f0b0056
+			public const int logo_notes = 2131427414;
+			
+			// aapt resource value: 0x7f0b0061
+			public const int logo_orange = 2131427425;
+			
+			// aapt resource value: 0x7f0b0054
+			public const int logo_ov = 2131427412;
 			
 			// aapt resource value: 0x7f0b0062
-			public const int logo_orange = 2131427426;
-			
-			// aapt resource value: 0x7f0b0055
-			public const int logo_ov = 2131427413;
+			public const int logo_purple = 2131427426;
 			
 			// aapt resource value: 0x7f0b0063
-			public const int logo_purple = 2131427427;
-			
-			// aapt resource value: 0x7f0b0064
-			public const int logo_red = 2131427428;
-			
-			// aapt resource value: 0x7f0b005a
-			public const int logo_settings = 2131427418;
-			
-			// aapt resource value: 0x7f0b0056
-			public const int logo_tasks = 2131427414;
+			public const int logo_red = 2131427427;
 			
 			// aapt resource value: 0x7f0b0059
-			public const int logo_weather = 2131427417;
+			public const int logo_settings = 2131427417;
 			
-			// aapt resource value: 0x7f0b0067
-			public const int logo_yellow = 2131427431;
+			// aapt resource value: 0x7f0b0055
+			public const int logo_tasks = 2131427413;
+			
+			// aapt resource value: 0x7f0b0058
+			public const int logo_weather = 2131427416;
+			
+			// aapt resource value: 0x7f0b0066
+			public const int logo_yellow = 2131427430;
 			
 			// aapt resource value: 0x7f0b004d
 			public const int mainView = 2131427405;
@@ -1434,8 +1431,8 @@ namespace Unire_Android
 			// aapt resource value: 0x7f0b000a
 			public const int normal = 2131427338;
 			
-			// aapt resource value: 0x7f0b0061
-			public const int notification_row = 2131427425;
+			// aapt resource value: 0x7f0b0060
+			public const int notification_row = 2131427424;
 			
 			// aapt resource value: 0x7f0b004a
 			public const int older_notifications = 2131427402;
@@ -1533,11 +1530,11 @@ namespace Unire_Android
 			// aapt resource value: 0x7f0b0012
 			public const int useLogo = 2131427346;
 			
-			// aapt resource value: 0x7f0b0052
-			public const int userid = 2131427410;
+			// aapt resource value: 0x7f0b0051
+			public const int userid = 2131427409;
 			
-			// aapt resource value: 0x7f0b0053
-			public const int username = 2131427411;
+			// aapt resource value: 0x7f0b0052
+			public const int username = 2131427410;
 			
 			// aapt resource value: 0x7f0b001a
 			public const int withText = 2131427354;

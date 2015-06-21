@@ -21,18 +21,23 @@ namespace Unire_Android
     public class Login : Activity
     {
 
-        const string TAG = "Login";
-        RelativeLayout mRelativeLayout;
-        Button mButton;
-        EditText mUsername;
-        EditText mPassword;
-        CheckBox mCbxRemMe;
+       /* The login screen is used to collect the user's hint username and password.
+        * These are saved in shared preferences and sent to the back-end.
+        */
+
+        private const string TAG = "Login";
+        private RelativeLayout mRelativeLayout;
+        private Button mButton;
+        private EditText mUsername;
+        private EditText mPassword;
 
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Login);
 
+            //The device and manifest must be checked to make sure everything is set up
+            //correctly to use the Google Cloud Messaging (GCM)
             GcmClient.CheckDevice(this);
             GcmClient.CheckManifest(this);
 
@@ -40,39 +45,38 @@ namespace Unire_Android
             mRelativeLayout = FindViewById<RelativeLayout>(Resource.Id.mainView);
             mUsername = FindViewById<EditText>(Resource.Id.txtUserName);
             mPassword = FindViewById<EditText>(Resource.Id.txtPassword);
-            mCbxRemMe = FindViewById<CheckBox>(Resource.Id.cbxRememberMe);
             mRelativeLayout.Click += mRelativeLayout_Click;
             mButton.Click  += mButton_Click;
         }
 
         private void mButton_Click(object sender, EventArgs e)
         {
+            //Generates a unique key to be used for the back-end
             GcmClient.Register(this, GcmBroadcastReceiver.SENDER_IDS);
-            Thread.Sleep(10000);
+            Thread.Sleep(5000);
             var registrationId = GcmClient.GetRegistrationId(this);
             Log.Info(TAG, "Using registrationId " + registrationId);
             Toast.MakeText(this, registrationId, ToastLength.Long).Show();
             
+            //Create a new User to be sent with the intent
             User user = new User()
             {
                 userName = mUsername.Text,
                 password = mPassword.Text,
                 key = registrationId
             };
+            //Send the user credentials to the back-end
             DictionaryStrings(user);
 
-            if (mCbxRemMe.Checked)
-            {
-                //ISharedPreferences pref = Application.Context.GetSharedPreferences("UserInfo", FileCreationMode.Private);
-                //ISharedPreferencesEditor editor = pref.Edit();
-                var prefs = Application.Context.GetSharedPreferences("UserInfo", FileCreationMode.Private);
-                var editor = prefs.Edit();
-                editor.PutString("Username", mUsername.Text.Trim());
-                editor.PutString("Password", mPassword.Text.Trim());
-                editor.PutString("RegistrationId", registrationId);
-                editor.Apply();
-            }
+            //Save the username, password and registrationId in shared preferences
+            var prefs = Application.Context.GetSharedPreferences("UserInfo", FileCreationMode.Private);
+            var editor = prefs.Edit();
+            editor.PutString("Username", mUsername.Text.Trim());
+            editor.PutString("Password", mPassword.Text.Trim());
+            editor.PutString("RegistrationId", registrationId);
+            editor.Apply();
 
+            //Start a new intent of LoginConfirm, send the user object to the intent
             Intent intent = new Intent(this, typeof(LoginConfirm));
             intent.PutExtra("User", JsonConvert.SerializeObject(user));
             this.StartActivity(intent);
@@ -82,6 +86,7 @@ namespace Unire_Android
 
         void mRelativeLayout_Click(object sender, EventArgs e)
         {
+            //Hide the soft keyboard when the user taps on the relative layout
             InputMethodManager inputManager = (InputMethodManager)this.GetSystemService(Activity.InputMethodService);
             inputManager.HideSoftInputFromWindow(this.CurrentFocus.WindowToken, HideSoftInputFlags.None);
         }
@@ -89,7 +94,8 @@ namespace Unire_Android
         async void DictionaryStrings(User user)
         {
             var Client = new HttpClient();
-            string apiUrl = "http://e-dragon-94311.appspot.com/login";
+            //fetch the login URL from the Setup class
+            string apiUrl = new Setup().getLoginURL();
             var values = new Dictionary<string, string>
             {
                 { "username", user.userName},
@@ -103,6 +109,3 @@ namespace Unire_Android
         }
     }
 }
-
-
-

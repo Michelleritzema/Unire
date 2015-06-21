@@ -14,4 +14,5 @@
     <string name="credentials">Please fill in your Hogeschool Rotterdam credentials</string>
     <string name="student_number">Student number: </string>
     <string name="password">Password: </string>
+    <string name="getstarted">Get started</string>
 </resources>

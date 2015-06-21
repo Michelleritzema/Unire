@@ -89,7 +89,6 @@
     <Compile Include="com.unire.activities\LoginConfirm.cs" />
     <Compile Include="com.unire.activities\Login.cs" />
     <Compile Include="com.unire.activities\SplashScreen.cs" />
-    <Compile Include="com.unire.activities\Settings.cs" />
     <Compile Include="com.unire.activities\Homescreen.cs" />
     <Compile Include="com.unire.activities\Blue.cs" />
     <Compile Include="com.unire.activities\Green.cs" />

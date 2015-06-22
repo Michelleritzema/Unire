@@ -13,6 +13,7 @@ using System.Threading;
 using Unire_Android.Resources;
 using Unire_Shared;
 using Gcm.Client;
+using Unire_Android.com.unire.other;
 
 
 namespace Unire_Android
@@ -55,9 +56,14 @@ namespace Unire_Android
         private void mButton_Click(object sender, EventArgs e)
         {
             //Generates a unique key to be used for the back-end
+
+            DataBaseRepository dbr = new DataBaseRepository();
+            var result = dbr.CreateDB();
+            Toast.MakeText(this, result, ToastLength.Long).Show();
             GcmClient.Register(this, GcmBroadcastReceiver.SENDER_IDS);
             Thread.Sleep(5000);
             var registrationId = GcmClient.GetRegistrationId(this);
+
 
             //Create a new User to be sent with the intent and to the back-end
             user = new User()

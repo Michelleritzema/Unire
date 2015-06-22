@@ -7,6 +7,7 @@ using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 using Unire_Android;
+using Unire_Android.com.unire.other;
 using Unire_Android.Resources;
 
 
@@ -42,6 +43,14 @@ namespace Unire_Shared
 
         public void createNotification(Context context, string title, string notification)
         {
+
+            DataBaseRepository dbr = new DataBaseRepository();
+            string result = dbr.InsertRecord(notification);
+            dbr.InsertRecord("{'grade': 9.1. 'vak_code':u'dev04}");
+            dbr.InsertRecord("{'grade': 6.3. 'vak_code':u'inf04}");
+            dbr.InsertRecord("{'grade': 7.5. 'vak_code':u'slc02}");
+           
+        
             //This class creates a notification according to the data provided.
             switch (title)
             {

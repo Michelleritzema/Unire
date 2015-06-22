@@ -71,6 +71,11 @@
                 android:divider="@color/logo_grey"
                 android:clipToPadding="false"
                 android:choiceMode="singleChoice" />
+            <Button
+                android:text="InhoudDb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/GTAll" />
         </LinearLayout>
     <!-- The Left Navigation Drawer -->
         <ListView

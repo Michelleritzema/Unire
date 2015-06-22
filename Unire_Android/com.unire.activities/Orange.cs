@@ -5,7 +5,7 @@ using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
 using System.Collections.Generic;
-
+using Unire_Android.com.unire.other;
 using SupportToolbar = Android.Support.V7.Widget.Toolbar;
 
 
@@ -35,6 +35,9 @@ namespace Unire_Android
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Orange);
+
+            Button BTNGETALL = FindViewById<Button>(Resource.Id.GTAll);
+            BTNGETALL.Click += BTNGETALL_Click;
 
             toolbar = FindViewById<SupportToolbar>(Resource.Id.toolbar);
             drawer_layout = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
@@ -90,6 +93,13 @@ namespace Unire_Android
                 current_date.Visibility = ViewStates.Gone;
                 current_text.Visibility = ViewStates.Gone;
             }
+        }
+
+        void BTNGETALL_Click(object sender, System.EventArgs e)
+        {
+            DataBaseRepository dbr = new DataBaseRepository();
+            var result = dbr.GettAllRecords();
+            Toast.MakeText(this, result, ToastLength.Short).Show();
         }
 
         public override bool OnOptionsItemSelected(IMenuItem item)

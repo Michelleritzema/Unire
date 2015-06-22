@@ -9,6 +9,7 @@ using System;
 
 using Unire_Android.Resources;
 using Gcm.Client;
+using Unire_Android.com.unire.other;
 
 
 namespace Unire_Android
@@ -47,6 +48,9 @@ namespace Unire_Android
 
         private void mGetStarted_Click(object sender, EventArgs e)
         {
+            DataBaseRepository dbr = new DataBaseRepository();
+            var result = dbr.CreateTable();
+            Toast.MakeText(this, result, ToastLength.Long).Show();
            Intent intent = new Intent(this, typeof(Homescreen));
            StartActivity(intent);
            this.Finish();

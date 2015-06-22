@@ -29,6 +29,7 @@ namespace Unire_Android
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Main);
             connection = new HttpDataConnection(this);
+            connection.createPullTask(this);
 
             mToolbar = FindViewById<SupportToolbar>(Resource.Id.toolbar);
             SetSupportActionBar(mToolbar);

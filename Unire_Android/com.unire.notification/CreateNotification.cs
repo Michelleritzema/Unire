@@ -1,26 +1,28 @@
+using Android.App;
+using Android.Content;
+using Android.OS;
+using Android.Runtime;
+using Android.Support;
+using Android.Support.V4.Widget;
+using Android.Support.V7.App;
+using Android.Views;
+using Android.Widget;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
-using Android.Support;
-using Android.Support.V4.Widget;
-using Android.Support.V7.App;
-
 using SupportToolbar = Android.Support.V7.Widget.Toolbar;
 
 
-
 namespace Unire_Android {
-    [Activity(Label = "Unire_Android", MainLauncher = false, Theme = "@style/MyTheme")]
     public class CreateNotification
     {
+
+       /* This class creates a notification for the user. It requires a notification title,
+        * a body, an icon and an id (to determine the type of notification).
+        */
+
         public CreateNotification(Context context, String title, String text, String icon, int id)
         {
             Intent intent;
@@ -51,7 +53,7 @@ namespace Unire_Android {
                     intent.PutExtra("text", text);
                     pendingIntent = yellowIntent(intent, context);
                     break;
-                case "Cijfer":
+                case "Grade":
                     intent = new Intent(context, typeof(Orange));
                     intent.PutExtra("title", title);
                     intent.PutExtra("text", text);
@@ -71,12 +73,15 @@ namespace Unire_Android {
                     break;
             }
 
+            //The notification builder sets the notification's title and text
+            // It also gives the notification permission to use sound and vibrate the device
             Notification.Builder builder = new Notification.Builder(context)
                 .SetContentTitle(title)
                 .SetContentText(text)
                 .SetContentIntent(pendingIntent)
                 .SetDefaults(NotificationDefaults.Sound | NotificationDefaults.Vibrate);
 
+            //Determine which notification logo to use
             switch (title)
             {
                 case "Purple":
@@ -87,7 +92,7 @@ namespace Unire_Android {
                     builder.SetSmallIcon(Resource.Drawable.noti_green); break;
                 case "Yellow":
                     builder.SetSmallIcon(Resource.Drawable.noti_yellow); break;
-                case "Cijfer":
+                case "Grade":
                     builder.SetSmallIcon(Resource.Drawable.noti_orange); break;
                 case "Red":
                     builder.SetSmallIcon(Resource.Drawable.noti_red); break;
@@ -100,6 +105,7 @@ namespace Unire_Android {
             NotificationManager notificationManager =
                 context.GetSystemService(Context.NotificationService) as NotificationManager;
 
+            //Launch the creation of the notification
             switch (id)
             {
                 case 0:

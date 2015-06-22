@@ -19,7 +19,7 @@ namespace Unire_Android.Resources
      * send push messages to a particular device.
      */
     
-    class User
+    public class User
     {
         public string userName { get; set; }
         public string password { get; set; }

@@ -71,8 +71,6 @@ C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\com.appic.unire.apk
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\com.appic.unire-Signed.apk
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\GCM.Client.dll
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Newtonsoft.Json.dll
-C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Xamarin.Android.Support.v4.dll
-C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Xamarin.Android.Support.v7.AppCompat.dll
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Xamarin.Auth.Android.dll
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Newtonsoft.Json.xml
 C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Xamarin.Auth.Android.xml

@@ -19,6 +19,7 @@ namespace Unire_Android
 {
     [Activity(Label = "Unire", MainLauncher = false, NoHistory = true, Icon = "@drawable/icon", 
         Theme = "@style/MyTheme", ScreenOrientation = ScreenOrientation.Portrait)]
+    
     public class Login : Activity
     {
 
@@ -31,6 +32,7 @@ namespace Unire_Android
         private Button mButton;
         private EditText mUsername;
         private EditText mPassword;
+        User user;
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -56,16 +58,19 @@ namespace Unire_Android
             GcmClient.Register(this, GcmBroadcastReceiver.SENDER_IDS);
             Thread.Sleep(5000);
             var registrationId = GcmClient.GetRegistrationId(this);
-            
-            //Create a new User to be sent with the intent
-            User user = new User()
+
+            //Create a new User to be sent with the intent and to the back-end
+            user = new User()
             {
                 userName = mUsername.Text,
                 password = mPassword.Text,
                 key = registrationId
             };
-            //Send the user credentials to the back-end
-            DictionaryStrings(user);
+
+            //Send login credentials to the back-end
+            HttpDataConnection connection = new HttpDataConnection(this);
+            string loginURL = new Setup().getLoginURL();
+            connection.SendLoginInformation(loginURL, user);
 
             //Save the username, password and registrationId in shared preferences
             var prefs = Application.Context.GetSharedPreferences("UserInfo", FileCreationMode.Private);
@@ -88,23 +93,6 @@ namespace Unire_Android
             //Hide the soft keyboard when the user taps on the relative layout
             InputMethodManager inputManager = (InputMethodManager)this.GetSystemService(Activity.InputMethodService);
             inputManager.HideSoftInputFromWindow(this.CurrentFocus.WindowToken, HideSoftInputFlags.None);
-        }
-
-        async void DictionaryStrings(User user)
-        {
-            var Client = new HttpClient();
-            //fetch the login URL from the Setup class
-            string apiUrl = new Setup().getLoginURL();
-            var values = new Dictionary<string, string>
-            {
-                { "username", user.userName},
-                { "password", user.password},
-                { "regId", user.key}
-            };
-
-            var content = new FormUrlEncodedContent(values);
-            var response = await Client.PostAsync(apiUrl, content);
-            var responseString = await response.Content.ReadAsStringAsync();
         }
     }
 }

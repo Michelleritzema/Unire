@@ -8,6 +8,9 @@ namespace Unire_Shared
 
    /* In this class all the general settings are set.
     * It contains all the URLs that the app gets its data from.
+    * It also controls the shared preferences for the notifications.
+    * Every notification type has its own saved string, that is compared to new
+    * data, and when these are different, the new string overwrites the old one.
     */
 
 	public class Setup

@@ -73,7 +73,7 @@ namespace Unire_Shared
                     createNotification(context, "Grade", grade_noti);
                 }
                 //Sleep for 5 minutes
-                Thread.Sleep(1000 * 60 * 1);
+                Thread.Sleep(1000 * 60 * 5);
             }
         }
 

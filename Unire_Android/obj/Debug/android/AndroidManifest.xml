@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.appic.unire" android:versionCode="1" android:versionName="1.0">
   <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="22" />
   <application android:label="Unire" android:icon="@drawable/icon" android:name="mono.android.app.Application" android:debuggable="true">
+    <activity android:icon="@drawable/icon" android:label="Unire" android:theme="@style/MyTheme" android:name="md52154bf8b25528eb14df386a294abedb7.Settings" />
     <activity android:icon="@drawable/icon" android:label="Unire" android:noHistory="true" android:screenOrientation="portrait" android:theme="@style/MyTheme" android:name="md5082d994e7a2812d3143c674da8e591a4.LoginConfirm" />
     <activity android:icon="@drawable/icon" android:label="Unire" android:noHistory="true" android:screenOrientation="portrait" android:theme="@style/MyTheme" android:name="md5082d994e7a2812d3143c674da8e591a4.Login" />
     <activity android:noHistory="true" android:screenOrientation="portrait" android:theme="@style/Theme.Splash" android:name="md5082d994e7a2812d3143c674da8e591a4.SplashScreen" />
@@ -15,15 +16,15 @@
     <activity android:label="Unire_Android" android:theme="@style/MyTheme" android:name="md5082d994e7a2812d3143c674da8e591a4.SendNotification" />
     <receiver android:permission="com.google.android.c2dm.permission.SEND" android:name="md5077065557c53db9d5aea5bc0a16472e9.GcmBroadcastReceiver">
       <intent-filter>
+        <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+        <category android:name="com.appic.unire" />
+      </intent-filter>
+      <intent-filter>
         <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
         <category android:name="com.appic.unire" />
       </intent-filter>
       <intent-filter>
         <action android:name="com.google.android.gcm.intent.RETRY" />
-        <category android:name="com.appic.unire" />
-      </intent-filter>
-      <intent-filter>
-        <action android:name="com.google.android.c2dm.intent.RECEIVE" />
         <category android:name="com.appic.unire" />
       </intent-filter>
     </receiver>

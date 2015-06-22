@@ -44,11 +44,19 @@
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp" />
                 <TextView
+                    android:id="@+id/current_module"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="module"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+                <TextView
                     android:id="@+id/current_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Voorbeeld notificatie"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp" />
             </LinearLayout>

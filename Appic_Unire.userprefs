@@ -1,12 +1,8 @@
 ﻿<Properties StartupItem="Unire_Android\Unire_Android.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.1257846e" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Unire_Android\com.unire.activities\Login.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Unire_Shared\HttpDataConnection.cs">
     <Files>
-      <File FileName="Unire_Shared\GcmService.cs" Line="1" Column="1" />
-      <File FileName="c:\Users\Michelle\Desktop\Unire\Unire_Shared\PushHandlerService.cs" Line="24" Column="18" />
-      <File FileName="Unire_Android\com.unire.activities\LoginConfirm.cs" Line="10" Column="23" />
-      <File FileName="Unire_Android\com.unire.activities\Login.cs" Line="1" Column="1" />
-      <File FileName="Unire_Android\com.unire.activities\SplashScreen.cs" Line="9" Column="1" />
+      <File FileName="Unire_Shared\HttpDataConnection.cs" Line="57" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

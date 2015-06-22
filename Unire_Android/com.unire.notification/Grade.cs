@@ -20,9 +20,8 @@ namespace Unire_Android {
     public class Grade
     {
 
-        public string category { get; set; }
-        public string module { get; set; }
-        public string grade { get; set; }
+		public double grade { get; set; }
+		public string vak_code { get; set; }
 
-    }
+	}
 }

@@ -1,18 +1,20 @@
-C:\Users\Anny\Desktop\Unire\Unire_Android\bin\Release\Unire_Android.dll
-C:\Users\Anny\Desktop\GCMClient-1.0\lib\android\GCM.Client.dll
+C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Unire_Android.dll
+C:\Users\Michelle\Desktop\GCMClient-1.0\lib\android\GCM.Client.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v5.0\Mono.Android.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Mono.Data.Sqlite.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\mscorlib.dll
-C:\Users\Anny\Desktop\Unire\packages\Newtonsoft.Json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll
+C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Newtonsoft.Json.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Core.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Data.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Net.Http.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Xml.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Xml.Linq.dll
-C:\Users\Anny\Desktop\xamandroidsupportv7appcompat-22.2.0.0\lib\android\Xamarin.Android.Support.v4.dll
-C:\Users\Anny\Desktop\xamandroidsupportv7appcompat-22.2.0.0\lib\android\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Xamarin.Android.Support.v4.dll
+C:\Users\Michelle\Desktop\Unire\Unire_Android\bin\Release\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\Michelle\Desktop\xamarin.auth-1.2.3.1\lib\android\Xamarin.Auth.Android.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Transactions.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Runtime.Serialization.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Mono.Data.Tds.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Mono.Security.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Json.dll

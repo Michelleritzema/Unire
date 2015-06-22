@@ -2,11 +2,15 @@ using Android.App;
 using Android.OS;
 using Android.Support.V4.Widget;
 using Android.Support.V7.App;
+using Android.Util;
 using Android.Views;
 using Android.Widget;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
 using Unire_Android.com.unire.other;
 using SupportToolbar = Android.Support.V7.Widget.Toolbar;
+using System;
 
 
 namespace Unire_Android
@@ -26,6 +30,7 @@ namespace Unire_Android
         private ListView drawer_list;
         private ListView oldNotificationsList;
         private TextView current_date;
+		private TextView current_module;
         private TextView current_text;
         private string[] notifications;
         private List<string> old_notifications;
@@ -43,6 +48,7 @@ namespace Unire_Android
             drawer_layout = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
             drawer_list = FindViewById<ListView>(Resource.Id.left_drawer);
             current_date = FindViewById<TextView>(Resource.Id.current_date);
+			current_module = FindViewById<TextView>(Resource.Id.current_module);
             current_text = FindViewById<TextView>(Resource.Id.current_text);
             oldNotificationsList = FindViewById<ListView>(Resource.Id.older_notifications);
 
@@ -63,34 +69,19 @@ namespace Unire_Android
             if (Intent.GetStringExtra("text") != null)
             {
                 string text = Intent.GetStringExtra("text");
-
-                
-                /*var json = JsonValue.Parse(myStringJson);
-                var data = json["data"];
-
-                foreach (var dataItem in data)
-                {
-                    string myValue = dataItem.Value["myKey"]; //Here is the compilation error
-                    //...
-                });*/
-                
-
-
-                //var obj = (JObject)JsonConvert.DeserializeObject(text);
-                //var dict = obj.ToDictionary(p => p.Name, p => p.Value);
-
-                //var dt = (string)dict["c"];
-                //var d = (double)dict["g"];
-
-
-
-                //JObject json = JObject.Parse(text);
-                //string grade = (string)json["grade"];
-                current_text.Text = Intent.GetStringExtra(text);
+                Grade deserializedProduct = JsonConvert.DeserializeObject<Grade>(text);
+                string module = deserializedProduct.vak_code;
+                double grade = deserializedProduct.grade;
+              
+				DateTime dateTime = DateTime.UtcNow.Date;
+				current_date.Text = dateTime.ToString ("dd-MM-yyyy");
+				current_module.Text = module;
+				current_text.Text = grade.ToString();
             }
             else
             {
                 current_date.Visibility = ViewStates.Gone;
+				current_module.Visibility = ViewStates.Gone;
                 current_text.Visibility = ViewStates.Gone;
             }
         }

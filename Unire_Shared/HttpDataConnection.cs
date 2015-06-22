@@ -49,8 +49,7 @@ namespace Unire_Shared
             dbr.InsertRecord("{'grade': 9.1. 'vak_code':u'dev04}");
             dbr.InsertRecord("{'grade': 6.3. 'vak_code':u'inf04}");
             dbr.InsertRecord("{'grade': 7.5. 'vak_code':u'slc02}");
-           
-        
+
             //This class creates a notification according to the data provided.
             switch (title)
             {
@@ -81,8 +80,8 @@ namespace Unire_Shared
                     setup.setGradeNotification(context, grade_noti);
                     createNotification(context, "Grade", grade_noti);
                 }
-                //Sleep for 5 minutes
-                Thread.Sleep(1000 * 60 * 5);
+                //Sleep for 1 minute
+                Thread.Sleep(1000 * 60 * 1);
             }
         }
 

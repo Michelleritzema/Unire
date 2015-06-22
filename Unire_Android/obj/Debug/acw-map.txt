@@ -1,3 +1,7 @@
+Unire_Android.com.unire.activities.Settings, Unire_Android;md52154bf8b25528eb14df386a294abedb7.Settings
+Unire_Android.com.unire.activities.Settings, Unire_Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md52154bf8b25528eb14df386a294abedb7.Settings
+Unire_Android.com.unire.activities.Settings;md52154bf8b25528eb14df386a294abedb7.Settings
+unire_android.com.unire.activities.Settings;md52154bf8b25528eb14df386a294abedb7.Settings
 Unire_Android.NotificationAdapter, Unire_Android;md5082d994e7a2812d3143c674da8e591a4.NotificationAdapter
 Unire_Android.NotificationAdapter, Unire_Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5082d994e7a2812d3143c674da8e591a4.NotificationAdapter
 Unire_Android.NotificationAdapter;md5082d994e7a2812d3143c674da8e591a4.NotificationAdapter

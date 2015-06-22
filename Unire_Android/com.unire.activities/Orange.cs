@@ -1,14 +1,12 @@
-using System.Collections.Generic;
 using Android.App;
 using Android.OS;
-using Android.Views;
-using Android.Widget;
 using Android.Support.V4.Widget;
 using Android.Support.V7.App;
+using Android.Views;
+using Android.Widget;
+using System.Collections.Generic;
 
 using SupportToolbar = Android.Support.V7.Widget.Toolbar;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json;
 
 
 namespace Unire_Android

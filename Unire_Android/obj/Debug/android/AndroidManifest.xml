@@ -2,11 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.appic.unire" android:versionCode="1" android:versionName="1.0">
   <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="22" />
   <application android:label="Unire" android:icon="@drawable/icon" android:name="mono.android.app.Application" android:debuggable="true">
-    <activity android:label="Unire" android:name="md5082d994e7a2812d3143c674da8e591a4.LoginConfirm" />
-    <activity android:icon="@drawable/icon" android:label="Unire" android:theme="@style/MyTheme" android:name="md5082d994e7a2812d3143c674da8e591a4.Login" />
-    <activity android:noHistory="true" android:theme="@style/Theme.Splash" android:name="md5082d994e7a2812d3143c674da8e591a4.SplashScreen" />
-    <activity android:icon="@drawable/icon" android:label="Unire" android:theme="@style/MyTheme" android:name="md5082d994e7a2812d3143c674da8e591a4.Settings" />
-    <activity android:icon="@drawable/icon" android:label="Unire" android:theme="@style/MyTheme" android:name="md5082d994e7a2812d3143c674da8e591a4.Homescreen" />
+    <activity android:icon="@drawable/icon" android:label="Unire" android:noHistory="true" android:screenOrientation="portrait" android:theme="@style/MyTheme" android:name="md5082d994e7a2812d3143c674da8e591a4.LoginConfirm" />
+    <activity android:icon="@drawable/icon" android:label="Unire" android:noHistory="true" android:screenOrientation="portrait" android:theme="@style/MyTheme" android:name="md5082d994e7a2812d3143c674da8e591a4.Login" />
+    <activity android:noHistory="true" android:screenOrientation="portrait" android:theme="@style/Theme.Splash" android:name="md5082d994e7a2812d3143c674da8e591a4.SplashScreen" />
+    <activity android:icon="@drawable/icon" android:label="Unire" android:screenOrientation="portrait" android:theme="@style/MyTheme" android:name="md5082d994e7a2812d3143c674da8e591a4.Homescreen" />
     <activity android:icon="@drawable/iconb" android:label="Unire" android:theme="@style/MyTheme" android:name="md5082d994e7a2812d3143c674da8e591a4.Blue" />
     <activity android:icon="@drawable/icong" android:label="Unire" android:theme="@style/MyTheme" android:name="md5082d994e7a2812d3143c674da8e591a4.Green" />
     <activity android:icon="@drawable/iconr" android:label="Unire" android:theme="@style/MyTheme" android:name="md5082d994e7a2812d3143c674da8e591a4.Red" />
@@ -38,7 +37,7 @@
         <category android:name="mono.android.intent.category.SEPPUKU.com.appic.unire" />
       </intent-filter>
     </receiver>
-    <activity android:noHistory="true" android:theme="@style/Mono.Android.Theme.Splash" android:name="com.appic.unire.TrialSplashScreen">
+    <activity android:noHistory="true" android:screenOrientation="portrait" android:theme="@style/Mono.Android.Theme.Splash" android:name="com.appic.unire.TrialSplashScreen">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

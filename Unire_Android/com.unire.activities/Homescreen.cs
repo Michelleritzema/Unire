@@ -1,17 +1,11 @@
 ﻿using Android.App;
-using Android.Content;
 using Android.Content.PM;
 using Android.OS;
-using Android.Runtime;
 using Android.Support.V7.App;
-using Android.Util;
-using Android.Views;
 using Android.Widget;
-using System;
 
 using SupportToolbar = Android.Support.V7.Widget.Toolbar;
 using Unire_Shared;
-using Gcm.Client;
 
 
 namespace Unire_Android
@@ -29,17 +23,15 @@ namespace Unire_Android
 
         private SupportToolbar mToolbar;
         private HttpDataConnection connection;
-        //private String url = new Setup().getGradesURL();
              
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Main);
-            //connection = new HttpDataConnection(url, this);
+            connection = new HttpDataConnection(this);
 
             mToolbar = FindViewById<SupportToolbar>(Resource.Id.toolbar);
             SetSupportActionBar(mToolbar);
-
             var button_ov = FindViewById<ImageButton>(Resource.Id.logo_ov);
             var button_tasks = FindViewById<ImageButton>(Resource.Id.logo_tasks);
             var button_notes = FindViewById<ImageButton>(Resource.Id.logo_notes);

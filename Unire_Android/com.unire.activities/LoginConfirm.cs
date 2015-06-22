@@ -6,7 +6,6 @@ using Android.Util;
 using Android.Widget;
 using Newtonsoft.Json;
 using System;
-using System.Threading;
 
 using Unire_Android.Resources;
 using Gcm.Client;

@@ -1,13 +1,5 @@
-﻿using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
-using Java.IO;
+﻿using Android.Content;
 using Java.Lang;
-using Java.Net;
-using System;
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
@@ -33,41 +25,39 @@ namespace Unire_Shared
         {
             webclient = new WebClient();
             gradesURL = new Setup().getGradesURL();
-
-            //This method runs every five minutes to check for notifications
-            while(true)
-            {
-                string grade_noti = getGradeNotification(gradesURL);
-                createNotification(context, "Grade", grade_noti);
-                //Sleep for 5 minutes
-                Thread.Sleep(1000 * 60 * 5);
-            }
-        }
-
-        public string getGradeNotification(string url)
-        {
-            string notification = webclient.DownloadString(url);
-            return notification;
+            //This method is called to check for new notifications asynchronously
+            Task task = AsyncPullNotifications(context);
         }
 
         public void createNotification(Context context, string title, string notification)
         {
             //This class creates a notification according to the data provided.
-            string img_type = null;
-            int noti_type = 0;
             switch (title)
             {
                 case "Grade":
-                    img_type = "noti_orange";
-                    noti_type = 4;
-                    break;
+                    CreateNotification new_notification = new CreateNotification(
+                        context, title, notification, "noti_orange", 4); break;
                 default:
                     break;
             }
-            if (img_type != null && noti_type != 0)
+        }
+
+        public static async Task<string> getStringAsync(string url)
+        {
+            var httpClient = new HttpClient();
+            return await httpClient.GetStringAsync(url);
+        }
+
+
+        public async Task AsyncPullNotifications(Context context)
+        {
+            while(true)
             {
-                CreateNotification new_notification = new CreateNotification(
-                    context, title, notification, img_type, noti_type);
+                //System.Console.WriteLine(await getStringAsync(gradesURL));
+                string grade_noti = await getStringAsync(gradesURL);
+                createNotification(context, "Grade", grade_noti);
+                //Sleep for 5 minutes
+                Thread.Sleep(1000 * 60 * 5);
             }
         }
     }

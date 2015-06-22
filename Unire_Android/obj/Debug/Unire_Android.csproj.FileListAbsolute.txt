@@ -107,3 +107,4 @@ C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Debug\res\anim\slide_in_top.xm
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Debug\res\anim\slide_out_bottom.xml
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Debug\R.cs.flag
 C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Debug\uploadflags.txt
+C:\Users\Michelle\Desktop\Unire\Unire_Android\obj\Debug\Unire_Android.csprojResolveAssemblyReference.cache
